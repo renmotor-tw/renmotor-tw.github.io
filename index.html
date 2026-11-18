@@ -8,7 +8,17 @@
 <style>
 :root{--bg:#090909;--panel:#121212;--panel2:#191919;--line:#2a2a2a;--text:#f4f4f4;--muted:#a3a3a3;--lime:#d6ff3f;--white:#fff}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}
-header{border-bottom:1px solid #252525;background:rgba(9,9,9,.92);position:sticky;top:0;z-index:10;backdrop-filter:blur(16px)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.03em}.logo{width:40px;height:40px;border:1px solid var(--lime);display:grid;place-items:center;color:var(--lime);font-size:17px;font-weight:950;transform:skew(-7deg)}.brand small{display:block;color:#aaa;font-size:10px;letter-spacing:.24em;margin-top:2px}.navlinks{display:flex;gap:26px;color:#c8c8c8;font-size:13px}.navlinks a:hover{color:var(--lime)}.nav-cta{background:var(--lime);color:#111;border:0;padding:11px 16px;font-weight:850;font-size:12px;cursor:pointer}
+header{border-bottom:1px solid #252525;background:rgba(9,9,9,.92);position:sticky;top:0;z-index:10;backdrop-filter:blur(16px)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.03em}.logo {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: block;
+  object-fit: cover;
+  object-position: center 52%;
+  background: #090909;
+  border: 1px solid var(--lime);
+  border-radius: 3px;
+}.brand small{display:block;color:#aaa;font-size:10px;letter-spacing:.24em;margin-top:2px}.navlinks{display:flex;gap:26px;color:#c8c8c8;font-size:13px}.navlinks a:hover{color:var(--lime)}.nav-cta{background:var(--lime);color:#111;border:0;padding:11px 16px;font-weight:850;font-size:12px;cursor:pointer}
 .hero{padding:72px 0 50px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 25%,#25291b 0%,#10110d 28%,#090909 65%)}.hero:after{content:"";position:absolute;width:480px;height:480px;border:1px solid #ffffff0b;border-radius:50%;right:-100px;top:-100px;box-shadow:0 0 0 55px #ffffff04,0 0 0 110px #ffffff03;pointer-events:none}.eyebrow{color:var(--lime);font-size:11px;letter-spacing:.22em;font-weight:800;text-transform:uppercase}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:38px;position:relative;z-index:1}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.03;letter-spacing:-.055em;margin:18px 0}.hero h1 span{color:var(--lime)}.hero p{color:#b8b8b8;max-width:470px;line-height:1.85;font-size:14px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 18px;font-size:12px;font-weight:850;border:1px solid #555;cursor:pointer}.btn.primary{background:var(--lime);color:#101010;border-color:var(--lime)}.btn.ghost{background:transparent;color:#fff}.hero-visual{min-height:300px;display:flex;align-items:center;justify-content:center;position:relative}.hero-visual img{
   width:100%;
   max-width:530px;
@@ -55,7 +65,10 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
 </head>
 <body>
 <header><div class="wrap nav">
-  <a class="brand" href="#" aria-label="RenMotor 首頁"><div class="logo">RM</div><div>RenMotor_<small>阿人車庫 · RIDE YOUR WAY</small></div></a>
+  <a class="brand" href="#" aria-label="RenMotor 首頁">
+  <img class="logo" src="./ren-logo.png" alt="阿人車庫 Logo">
+  <div>RenMotor_<small>阿人車庫 · RIDE YOUR WAY</small></div>
+</a>
   <nav class="navlinks"><a href="#inventory">現有車款</a><a href="#promise">我們的堅持</a><a href="#contact">聯絡我們</a></nav>
   <a class="nav-cta" href="#inventory">探索庫存 ↗</a>
 </div></header>
