@@ -19,6 +19,29 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
 
 .filters{grid-template-columns:repeat(4,minmax(0,1fr))}.filter-btn{align-self:end}.pagination{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:30px 0 12px}.pagination button{background:#191919;border:1px solid #393939;color:#fff;padding:10px 13px;cursor:pointer;min-width:40px}.pagination button.active{background:var(--lime);color:#111;border-color:var(--lime);font-weight:900}.pagination button:disabled{opacity:.35;cursor:not-allowed}.sync-status{font-size:11px;color:#aaa;margin:10px 0}.store-name{color:var(--lime);font-size:11px;font-weight:800}.source-link{display:block;margin-top:12px;font-size:12px;color:var(--lime);text-decoration:underline}.bike-img .no-image{display:grid;place-items:center;height:100%;color:#999;font-size:12px}.card-title{min-height:45px}
 @media(max-width:850px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.field:first-child{grid-column:span 2}}
+/* RenMotor_ 車輛照片顯示優化 */
+  .bike-img {
+  height: 300px;
+  background: #181818;
+}
+
+.bike-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 560px) {
+  .bike-img {
+    height: 280px;
+  }
+
+/* 隱藏車輛卡片重複的門市及編號資訊 */
+.bike-card .card-kicker,
+.bike-card .specs {
+  display: none;
+}
 </style>
 </head>
 <body>
