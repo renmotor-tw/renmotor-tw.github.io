@@ -16,6 +16,9 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
 .modal{position:fixed;inset:0;background:#000c;z-index:20;display:none;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.modal-box{background:#111;border:1px solid #444;max-width:900px;width:100%;max-height:90vh;overflow:auto;position:relative}.modal-close{position:sticky;float:right;top:8px;margin:8px 8px 0 0;z-index:2;background:#222;color:#fff;border:1px solid #555;width:36px;height:36px;cursor:pointer}.modal-content{display:grid;grid-template-columns:1fr 1fr;gap:0}.modal-photo{min-height:360px;background:#222}.modal-photo img{width:100%;height:100%;min-height:360px;object-fit:cover}.modal-info{padding:30px}.modal-info h2{font-size:28px;margin:10px 0}.modal-info .price{font-size:30px;color:var(--lime);margin:16px 0}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.detail-cell{background:#1a1a1a;padding:12px}.detail-cell small{display:block;color:#999;font-size:10px;margin-bottom:5px}.detail-cell strong{font-size:13px}.modal-info p{font-size:12px;line-height:1.9;color:#bbb}.warranty{border:1px solid #4e5d20;color:#dfff74;padding:11px;font-size:11px;margin:16px 0}.line-btn{display:flex;width:100%;background:var(--lime);color:#111;justify-content:center;padding:14px;font-weight:950;font-size:12px;margin-top:18px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#222;border:1px solid #555;padding:12px 16px;font-size:12px;display:none;z-index:30}
 @media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero{padding-top:50px}.hero-visual{min-height:200px}.hero-visual img{max-width:none;max-height:300px}.filters{grid-template-columns:repeat(2,1fr)}.filter-btn{grid-column:span 2}.cards{grid-template-columns:repeat(2,1fr)}.navlinks{display:none}}
 @media(max-width:560px){.wrap{width:min(100% - 28px,1180px)}.nav{height:65px}.nav-cta{padding:10px;font-size:10px}.hero h1{font-size:44px}.hero{padding:42px 0}.stats{gap:20px}.stat strong{font-size:19px}.section{padding:38px 0}.section-head{align-items:start;flex-direction:column}.section-head h2{font-size:26px}.filters{grid-template-columns:1fr 1fr;padding:12px}.field:first-child{grid-column:span 2}.cards{grid-template-columns:1fr}.bike-img{height:235px}.value-grid{grid-template-columns:1fr;gap:16px}.footer-row{align-items:start;flex-direction:column}.modal-content{grid-template-columns:1fr}.modal-photo,.modal-photo img{min-height:230px;height:230px}.modal-info{padding:20px}.modal-info h2{font-size:24px}}
+
+.filters{grid-template-columns:repeat(4,minmax(0,1fr))}.filter-btn{align-self:end}.pagination{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:30px 0 12px}.pagination button{background:#191919;border:1px solid #393939;color:#fff;padding:10px 13px;cursor:pointer;min-width:40px}.pagination button.active{background:var(--lime);color:#111;border-color:var(--lime);font-weight:900}.pagination button:disabled{opacity:.35;cursor:not-allowed}.sync-status{font-size:11px;color:#aaa;margin:10px 0}.store-name{color:var(--lime);font-size:11px;font-weight:800}.source-link{display:block;margin-top:12px;font-size:12px;color:var(--lime);text-decoration:underline}.bike-img .no-image{display:grid;place-items:center;height:100%;color:#999;font-size:12px}.card-title{min-height:45px}
+@media(max-width:850px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.field:first-child{grid-column:span 2}}
 </style>
 </head>
 <body>
@@ -34,6 +37,7 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
 <section class="section" id="inventory"><div class="wrap">
   <div class="section-head"><div><div class="eyebrow">THE CURRENT LINEUP</div><h2>車庫現有車款<span style="color:var(--lime)">.</span></h2></div><p>找到心儀車款？點擊卡片查看完整資訊。</p></div>
   <div class="filters">
+    <div class="field"><label for="storeFilter">門市</label><select id="storeFilter"><option value="">全部門市</option></select></div>
     <div class="field"><label for="search">關鍵字搜尋</label><input id="search" type="search" placeholder="輸入品牌、車型或車輛編號"></div>
     <div class="field"><label for="brandFilter">品牌</label><select id="brandFilter"><option value="">全部品牌</option><option>Yamaha</option><option>Honda</option><option>Kawasaki</option><option>Suzuki</option></select></div>
     <div class="field"><label for="ccFilter">排氣量</label><select id="ccFilter"><option value="">全部排氣量</option><option value="under150">150cc 以下</option><option value="150-400">151–400cc</option><option value="over400">401cc 以上</option></select></div>
@@ -43,9 +47,10 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
     <div class="field"><label for="sortFilter">排序方式</label><select id="sortFilter"><option value="newest">最新上架</option><option value="low">價格由低至高</option><option value="high">價格由高至低</option><option value="mileage">里程由低至高</option></select></div>
     <button class="filter-btn" id="resetBtn">重設篩選 ↺</button>
   </div>
-  <div class="results-line"><span>目前展示 <strong id="resultCount">6</strong> 台車輛</span><span>正式上線前請確認資料來源與刊登授權</span></div>
-  <div class="cards" id="cards"></div><div class="empty" id="empty">沒有符合條件的車款，試試調整搜尋條件。</div>
-  <p class="notice">※ 目前為第一階段測試版：資料由瀏覽器本機儲存，不是公司正式庫存；請勿輸入客戶個資或未授權資料。</p>
+  <div class="results-line"><span>符合條件 <strong id="resultCount">0</strong> 台車輛</span><span id="pageInfo">每頁 50 台</span></div>
+  <div class="sync-status" id="syncStatus">正在載入公開商城車輛資料…</div>
+  <div class="cards" id="cards"></div><div class="empty" id="empty">沒有符合條件的車款，試試調整搜尋條件。</div><div class="pagination" id="pagination" aria-label="車輛分頁"></div>
+  <p class="notice">※ 資料來源：貳輪嶼公開商城。車輛可能已售出、調價或下架，請以原始商品頁及門市確認為準。本網站非即時庫存保證。</p>
 </div></section>
 <section class="value-strip" id="promise"><div class="wrap value-grid">
   <div><strong>01 / 車況資訊清楚</strong><span>把年份、里程、整理項目與已知瑕疵說明清楚。</span></div>
@@ -53,58 +58,111 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
   <div><strong>03 / 保固條件先說明</strong><span>依每台車的實際方案標示保固範圍與限制。</span></div>
 </div></section>
 </main>
-<footer id="contact"><div class="wrap footer-row"><div><div class="footer-brand">Ren<span>Motor_</span> 阿人車庫</div><div style="margin-top:7px"><a class="details-link" href="admin.html">庫存管理入口 ↗</a></div><div style="margin-top:7px">中古機車精選 · FIND YOUR RIDE</div></div><div>車況、價格與保固以實際確認及書面約定為準。</div><a class="details-link" href="#" id="footerLine">LINE 詢問 ↗</a></div></footer>
+<footer id="contact"><div class="wrap footer-row"><div><div class="footer-brand">Ren<span>Motor_</span> 阿人車庫</div><div style="margin-top:7px"><a class="details-link" href="https://shop.2motor.tw/collections/allmotor" target="_blank" rel="noopener">公開商城來源 ↗</a></div><div style="margin-top:7px">中古機車精選 · FIND YOUR RIDE</div></div><div>車況、價格與保固以實際確認及書面約定為準。</div><a class="details-link" href="#" id="footerLine">LINE 詢問 ↗</a></div></footer>
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-box"><button class="modal-close" id="closeModal" aria-label="關閉">✕</button><div class="modal-content" id="modalContent"></div></div></div>
 <div class="toast" id="toast"></div>
 <script>
-const LINE_URL = "https://line.me/R/"; // TODO: 換成你的 LINE 官方帳號網址
-const demoBikes = [
-{id:"RM-001",brand:"Yamaha",model:"MT-15",year:2023,cc:155,km:12800,price:65000,status:"在售",warranty:"引擎本體保固方案（示意）",tag:"街車推薦",color:"消光黑",image:"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80",desc:"運動街車設定，適合日常通勤與週末短途騎乘。實際配備、耗材狀態與保養紀錄請以現場確認為準。",condition:"示意資料：請填寫實際車況",date:6},
-{id:"RM-002",brand:"Honda",model:"CBR150R",year:2022,cc:150,km:18400,price:58000,status:"在售",warranty:"依實際車況另行約定",tag:"跑車風格",color:"紅黑",image:"https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=80",desc:"入門跑車外型，車身比例俐落。此為展示用範例，請以實際車輛照片與規格替換。",condition:"示意資料：請填寫實際車況",date:5},
-{id:"RM-003",brand:"Kawasaki",model:"Ninja 400",year:2021,cc:399,km:22600,price:168000,status:"在售",warranty:"保固範圍待實際確認",tag:"熱門車款",color:"綠黑",image:"https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1000&q=80",desc:"雙缸跑車級距範例，適合想升級排氣量的騎士。請於正式刊登時補上保養紀錄與改裝清單。",condition:"示意資料：請填寫實際車況",date:4},
-{id:"RM-004",brand:"Suzuki",model:"GSX-R150",year:2023,cc:147,km:9200,price:62000,status:"在售",warranty:"依實際方案標示",tag:"低里程示意",color:"藍白",image:"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80",desc:"輕量級跑車範例，里程與售價均為假資料，正式上架前請逐項核實。",condition:"示意資料：請填寫實際車況",date:3},
-{id:"RM-005",brand:"Yamaha",model:"Force 2.0",year:2022,cc:155,km:15300,price:72000,status:"保留中",warranty:"保固內容依雙方書面約定",tag:"速克達",color:"灰黑",image:"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80",desc:"通勤與日常使用取向的速克達範例。請依實際車況補充外觀、耗材與維修紀錄。",condition:"示意資料：請填寫實際車況",date:2},
-{id:"RM-006",brand:"Honda",model:"CB650R",year:2020,cc:649,km:29800,price:268000,status:"在售",warranty:"依實際方案標示",tag:"大型重機",color:"黑",image:"https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=80",desc:"大型重機範例展示。正式上架請補充車籍、定保紀錄、改裝合法性與保固細節。",condition:"示意資料：請填寫實際車況",date:1}
-];
-const STORAGE_KEY = "renmotor_inventory_v1";
-function loadBikes(){
+const LINE_URL = "https://line.me/R/"; // 尚未設定官方 LINE；請改為正確網址
+const PAGE_SIZE = 50;
+let bikes = [];
+let currentPage = 1;
+const $ = id => document.getElementById(id);
+const money = n => Number.isFinite(Number(n)) && n !== null ? "NT$ " + Number(n).toLocaleString("zh-TW") : "價格請洽詢";
+const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const validUrl = value => { try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
+const ccGroup = cc => !cc ? "unknown" : cc <= 150 ? "under150" : cc <= 400 ? "150-400" : "over400";
+function setOptions(id, values, defaultLabel) {
+  const el = $(id), old = el.value;
+  el.replaceChildren(new Option(defaultLabel, ''));
+  values.filter(Boolean).sort((a,b)=>a.localeCompare(b,'zh-Hant')).forEach(v => el.add(new Option(v,v)));
+  if ([...el.options].some(o=>o.value===old)) el.value=old;
+}
+function updateFilters() {
+  setOptions('storeFilter', [...new Set(bikes.map(b=>b.store))], '全部門市');
+  setOptions('brandFilter', [...new Set(bikes.map(b=>b.brand))], '全部品牌');
+}
+function filtered() {
+  const q=$('search').value.trim().toLowerCase(), store=$('storeFilter').value, brand=$('brandFilter').value;
+  const cc=$('ccFilter').value, min=$('minPrice').value, max=$('maxPrice').value;
+  let result=bikes.filter(b=>(!q||`${b.original_name} ${b.model} ${b.stock_number} ${b.brand} ${b.store}`.toLowerCase().includes(q)) && (!store||b.store===store) && (!brand||b.brand===brand) && (!cc||ccGroup(b.cc)===cc) && (min===''||(b.price!==null&&b.price>=Number(min))) && (max===''||(b.price!==null&&b.price<=Number(max))) && ($('warrantyOnly').value!=='true'||b.warranty===true));
+  const sort=$('sortFilter').value;
+  if(sort==='low')result.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));
+  if(sort==='high')result.sort((a,b)=>(b.price??-1)-(a.price??-1));
+  if(sort==='mileage')result.sort((a,b)=>(a.km??Infinity)-(b.km??Infinity));
+  return result;
+}
+function render(reset=false) {
+  if(reset) currentPage=1;
+  const result=filtered(), totalPages=Math.max(1,Math.ceil(result.length/PAGE_SIZE));
+  currentPage=Math.min(currentPage,totalPages);
+  const pageBikes=result.slice((currentPage-1)*PAGE_SIZE,currentPage*PAGE_SIZE);
+  $('resultCount').textContent=result.length;
+  $('pageInfo').textContent=`第 ${currentPage} / ${result.length?totalPages:0} 頁 · 每頁最多 50 台`;
+  $('empty').style.display=result.length?'none':'block';
+  $('cards').innerHTML=pageBikes.map(b=>{
+    const image=validUrl(b.image_url);
+    const img=image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)} 車輛照片" loading="lazy" onerror="this.replaceWith(document.createTextNode('暫無照片'))">`:'<div class="no-image">暫無照片</div>';
+    return `<article class="bike-card" tabindex="0" role="button" data-id="${escapeHTML(b.id)}" aria-label="查看 ${escapeHTML(b.model)}">
+    <div class="bike-img">${img}<span class="tag">公開商城</span></div>
+    <div class="card-body"><div class="store-name">${escapeHTML(b.store||'門市待確認')}</div><div class="card-title">${escapeHTML(b.original_name||b.model)}</div>
+    <div class="specs"><span>${b.year??'年份未提供'} 年</span><span>編號 ${escapeHTML(b.stock_number||'未提供')}</span></div>
+    <div class="price-row"><div class="price">${money(b.price)}</div><span class="details-link">查看車輛 ↗</span></div></div></article>`;
+  }).join('');
+  $('cards').querySelectorAll('.bike-card').forEach(el=>{el.addEventListener('click',()=>openDetail(el.dataset.id));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openDetail(el.dataset.id)}})});
+  renderPages(totalPages,result.length);
+}
+function renderPages(total,count) {
+  const holder=$('pagination');holder.replaceChildren();if(count<=PAGE_SIZE)return;
+  function btn(label,page,disabled=false,active=false) {
+    const el=document.createElement('button');el.textContent=label;el.disabled=disabled;el.className=active?'active':'';
+    el.addEventListener('click',()=>{currentPage=page;render();$('inventory').scrollIntoView({behavior:'smooth'});});holder.appendChild(el);
+  }
+  btn('上一頁',currentPage-1,currentPage===1);
+  const candidates=new Set([1,total,currentPage-2,currentPage-1,currentPage,currentPage+1,currentPage+2]);
+  let prev=0;
+  [...candidates].filter(n=>n>=1&&n<=total).sort((a,b)=>a-b).forEach(n=>{if(n-prev>1){const s=document.createElement('span');s.textContent='…';holder.appendChild(s)}btn(String(n),n,false,n===currentPage);prev=n});
+  btn('下一頁',currentPage+1,currentPage===total);
+}
+function openDetail(id) {
+  const b=bikes.find(x=>x.id===id);if(!b)return;
+  const image=validUrl(b.image_url), link=validUrl(b.source_url);
+  $('modalContent').innerHTML=`<div class="modal-photo">${image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)}">`:'<div class="no-image">暫無照片</div>'}</div>
+  <div class="modal-info"><div class="eyebrow">${escapeHTML(b.store||'門市待確認')}</div><h2 id="modalTitle">${escapeHTML(b.original_name||b.model)}</h2>
+  <div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>年份</small><strong>${b.year??'未提供'}</strong></div><div class="detail-cell"><small>車輛編號</small><strong>${escapeHTML(b.stock_number||'未提供')}</strong></div><div class="detail-cell"><small>門市</small><strong>${escapeHTML(b.store||'待確認')}</strong></div><div class="detail-cell"><small>里程／保固</small><strong>請洽原商城</strong></div></div>
+  <p>車況、里程、保固及實際庫存請以貳輪嶼公開商城與門市確認。</p>
+  ${link?`<a class="source-link" href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">前往貳輪嶼原始商品頁 ↗</a>`:''}
+  ${LINE_URL!=='https://line.me/R/'?`<a class="line-btn" href="${escapeHTML(validUrl(LINE_URL))}" target="_blank" rel="noopener noreferrer">透過 LINE 詢問 ↗</a>`:''}</div>`;
+  $('modal').classList.add('open');document.body.style.overflow='hidden';
+}
+function closeModal(){$('modal').classList.remove('open');document.body.style.overflow=''}
+$('closeModal').addEventListener('click',closeModal);
+$('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+['search','storeFilter','brandFilter','ccFilter','sortFilter','minPrice','maxPrice','warrantyOnly'].forEach(id=>$(id).addEventListener(['search','minPrice','maxPrice'].includes(id)?'input':'change',()=>render(true)));
+$('resetBtn').addEventListener('click',()=>{['search','minPrice','maxPrice'].forEach(id=>$(id).value='');['storeFilter','brandFilter','ccFilter'].forEach(id=>$(id).value='');$('warrantyOnly').value='false';$('sortFilter').value='newest';render(true)});
+$('footerLine').addEventListener('click',e=>{if(LINE_URL==='https://line.me/R/'){e.preventDefault();alert('LINE 官方帳號尚未設定，請先使用商品原始連結詢問。')}});
+async function loadVehicles() {
   try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-    if (Array.isArray(saved)) return saved;
-  } catch(e) {}
-  return demoBikes;
+    const response=await fetch('./vehicles.json?ts='+Date.now(),{cache:'no-store'});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const data=await response.json();
+    if(!Array.isArray(data))throw new Error('資料格式錯誤');
+    bikes=data.map((b,i)=>({
+      id:String(b.source_url||i),store:String(b.store||'門市待確認'),brand:String(b.brand||'其他'),
+      model:String(b.model||''),original_name:String(b.original_name||b.model||''),
+      year:Number.isInteger(b.year)?b.year:null,stock_number:String(b.stock_number||''),
+      price:Number.isFinite(b.price)?b.price:null,image_url:String(b.image_url||''),source_url:String(b.source_url||''),
+      cc:Number.isFinite(b.cc)?b.cc:null,km:Number.isFinite(b.km)?b.km:null,warranty:b.warranty===true
+    }));
+    updateFilters();render(true);
+    $('syncStatus').textContent=`已載入 ${bikes.length} 筆公開商品資料。資料為定期更新，非即時庫存。`;
+  } catch(error) {
+    $('syncStatus').textContent='目前無法讀取車庫資料，請確認 vehicles.json 已上傳及自動同步流程正常。';
+    $('empty').style.display='block';$('empty').textContent='車庫資料尚未準備完成。';
+    console.error('RenMotor load error:',error);
+  }
 }
-let bikes = loadBikes();
-const money=n=>"NT$ "+Number(n||0).toLocaleString("en-US");
-const ccGroup=cc=>cc<=150?"under150":cc<=400?"150-400":"over400";
-const cards=document.getElementById("cards");
-function render(){
- const q=document.getElementById("search").value.trim().toLowerCase(),brand=document.getElementById("brandFilter").value,cc=document.getElementById("ccFilter").value,sort=document.getElementById("sortFilter").value;
- const min=Number(document.getElementById("minPrice").value||0), max=Number(document.getElementById("maxPrice").value||0), warrantyOnly=document.getElementById("warrantyOnly").value==="true";
- let arr=bikes.filter(b=>(!q||`${b.id} ${b.brand} ${b.model}`.toLowerCase().includes(q))&&(!brand||b.brand===brand)&&(!cc||ccGroup(b.cc)===cc)&&(!min||Number(b.price)>=min)&&(!max||Number(b.price)<=max)&&(!warrantyOnly||!!b.warranty&& !/無保固|未提供|待確認/.test(b.warranty))&&b.status!=="已售出"&&b.status!=="已下架");
- if(sort==="low")arr.sort((a,b)=>a.price-b.price);else if(sort==="high")arr.sort((a,b)=>b.price-a.price);else if(sort==="mileage")arr.sort((a,b)=>a.km-b.km);else arr.sort((a,b)=>b.date-a.date);
- document.getElementById("resultCount").textContent=arr.length;document.getElementById("empty").style.display=arr.length?"none":"block";
- cards.innerHTML=arr.map(b=>`<article class="bike-card" tabindex="0" role="button" aria-label="查看 ${b.brand} ${b.model}" data-id="${b.id}">
- <div class="bike-img"><img src="${b.image}" alt="${b.brand} ${b.model} 示意照片" loading="lazy"><span class="tag ${b.status==="保留中"?"gray":""}">${b.status==="在售"?b.tag:b.status}</span></div>
- <div class="card-body"><div class="card-kicker">${b.id}　/　${b.brand.toUpperCase()}</div><div class="card-title">${b.model}</div>
- <div class="specs"><span>${b.year} 年</span><span>${b.cc} cc</span><span>${b.km.toLocaleString()} km</span></div>
- <div class="price-row"><div class="price">${money(b.price)}<small> 起</small></div><span class="details-link">查看車況 ↗</span></div></div></article>`).join("");
- cards.querySelectorAll(".bike-card").forEach(el=>{el.addEventListener("click",()=>openDetail(el.dataset.id));el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openDetail(el.dataset.id)}})});
-}
-function openDetail(id){
- const b=bikes.find(x=>x.id===id);if(!b)return;
- document.getElementById("modalContent").innerHTML=`<div class="modal-photo"><img src="${b.image}" alt="${b.brand} ${b.model} 示意照片"></div><div class="modal-info"><div class="eyebrow">${b.id} / ${b.brand.toUpperCase()}</div><h2 id="modalTitle">${b.brand} ${b.model}</h2><div class="specs"><span>${b.year} 年</span><span>${b.cc} cc</span><span>${b.km.toLocaleString()} km</span></div><div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>車輛年份</small><strong>${b.year}</strong></div><div class="detail-cell"><small>排氣量</small><strong>${b.cc} cc</strong></div><div class="detail-cell"><small>目前里程</small><strong>${b.km.toLocaleString()} km</strong></div><div class="detail-cell"><small>車色</small><strong>${b.color}</strong></div></div><div class="warranty">保固資訊｜${b.warranty}</div><p>${b.desc}</p><p>車況說明：${b.condition}</p><a class="line-btn" href="${LINE_URL}" target="_blank" rel="noopener">透過 LINE 詢問這台車 ↗</a><p style="font-size:10px">詢問時請提供車輛編號 ${b.id}，方便快速確認。</p></div>`;
- document.getElementById("modal").classList.add("open");document.body.style.overflow="hidden";
-}
-function closeModal(){document.getElementById("modal").classList.remove("open");document.body.style.overflow=""}
-document.getElementById("closeModal").addEventListener("click",closeModal);
-document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
-["search","brandFilter","ccFilter","sortFilter","minPrice","maxPrice","warrantyOnly"].forEach(id=>document.getElementById(id).addEventListener(id==="search"?"input":"change",render));
-document.getElementById("resetBtn").addEventListener("click",()=>{["search","minPrice","maxPrice"].forEach(id=>document.getElementById(id).value="");document.getElementById("brandFilter").value="";document.getElementById("ccFilter").value="";document.getElementById("warrantyOnly").value="false";document.getElementById("sortFilter").value="newest";render()});
-window.addEventListener("storage",e=>{if(e.key===STORAGE_KEY){bikes=loadBikes();render();}});
-document.getElementById("footerLine").addEventListener("click",e=>{if(LINE_URL==="https://line.me/R/"){e.preventDefault();const t=document.getElementById("toast");t.textContent="請先在 index.html 設定你的 LINE 官方帳號網址。";t.style.display="block";setTimeout(()=>t.style.display="none",3000)}});
-render();
+loadVehicles();
 </script>
 </body>
 </html>
