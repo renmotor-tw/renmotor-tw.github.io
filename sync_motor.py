@@ -69,16 +69,22 @@ def parse(item):
             pass
     model = re.sub(r"【[^】]+】|\b(?:19|20)\d{2}\b|#\s*[A-Za-z0-9_-]+", "", name).strip()
     brand = "其他"
-    brands = {
-        "YAMAHA": ["山葉", "YAMAHA", "勁戰", "FORCE", "AUGUR", "BWS", "MT-", "YZF"],
-        "SYM": ["三陽", "SYM", "JET", "DRG", "MMBCU"],
-        "KYMCO": ["光陽", "KYMCO", "LIKE", "RACING", "KRV"],
-        "HONDA": ["本田", "HONDA", "CBR", "CB650"],
-        "SUZUKI": ["鈴木", "SUZUKI", "GSX"],
-        "KAWASAKI": ["川崎", "KAWASAKI", "NINJA", "Z900"],
-        "PGO": ["PGO", "彪虎"],
-        "VESPA": ["VESPA", "偉士牌"],
-    }
+    
+brands = {
+    "YAMAHA": ["山葉", "YAMAHA", "勁戰", "FORCE", "AUGUR", "BWS", "MT-", "YZF"],
+    "SYM": ["三陽", "SYM", "JET", "DRG", "MMBCU"],
+    "KYMCO": ["光陽", "KYMCO", "LIKE", "RACING", "KRV"],
+    "HONDA": ["本田", "HONDA", "CBR", "CB650"],
+    "SUZUKI": ["台鈴", "鈴木", "SUZUKI", "GSX"],
+    "KAWASAKI": ["川崎", "KAWASAKI", "NINJA", "Z900"],
+    "GOGORO": ["睿能", "GOGORO"],
+    "AEON": ["宏佳騰", "AEON", "AEONMOTOR"],
+    "BMW": ["BMW", "寶馬"],
+    "HARTFORD": ["哈特佛", "HARTFORD"],
+    "PGO": ["PGO", "摩特動力"],
+    "VESPA": ["VESPA", "偉士牌"]
+}
+
     upper = model.upper()
     for label, terms in brands.items():
         if any(term.upper() in upper for term in terms):
