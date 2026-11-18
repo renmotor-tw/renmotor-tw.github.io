@@ -36,7 +36,8 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
   .bike-img {
     height: 280px;
   }
-
+ }
+  
 /* 隱藏重複的門市小字與年份編號 */
 .bike-card .store-name,
 .bike-card .specs {
@@ -62,7 +63,24 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
   <div class="filters">
     <div class="field"><label for="storeFilter">門市</label><select id="storeFilter"><option value="">全部門市</option></select></div>
     <div class="field"><label for="search">關鍵字搜尋</label><input id="search" type="search" placeholder="輸入品牌、車型或車輛編號"></div>
-    <div class="field"><label for="brandFilter">品牌</label><select id="brandFilter"><option value="">全部品牌</option><option>Yamaha</option><option>Honda</option><option>Kawasaki</option><option>Suzuki</option></select></div>
+    <div class="field">
+  <label for="brandFilter">品牌</label>
+  <select id="brandFilter">
+    <option value="">全部品牌</option>
+    <option value="YAMAHA">YAMAHA 山葉</option>
+    <option value="SYM">SYM 三陽</option>
+    <option value="KYMCO">KYMCO 光陽</option>
+    <option value="HONDA">HONDA 本田</option>
+    <option value="SUZUKI">SUZUKI 台鈴／鈴木</option>
+    <option value="KAWASAKI">KAWASAKI 川崎</option>
+    <option value="GOGORO">GOGORO 睿能</option>
+    <option value="AEON">AEON 宏佳騰</option>
+    <option value="BMW">BMW</option>
+    <option value="HARTFORD">HARTFORD 哈特佛</option>
+    <option value="PGO">PGO</option>
+    <option value="VESPA">VESPA</option>
+  </select>
+</div>
     <div class="field"><label for="ccFilter">排氣量</label><select id="ccFilter"><option value="">全部排氣量</option><option value="under150">150cc 以下</option><option value="150-400">151–400cc</option><option value="over400">401cc 以上</option></select></div>
     <div class="field"><label for="minPrice">最低價格</label><input id="minPrice" type="number" min="0" placeholder="不限"></div>
     <div class="field"><label for="maxPrice">最高價格</label><input id="maxPrice" type="number" min="0" placeholder="不限"></div>
@@ -101,8 +119,11 @@ function setOptions(id, values, defaultLabel) {
   if ([...el.options].some(o=>o.value===old)) el.value=old;
 }
 function updateFilters() {
-  setOptions('storeFilter', [...new Set(bikes.map(b=>b.store))], '全部門市');
-  setOptions('brandFilter', [...new Set(bikes.map(b=>b.brand))], '全部品牌');
+  setOptions(
+    'storeFilter',
+    [...new Set(bikes.map(b => b.store))],
+    '全部門市'
+  );
 }
 function filtered() {
   const q=$('search').value.trim().toLowerCase(), store=$('storeFilter').value, brand=$('brandFilter').value;
@@ -126,7 +147,7 @@ function render(reset=false) {
     const image=validUrl(b.image_url);
     const img=image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)} 車輛照片" loading="lazy" onerror="this.replaceWith(document.createTextNode('暫無照片'))">`:'<div class="no-image">暫無照片</div>';
     return `<article class="bike-card" tabindex="0" role="button" data-id="${escapeHTML(b.id)}" aria-label="查看 ${escapeHTML(b.model)}">
-    <div class="bike-img">${img}<span class="tag">公開商城</span></div>
+    <div class="bike-img">${img}</div>
     <div class="card-body"><div class="store-name">${escapeHTML(b.store||'門市待確認')}</div><div class="card-title">${escapeHTML(b.original_name||b.model)}</div>
     <div class="specs"><span>${b.year??'年份未提供'} 年</span><span>編號 ${escapeHTML(b.stock_number||'未提供')}</span></div>
     <div class="price-row"><div class="price">${money(b.price)}</div><span class="details-link">查看車輛 ↗</span></div></div></article>`;
