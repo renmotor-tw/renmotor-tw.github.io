@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<title>RenMotor_ 阿人車庫｜中古機車精選</title>
+<style>
+:root{--bg:#090909;--panel:#121212;--panel2:#191919;--line:#2a2a2a;--text:#f4f4f4;--muted:#a3a3a3;--lime:#d6ff3f;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}
+header{border-bottom:1px solid #252525;background:rgba(9,9,9,.92);position:sticky;top:0;z-index:10;backdrop-filter:blur(16px)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.03em}.logo{width:40px;height:40px;border:1px solid var(--lime);display:grid;place-items:center;color:var(--lime);font-size:17px;font-weight:950;transform:skew(-7deg)}.brand small{display:block;color:#aaa;font-size:10px;letter-spacing:.24em;margin-top:2px}.navlinks{display:flex;gap:26px;color:#c8c8c8;font-size:13px}.navlinks a:hover{color:var(--lime)}.nav-cta{background:var(--lime);color:#111;border:0;padding:11px 16px;font-weight:850;font-size:12px;cursor:pointer}
+.hero{padding:72px 0 50px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 25%,#25291b 0%,#10110d 28%,#090909 65%)}.hero:after{content:"";position:absolute;width:480px;height:480px;border:1px solid #ffffff0b;border-radius:50%;right:-100px;top:-100px;box-shadow:0 0 0 55px #ffffff04,0 0 0 110px #ffffff03;pointer-events:none}.eyebrow{color:var(--lime);font-size:11px;letter-spacing:.22em;font-weight:800;text-transform:uppercase}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:38px;position:relative;z-index:1}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.03;letter-spacing:-.055em;margin:18px 0}.hero h1 span{color:var(--lime)}.hero p{color:#b8b8b8;max-width:470px;line-height:1.85;font-size:14px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 18px;font-size:12px;font-weight:850;border:1px solid #555;cursor:pointer}.btn.primary{background:var(--lime);color:#101010;border-color:var(--lime)}.btn.ghost{background:transparent;color:#fff}.hero-visual{min-height:300px;display:flex;align-items:center;justify-content:center;position:relative}.hero-visual img{width:100%;max-width:530px;aspect-ratio:1.25;object-fit:cover;filter:grayscale(.15) contrast(1.08);border:1px solid #ffffff19}.hero-stamp{position:absolute;bottom:12px;left:0;background:var(--lime);color:#101010;padding:14px 17px;font-size:10px;font-weight:900;letter-spacing:.12em;transform:rotate(-3deg)}.stats{display:flex;gap:28px;margin-top:34px}.stat strong{font-size:22px;display:block}.stat span{font-size:10px;color:#888;letter-spacing:.12em}
+.section{padding:54px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.section-head h2{font-size:30px;letter-spacing:-.04em;margin:8px 0 0}.section-head p{font-size:12px;color:var(--muted);margin:0}.filters{background:var(--panel);border:1px solid var(--line);padding:16px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr auto;gap:10px;margin-bottom:22px}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:10px;color:#9b9b9b;letter-spacing:.08em}.field input,.field select{width:100%;background:#0b0b0b;color:#f4f4f4;border:1px solid #333;padding:12px;outline:none;min-width:0}.field input:focus,.field select:focus{border-color:var(--lime)}.filter-btn{align-self:end;background:var(--lime);color:#111;border:0;padding:13px 17px;font-weight:900;cursor:pointer}.results-line{display:flex;justify-content:space-between;align-items:center;color:#999;font-size:12px;margin-bottom:14px}.results-line strong{color:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.bike-card{background:var(--panel);border:1px solid var(--line);transition:transform .2s,border-color .2s;cursor:pointer;min-width:0}.bike-card:hover{transform:translateY(-4px);border-color:#707b35}.bike-img{height:220px;position:relative;background:#222;overflow:hidden}.bike-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s;filter:contrast(1.04)}.bike-card:hover .bike-img img{transform:scale(1.04)}.tag{position:absolute;top:12px;left:12px;background:var(--lime);color:#111;padding:6px 8px;font-size:9px;font-weight:950;letter-spacing:.08em}.tag.gray{background:#252525;color:#ddd;border:1px solid #555}.card-body{padding:17px}.card-kicker{color:#aaa;font-size:10px;letter-spacing:.1em}.card-title{font-size:18px;font-weight:850;margin:8px 0 13px}.specs{display:flex;gap:12px;flex-wrap:wrap;color:#a7a7a7;font-size:11px}.price-row{display:flex;justify-content:space-between;align-items:end;border-top:1px solid #2a2a2a;margin-top:17px;padding-top:14px}.price{font-size:23px;font-weight:950;letter-spacing:-.04em}.price small{font-size:10px;color:#999;font-weight:500;letter-spacing:0}.details-link{font-size:11px;color:var(--lime);font-weight:800}.empty{display:none;padding:50px 20px;text-align:center;color:#aaa;border:1px dashed #444}.notice{font-size:11px;color:#888;margin-top:16px;line-height:1.8}
+.value-strip{background:#d6ff3f;color:#111;padding:27px 0}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.value-grid strong{display:block;font-size:14px;margin-bottom:5px}.value-grid span{font-size:11px;line-height:1.6}
+footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{font-size:16px;font-weight:900;color:#fff}.footer-brand span{color:var(--lime)}
+.modal{position:fixed;inset:0;background:#000c;z-index:20;display:none;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.modal-box{background:#111;border:1px solid #444;max-width:900px;width:100%;max-height:90vh;overflow:auto;position:relative}.modal-close{position:sticky;float:right;top:8px;margin:8px 8px 0 0;z-index:2;background:#222;color:#fff;border:1px solid #555;width:36px;height:36px;cursor:pointer}.modal-content{display:grid;grid-template-columns:1fr 1fr;gap:0}.modal-photo{min-height:360px;background:#222}.modal-photo img{width:100%;height:100%;min-height:360px;object-fit:cover}.modal-info{padding:30px}.modal-info h2{font-size:28px;margin:10px 0}.modal-info .price{font-size:30px;color:var(--lime);margin:16px 0}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.detail-cell{background:#1a1a1a;padding:12px}.detail-cell small{display:block;color:#999;font-size:10px;margin-bottom:5px}.detail-cell strong{font-size:13px}.modal-info p{font-size:12px;line-height:1.9;color:#bbb}.warranty{border:1px solid #4e5d20;color:#dfff74;padding:11px;font-size:11px;margin:16px 0}.line-btn{display:flex;width:100%;background:var(--lime);color:#111;justify-content:center;padding:14px;font-weight:950;font-size:12px;margin-top:18px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#222;border:1px solid #555;padding:12px 16px;font-size:12px;display:none;z-index:30}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero{padding-top:50px}.hero-visual{min-height:200px}.hero-visual img{max-width:none;max-height:300px}.filters{grid-template-columns:repeat(2,1fr)}.filter-btn{grid-column:span 2}.cards{grid-template-columns:repeat(2,1fr)}.navlinks{display:none}}
+@media(max-width:560px){.wrap{width:min(100% - 28px,1180px)}.nav{height:65px}.nav-cta{padding:10px;font-size:10px}.hero h1{font-size:44px}.hero{padding:42px 0}.stats{gap:20px}.stat strong{font-size:19px}.section{padding:38px 0}.section-head{align-items:start;flex-direction:column}.section-head h2{font-size:26px}.filters{grid-template-columns:1fr 1fr;padding:12px}.field:first-child{grid-column:span 2}.cards{grid-template-columns:1fr}.bike-img{height:235px}.value-grid{grid-template-columns:1fr;gap:16px}.footer-row{align-items:start;flex-direction:column}.modal-content{grid-template-columns:1fr}.modal-photo,.modal-photo img{min-height:230px;height:230px}.modal-info{padding:20px}.modal-info h2{font-size:24px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#" aria-label="RenMotor 首頁"><div class="logo">RM</div><div>RenMotor_<small>阿人車庫 · RIDE YOUR WAY</small></div></a>
+  <nav class="navlinks"><a href="#inventory">現有車款</a><a href="#promise">我們的堅持</a><a href="#contact">聯絡我們</a></nav>
+  <a class="nav-cta" href="#inventory">探索庫存 ↗</a>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+  <div><div class="eyebrow">PRE-OWNED MOTORCYCLE GARAGE</div><h1>找到你的<br><span>下一台。</span></h1><p>每一台車，都值得被好好介紹。用清楚的車況資訊、透明的價格與實在的服務，陪你找到適合自己的騎乘夥伴。</p>
+  <div class="hero-actions"><a class="btn primary" href="#inventory">瀏覽現有車款 ↘</a><a class="btn ghost" href="#promise">認識阿人車庫</a></div>
+  <div class="stats"><div class="stat"><strong>REAL</strong><span>真實車況資訊</span></div><div class="stat"><strong>CARE</strong><span>用心整理每台車</span></div><div class="stat"><strong>RIDE</strong><span>找到適合你的車</span></div></div></div>
+  <div class="hero-visual"><img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1100&q=85" alt="摩托車形象照片"><div class="hero-stamp">RENMOTOR_ / FIND YOUR RIDE</div></div>
+</div></section>
+<section class="section" id="inventory"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">THE CURRENT LINEUP</div><h2>車庫現有車款<span style="color:var(--lime)">.</span></h2></div><p>找到心儀車款？點擊卡片查看完整資訊。</p></div>
+  <div class="filters">
+    <div class="field"><label for="search">關鍵字搜尋</label><input id="search" type="search" placeholder="輸入品牌、車型或車輛編號"></div>
+    <div class="field"><label for="brandFilter">品牌</label><select id="brandFilter"><option value="">全部品牌</option><option>Yamaha</option><option>Honda</option><option>Kawasaki</option><option>Suzuki</option></select></div>
+    <div class="field"><label for="ccFilter">排氣量</label><select id="ccFilter"><option value="">全部排氣量</option><option value="under150">150cc 以下</option><option value="150-400">151–400cc</option><option value="over400">401cc 以上</option></select></div>
+    <div class="field"><label for="minPrice">最低價格</label><input id="minPrice" type="number" min="0" placeholder="不限"></div>
+    <div class="field"><label for="maxPrice">最高價格</label><input id="maxPrice" type="number" min="0" placeholder="不限"></div>
+    <div class="field"><label for="warrantyOnly">保固篩選</label><select id="warrantyOnly"><option value="false">全部車輛</option><option value="true">只看有保固</option></select></div>
+    <div class="field"><label for="sortFilter">排序方式</label><select id="sortFilter"><option value="newest">最新上架</option><option value="low">價格由低至高</option><option value="high">價格由高至低</option><option value="mileage">里程由低至高</option></select></div>
+    <button class="filter-btn" id="resetBtn">重設篩選 ↺</button>
+  </div>
+  <div class="results-line"><span>目前展示 <strong id="resultCount">6</strong> 台車輛</span><span>正式上線前請確認資料來源與刊登授權</span></div>
+  <div class="cards" id="cards"></div><div class="empty" id="empty">沒有符合條件的車款，試試調整搜尋條件。</div>
+  <p class="notice">※ 目前為第一階段測試版：資料由瀏覽器本機儲存，不是公司正式庫存；請勿輸入客戶個資或未授權資料。</p>
+</div></section>
+<section class="value-strip" id="promise"><div class="wrap value-grid">
+  <div><strong>01 / 車況資訊清楚</strong><span>把年份、里程、整理項目與已知瑕疵說明清楚。</span></div>
+  <div><strong>02 / 價格透明溝通</strong><span>以實際車況為基礎，讓每一次詢問都有明確資訊。</span></div>
+  <div><strong>03 / 保固條件先說明</strong><span>依每台車的實際方案標示保固範圍與限制。</span></div>
+</div></section>
+</main>
+<footer id="contact"><div class="wrap footer-row"><div><div class="footer-brand">Ren<span>Motor_</span> 阿人車庫</div><div style="margin-top:7px"><a class="details-link" href="admin.html">庫存管理入口 ↗</a></div><div style="margin-top:7px">中古機車精選 · FIND YOUR RIDE</div></div><div>車況、價格與保固以實際確認及書面約定為準。</div><a class="details-link" href="#" id="footerLine">LINE 詢問 ↗</a></div></footer>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-box"><button class="modal-close" id="closeModal" aria-label="關閉">✕</button><div class="modal-content" id="modalContent"></div></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const LINE_URL = "https://line.me/R/"; // TODO: 換成你的 LINE 官方帳號網址
+const demoBikes = [
+{id:"RM-001",brand:"Yamaha",model:"MT-15",year:2023,cc:155,km:12800,price:65000,status:"在售",warranty:"引擎本體保固方案（示意）",tag:"街車推薦",color:"消光黑",image:"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80",desc:"運動街車設定，適合日常通勤與週末短途騎乘。實際配備、耗材狀態與保養紀錄請以現場確認為準。",condition:"示意資料：請填寫實際車況",date:6},
+{id:"RM-002",brand:"Honda",model:"CBR150R",year:2022,cc:150,km:18400,price:58000,status:"在售",warranty:"依實際車況另行約定",tag:"跑車風格",color:"紅黑",image:"https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=80",desc:"入門跑車外型，車身比例俐落。此為展示用範例，請以實際車輛照片與規格替換。",condition:"示意資料：請填寫實際車況",date:5},
+{id:"RM-003",brand:"Kawasaki",model:"Ninja 400",year:2021,cc:399,km:22600,price:168000,status:"在售",warranty:"保固範圍待實際確認",tag:"熱門車款",color:"綠黑",image:"https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1000&q=80",desc:"雙缸跑車級距範例，適合想升級排氣量的騎士。請於正式刊登時補上保養紀錄與改裝清單。",condition:"示意資料：請填寫實際車況",date:4},
+{id:"RM-004",brand:"Suzuki",model:"GSX-R150",year:2023,cc:147,km:9200,price:62000,status:"在售",warranty:"依實際方案標示",tag:"低里程示意",color:"藍白",image:"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80",desc:"輕量級跑車範例，里程與售價均為假資料，正式上架前請逐項核實。",condition:"示意資料：請填寫實際車況",date:3},
+{id:"RM-005",brand:"Yamaha",model:"Force 2.0",year:2022,cc:155,km:15300,price:72000,status:"保留中",warranty:"保固內容依雙方書面約定",tag:"速克達",color:"灰黑",image:"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80",desc:"通勤與日常使用取向的速克達範例。請依實際車況補充外觀、耗材與維修紀錄。",condition:"示意資料：請填寫實際車況",date:2},
+{id:"RM-006",brand:"Honda",model:"CB650R",year:2020,cc:649,km:29800,price:268000,status:"在售",warranty:"依實際方案標示",tag:"大型重機",color:"黑",image:"https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1000&q=80",desc:"大型重機範例展示。正式上架請補充車籍、定保紀錄、改裝合法性與保固細節。",condition:"示意資料：請填寫實際車況",date:1}
+];
+const STORAGE_KEY = "renmotor_inventory_v1";
+function loadBikes(){
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+    if (Array.isArray(saved)) return saved;
+  } catch(e) {}
+  return demoBikes;
+}
+let bikes = loadBikes();
+const money=n=>"NT$ "+Number(n||0).toLocaleString("en-US");
+const ccGroup=cc=>cc<=150?"under150":cc<=400?"150-400":"over400";
+const cards=document.getElementById("cards");
+function render(){
+ const q=document.getElementById("search").value.trim().toLowerCase(),brand=document.getElementById("brandFilter").value,cc=document.getElementById("ccFilter").value,sort=document.getElementById("sortFilter").value;
+ const min=Number(document.getElementById("minPrice").value||0), max=Number(document.getElementById("maxPrice").value||0), warrantyOnly=document.getElementById("warrantyOnly").value==="true";
+ let arr=bikes.filter(b=>(!q||`${b.id} ${b.brand} ${b.model}`.toLowerCase().includes(q))&&(!brand||b.brand===brand)&&(!cc||ccGroup(b.cc)===cc)&&(!min||Number(b.price)>=min)&&(!max||Number(b.price)<=max)&&(!warrantyOnly||!!b.warranty&& !/無保固|未提供|待確認/.test(b.warranty))&&b.status!=="已售出"&&b.status!=="已下架");
+ if(sort==="low")arr.sort((a,b)=>a.price-b.price);else if(sort==="high")arr.sort((a,b)=>b.price-a.price);else if(sort==="mileage")arr.sort((a,b)=>a.km-b.km);else arr.sort((a,b)=>b.date-a.date);
+ document.getElementById("resultCount").textContent=arr.length;document.getElementById("empty").style.display=arr.length?"none":"block";
+ cards.innerHTML=arr.map(b=>`<article class="bike-card" tabindex="0" role="button" aria-label="查看 ${b.brand} ${b.model}" data-id="${b.id}">
+ <div class="bike-img"><img src="${b.image}" alt="${b.brand} ${b.model} 示意照片" loading="lazy"><span class="tag ${b.status==="保留中"?"gray":""}">${b.status==="在售"?b.tag:b.status}</span></div>
+ <div class="card-body"><div class="card-kicker">${b.id}　/　${b.brand.toUpperCase()}</div><div class="card-title">${b.model}</div>
+ <div class="specs"><span>${b.year} 年</span><span>${b.cc} cc</span><span>${b.km.toLocaleString()} km</span></div>
+ <div class="price-row"><div class="price">${money(b.price)}<small> 起</small></div><span class="details-link">查看車況 ↗</span></div></div></article>`).join("");
+ cards.querySelectorAll(".bike-card").forEach(el=>{el.addEventListener("click",()=>openDetail(el.dataset.id));el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openDetail(el.dataset.id)}})});
+}
+function openDetail(id){
+ const b=bikes.find(x=>x.id===id);if(!b)return;
+ document.getElementById("modalContent").innerHTML=`<div class="modal-photo"><img src="${b.image}" alt="${b.brand} ${b.model} 示意照片"></div><div class="modal-info"><div class="eyebrow">${b.id} / ${b.brand.toUpperCase()}</div><h2 id="modalTitle">${b.brand} ${b.model}</h2><div class="specs"><span>${b.year} 年</span><span>${b.cc} cc</span><span>${b.km.toLocaleString()} km</span></div><div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>車輛年份</small><strong>${b.year}</strong></div><div class="detail-cell"><small>排氣量</small><strong>${b.cc} cc</strong></div><div class="detail-cell"><small>目前里程</small><strong>${b.km.toLocaleString()} km</strong></div><div class="detail-cell"><small>車色</small><strong>${b.color}</strong></div></div><div class="warranty">保固資訊｜${b.warranty}</div><p>${b.desc}</p><p>車況說明：${b.condition}</p><a class="line-btn" href="${LINE_URL}" target="_blank" rel="noopener">透過 LINE 詢問這台車 ↗</a><p style="font-size:10px">詢問時請提供車輛編號 ${b.id}，方便快速確認。</p></div>`;
+ document.getElementById("modal").classList.add("open");document.body.style.overflow="hidden";
+}
+function closeModal(){document.getElementById("modal").classList.remove("open");document.body.style.overflow=""}
+document.getElementById("closeModal").addEventListener("click",closeModal);
+document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+["search","brandFilter","ccFilter","sortFilter","minPrice","maxPrice","warrantyOnly"].forEach(id=>document.getElementById(id).addEventListener(id==="search"?"input":"change",render));
+document.getElementById("resetBtn").addEventListener("click",()=>{["search","minPrice","maxPrice"].forEach(id=>document.getElementById(id).value="");document.getElementById("brandFilter").value="";document.getElementById("ccFilter").value="";document.getElementById("warrantyOnly").value="false";document.getElementById("sortFilter").value="newest";render()});
+window.addEventListener("storage",e=>{if(e.key===STORAGE_KEY){bikes=loadBikes();render();}});
+document.getElementById("footerLine").addEventListener("click",e=>{if(LINE_URL==="https://line.me/R/"){e.preventDefault();const t=document.getElementById("toast");t.textContent="請先在 index.html 設定你的 LINE 官方帳號網址。";t.style.display="block";setTimeout(()=>t.style.display="none",3000)}});
+render();
+</script>
+</body>
+</html>
