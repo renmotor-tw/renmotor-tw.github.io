@@ -106,10 +106,15 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
     <option value="VESPA">VESPA</option>
   </select>
 </div>
-    <div class="field"><label for="ccFilter">排氣量</label><select id="ccFilter"><option value="">全部排氣量</option><option value="under150">150cc 以下</option><option value="150-400">151–400cc</option><option value="over400">401cc 以上</option></select></div>
-    <div class="field"><label for="minPrice">最低價格</label><input id="minPrice" type="number" min="0" placeholder="不限"></div>
-    <div class="field"><label for="maxPrice">最高價格</label><input id="maxPrice" type="number" min="0" placeholder="不限"></div>
-    <div class="field"><label for="warrantyOnly">保固篩選</label><select id="warrantyOnly"><option value="false">全部車輛</option><option value="true">只看有保固</option></select></div>
+    <div class="field"><label for="ccFilter">排氣量</label><select id="ccFilter"><option value="">全部排氣量</option><option value="under150">150cc 以下</option><option value="151-400">151–400cc</option><option value="over400">401cc 以上</option></select></div>
+    <div class="field">
+      <label for="warrantyFilter">保固篩選</label>
+      <select id="warrantyFilter">
+        <option value="">全部車輛</option>
+        <option value="warranty">保固車</option>
+        <option value="as-is">現況車</option>
+      </select>
+    </div>
     <div class="field"><label for="sortFilter">排序方式</label><select id="sortFilter"><option value="newest">最新上架</option><option value="low">價格由低至高</option><option value="high">價格由高至低</option><option value="mileage">里程由低至高</option></select></div>
     <button class="filter-btn" id="resetBtn">重設篩選 ↺</button>
   </div>
@@ -136,7 +141,9 @@ const $ = id => document.getElementById(id);
 const money = n => Number.isFinite(Number(n)) && n !== null ? "NT$ " + Number(n).toLocaleString("zh-TW") : "價格請洽詢";
 const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const validUrl = value => { try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
-const ccGroup = cc => !cc ? "unknown" : cc <= 150 ? "under150" : cc <= 400 ? "150-400" : "over400";
+const ccGroup = cc => !cc ? "" : cc <= 150 ? "under150" : cc <= 400 ? "151-400" : "over400";
+const brandLabels = new Map([...$('brandFilter').options].map(option => [option.value, option.text]));
+const filterIds = ['search', 'storeFilter', 'brandFilter', 'ccFilter', 'warrantyFilter', 'sortFilter'];
 function setOptions(id, values, defaultLabel) {
   const el = $(id), old = el.value;
   el.replaceChildren(new Option(defaultLabel, ''));
@@ -151,9 +158,18 @@ function updateFilters() {
   );
 }
 function filtered() {
-  const q=$('search').value.trim().toLowerCase(), store=$('storeFilter').value, brand=$('brandFilter').value;
-  const cc=$('ccFilter').value, min=$('minPrice').value, max=$('maxPrice').value;
-  let result=bikes.filter(b=>(!q||`${b.original_name} ${b.model} ${b.stock_number} ${b.brand} ${b.store}`.toLowerCase().includes(q)) && (!store||b.store===store) && (!brand||b.brand===brand) && (!cc||ccGroup(b.cc)===cc) && (min===''||(b.price!==null&&b.price>=Number(min))) && (max===''||(b.price!==null&&b.price<=Number(max))) && ($('warrantyOnly').value!=='true'||b.warranty===true));
+  const q = $('search').value.trim().toLowerCase();
+  const store = $('storeFilter').value;
+  const brand = $('brandFilter').value;
+  const cc = $('ccFilter').value;
+  const warranty = $('warrantyFilter').value;
+  const result = bikes.filter(b =>
+    (!q || b.searchText.includes(q)) &&
+    (!store || b.store === store) &&
+    (!brand || b.brand === brand) &&
+    (!cc || ccGroup(b.cc) === cc) &&
+    (!warranty || b.warrantyStatus === warranty)
+  );
   const sort=$('sortFilter').value;
   if(sort==='low')result.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));
   if(sort==='high')result.sort((a,b)=>(b.price??-1)-(a.price??-1));
@@ -207,8 +223,11 @@ function closeModal(){$('modal').classList.remove('open');document.body.style.ov
 $('closeModal').addEventListener('click',closeModal);
 $('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-['search','storeFilter','brandFilter','ccFilter','sortFilter','minPrice','maxPrice','warrantyOnly'].forEach(id=>$(id).addEventListener(['search','minPrice','maxPrice'].includes(id)?'input':'change',()=>render(true)));
-$('resetBtn').addEventListener('click',()=>{['search','minPrice','maxPrice'].forEach(id=>$(id).value='');['storeFilter','brandFilter','ccFilter'].forEach(id=>$(id).value='');$('warrantyOnly').value='false';$('sortFilter').value='newest';render(true)});
+filterIds.forEach(id => $(id).addEventListener(id === 'search' ? 'input' : 'change', () => render(true)));
+$('resetBtn').addEventListener('click', () => {
+  filterIds.forEach(id => $(id).value = id === 'sortFilter' ? 'newest' : '');
+  render(true);
+});
 $('footerLine').addEventListener('click',e=>{if(LINE_URL==='https://line.me/R/'){e.preventDefault();alert('LINE 官方帳號尚未設定，請先使用商品原始連結詢問。')}});
 async function loadVehicles() {
   try {
@@ -216,13 +235,26 @@ async function loadVehicles() {
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data=await response.json();
     if(!Array.isArray(data))throw new Error('資料格式錯誤');
-    bikes=data.map((b,i)=>({
-      id:String(b.source_url||i),store:String(b.store||'門市待確認'),brand:String(b.brand||'其他'),
-      model:String(b.model||''),original_name:String(b.original_name||b.model||''),
-      year:Number.isInteger(b.year)?b.year:null,stock_number:String(b.stock_number||''),
-      price:Number.isFinite(b.price)?b.price:null,image_url:String(b.image_url||''),source_url:String(b.source_url||''),
-      cc:Number.isFinite(b.cc)?b.cc:null,km:Number.isFinite(b.km)?b.km:null,warranty:b.warranty===true
-    }));
+    bikes = data.map((b, i) => {
+      const model = String(b.model || '');
+      const name = String(b.original_name || model);
+      const store = String(b.store || '門市待確認');
+      const stockNumber = String(b.stock_number || '');
+      const brand = /GOGORO|睿能/i.test(`${name} ${model}`) ? 'GOGORO' : String(b.brand || '其他').trim().toUpperCase();
+      const asIs = b.as_is === true || `${name} ${model} ${b.description || ''}`.includes('現況');
+      return {
+        id: String(b.source_url || i),
+        store, brand, model, original_name: name, stock_number: stockNumber,
+        year: Number.isInteger(b.year) ? b.year : null,
+        price: Number.isFinite(b.price) ? b.price : null,
+        image_url: String(b.image_url || ''),
+        source_url: String(b.source_url || ''),
+        cc: Number.isFinite(b.cc) && b.cc > 0 ? b.cc : null,
+        km: Number.isFinite(b.km) ? b.km : null,
+        warrantyStatus: asIs ? 'as-is' : b.warranty === true ? 'warranty' : '',
+        searchText: [name, model, stockNumber, brandLabels.get(brand) || brand, store].join(' ').toLowerCase()
+      };
+    });
     updateFilters();render(true);
     $('syncStatus').textContent=`已載入 ${bikes.length} 筆公開商品資料。資料為定期更新，非即時庫存。`;
   } catch(error) {
