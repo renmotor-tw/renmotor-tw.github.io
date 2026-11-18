@@ -9,11 +9,21 @@ from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import HTTPError
-from urllib.parse import quote, urljoin, urlsplit, urlunsplit
+from urllib.parse import quote, unquote, urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 BASE = "https://shop.2motor.tw"
 COLLECTION = "/collections/allmotor"
+CATEGORY_COLLECTIONS = {
+    "electric": "/collections/allemotor",
+    "green-50": "/collections/all50motor",
+    "up-to-125": "/collections/all125motor",
+    "126-150": "/collections/all150motor",
+    "151-249": "/collections/all151motor",
+    "heavy": "/collections/all-heavymotor",
+    "white-manual": "/collections/allbike",
+    "vespa": "/collections/allvespa",
+}
 MAX_PAGES = 100  # 直到遇到沒有新商品的頁面，設上限避免無限迴圈
 OUTPUT = Path(__file__).with_name("vehicles.json")
 
@@ -254,8 +264,8 @@ def update_catalog_details(vehicles, previous):
         print(f"{len(failures)} 筆商品頁讀取失敗，沿用可取得的前次分類：{failures[0]}", flush=True)
 
 
-def fetch(page):
-    url = f"{BASE}{COLLECTION}?page={page}"
+def fetch(page, collection=COLLECTION):
+    url = f"{BASE}{collection}?page={page}"
     req = Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; RenMotorPublicCatalogSync/1.0)"})
     with urlopen(req, timeout=30) as resp:
         html = resp.read().decode("utf-8", "replace")
@@ -263,30 +273,53 @@ def fetch(page):
     parser.feed(html)
     return {item["source_url"]: item for item in parser.items}
 
-def main():
-    all_items = {}
-    for page in range(1, MAX_PAGES+1):
-        print(f"讀取公開商城第 {page} 頁", flush=True)
+def fetch_collection(collection, delay):
+    items = {}
+    for page in range(1, MAX_PAGES + 1):
         try:
-            found = fetch(page)
+            found = fetch(page, collection)
         except Exception as exc:
             # 中途出錯不更新，避免把完整資料誤覆蓋成部分資料
-            raise RuntimeError(f"第 {page} 頁讀取失敗，保留舊資料: {exc}") from exc
-        fresh = {url:item for url,item in found.items() if url not in all_items}
-        print(f"本頁 {len(found)} 筆，新增 {len(fresh)} 筆", flush=True)
+            raise RuntimeError(f"{collection} 第 {page} 頁讀取失敗，保留舊資料: {exc}") from exc
+        fresh = {url: item for url, item in found.items() if url not in items}
         if not fresh:
-            break
-        all_items.update(fresh)
+            print(f"{collection}：取得 {len(items)} 筆商品", flush=True)
+            return items
+        items.update(fresh)
         if page < MAX_PAGES:
-            time.sleep(1.5)
-    else:
-        raise RuntimeError("已達頁數安全上限，無法確認全部資料，保留舊檔")
+            time.sleep(delay)
+    raise RuntimeError(f"{collection} 已達頁數安全上限，無法確認全部資料，保留舊檔")
+
+
+def product_handle(url):
+    # Category links and inventory links use different collection prefixes.
+    return unquote(urlsplit(url).path).split("/products/", 1)[-1].rstrip("/")
+
+
+def update_vehicle_categories(vehicles):
+    product_groups = {}
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        pending = {
+            category: pool.submit(fetch_collection, collection, 0.75)
+            for category, collection in CATEGORY_COLLECTIONS.items()
+        }
+        for category, result in pending.items():
+            handles = {product_handle(url) for url in result.result()}
+            for handle in handles:
+                product_groups.setdefault(handle, []).append(category)
+    for vehicle in vehicles:
+        vehicle["categories"] = product_groups.get(product_handle(vehicle["source_url"]), [])
+
+
+def main():
+    all_items = fetch_collection(COLLECTION, 1.5)
     if len(all_items) < 10:
         raise RuntimeError("商品數量異常偏少，保留舊檔")
     vehicles = [parse(item) for item in all_items.values()]
     invalid = [v for v in vehicles if not v["original_name"] or not v["source_url"]]
     if invalid:
         raise RuntimeError(f"有 {len(invalid)} 筆資料缺少車名或網址，保留舊檔")
+    update_vehicle_categories(vehicles)
     previous = {v["source_url"]: v for v in json.loads(OUTPUT.read_text(encoding="utf-8"))} if OUTPUT.exists() else {}
     print(f"讀取 {len(vehicles)} 筆商品描述", flush=True)
     update_catalog_details(vehicles, previous)
