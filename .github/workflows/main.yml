@@ -1,0 +1,25 @@
+
+name: RenMotor 車庫同步測試
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: 下載 RenMotor 程式碼
+        uses: actions/checkout@v4
+
+      - name: 安裝 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 測試讀取貳輪嶼公開車庫
+        run: python sync_motor.py
