@@ -1,16 +1,22 @@
 
-name: RenMotor 車庫同步測試
+name: RenMotor 全台車庫自動同步
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: renmotor-sync
+  cancel-in-progress: false
 
 jobs:
-  test-sync:
+  sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
 
     steps:
       - name: 下載 RenMotor 程式碼
@@ -21,5 +27,35 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: 測試讀取貳輪嶼公開車庫
+      - name: 同步貳輪嶼公開車輛
         run: python sync_motor.py
+
+      - name: 檢查車輛資料
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("vehicles.json")
+          if not path.exists():
+              raise SystemExit("找不到 vehicles.json，同步中止")
+
+          data = json.loads(path.read_text(encoding="utf-8"))
+          if not isinstance(data, list) or not data:
+              raise SystemExit("車輛資料為空，同步中止")
+
+          print(f"本次取得 {len(data)} 台車輛")
+          PY
+
+      - name: 更新網站車輛資料
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vehicles.json
+
+          if git diff --cached --quiet; then
+            echo "車輛資料沒有變更"
+          else
+            git commit -m "更新 RenMotor 全台車輛資料"
+            git push
+          fi
