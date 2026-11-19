@@ -2517,24 +2517,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "SYM",
-    "year": 2023,
-    "model": "三陽 CLBCU 125 CBS 鑰匙版 前碟後鼓",
-    "stock_number": "7173",
-    "price": 68000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113199929.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2023-三陽-clbcu-125-cbs-鑰匙版-前碟後鼓-7173",
-    "original_name": "【新竹店】2023 三陽 CLBCU 125 CBS 鑰匙版 前碟後鼓 #7173",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "YAMAHA",
     "year": 2021,
     "model": "山葉 勁戰六代 125 ABS 雙碟",
@@ -13978,25 +13960,6 @@
     "as_is": false,
     "categories": [
       "151-249"
-    ]
-  },
-  {
-    "store": "新北中和店",
-    "brand": "其他",
-    "year": 2023,
-    "model": "優惠  CF-MOTO春風 CL-X 250扭力大師",
-    "stock_number": "8050",
-    "price": 70000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/107834332.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2023-cf-moto春風-cl-x-250-8050",
-    "original_name": "優惠 【新北中和店】2023 CF-MOTO春風 CL-X 250扭力大師#8050",
-    "cc": 250,
-    "km": null,
-    "warranty": false,
-    "as_is": false,
-    "categories": [
-      "151-249",
-      "white-manual"
     ]
   },
   {
