@@ -1,6 +1,7 @@
 """RenMotor 公開商城同步：只讀取公開商品，不使用任何帳號或私有 API。"""
 import gzip
 import json
+import os
 import re
 import sys
 import time
@@ -26,6 +27,7 @@ CATEGORY_COLLECTIONS = {
 }
 MAX_PAGES = 100  # 直到遇到沒有新商品的頁面，設上限避免無限迴圈
 OUTPUT = Path(__file__).with_name("vehicles.json")
+DESCRIPTION_FIELDS = ("cc", "warranty", "as_is")
 
 BRANDS = {
     "YAMAHA": ("山葉", "YAMAHA"),
@@ -234,7 +236,7 @@ def fetch_description(source_url):
     return parser.description()
 
 
-def update_catalog_details(vehicles, previous):
+def update_catalog_details(vehicles, previous, *, reuse_details=False):
     def update(vehicle):
         try:
             description = fetch_description(vehicle["source_url"])
@@ -247,15 +249,28 @@ def update_catalog_details(vehicles, previous):
         update_vehicle_details(vehicle, description)
         return None
 
+    pending = []
+    for vehicle in vehicles:
+        old = previous.get(vehicle["source_url"], {})
+        if (
+            reuse_details
+            and old.get("original_name") == vehicle["original_name"]
+            and all(field in old for field in DESCRIPTION_FIELDS)
+        ):
+            vehicle.update({field: old[field] for field in DESCRIPTION_FIELDS})
+        else:
+            pending.append(vehicle)
+
+    print(f"讀取 {len(pending)} 筆商品描述", flush=True)
     failures = []
     with ThreadPoolExecutor(max_workers=6) as pool:
-        for vehicle, error in zip(vehicles, pool.map(update, vehicles)):
+        for vehicle, error in zip(pending, pool.map(update, pending)):
             if error is None:
                 continue
             failures.append(error)
             update_vehicle_details(vehicle, "")
             old = previous.get(vehicle["source_url"], {})
-            for field in ("cc", "warranty", "as_is"):
+            for field in DESCRIPTION_FIELDS:
                 if old.get(field) is not None:
                     vehicle[field] = old[field]
     if len(failures) > len(vehicles) // 2:
@@ -311,7 +326,7 @@ def update_vehicle_categories(vehicles):
         vehicle["categories"] = product_groups.get(product_handle(vehicle["source_url"]), [])
 
 
-def main():
+def main(*, reuse_details=False):
     all_items = fetch_collection(COLLECTION, 1.5)
     if len(all_items) < 10:
         raise RuntimeError("商品數量異常偏少，保留舊檔")
@@ -321,8 +336,7 @@ def main():
         raise RuntimeError(f"有 {len(invalid)} 筆資料缺少車名或網址，保留舊檔")
     update_vehicle_categories(vehicles)
     previous = {v["source_url"]: v for v in json.loads(OUTPUT.read_text(encoding="utf-8"))} if OUTPUT.exists() else {}
-    print(f"讀取 {len(vehicles)} 筆商品描述", flush=True)
-    update_catalog_details(vehicles, previous)
+    update_catalog_details(vehicles, previous, reuse_details=reuse_details)
     stores = sorted({v["store"] for v in vehicles})
     print(f"同步完成：{len(vehicles)} 筆；門市：{len(stores)} 個", flush=True)
     for store in stores:
@@ -334,7 +348,7 @@ def main():
 
 if __name__ == "__main__":
     try:
-        main()
+        main(reuse_details=os.environ.get("RENMOTOR_REUSE_PRODUCT_DETAILS") == "true")
     except Exception as exc:
         print(f"同步失敗：{exc}", file=sys.stderr)
         sys.exit(1)
