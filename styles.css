@@ -8,7 +8,6 @@ header{border-bottom:1px solid #252525;background:rgba(9,9,9,.92);position:stick
   object-fit: cover;
   object-position: center 52%;
   background: #090909;
-  border: 1px solid var(--lime);
   border-radius: 3px;
 }.brand small{display:block;color:#aaa;font-size:10px;letter-spacing:.24em;margin-top:2px}
 .hero{padding:72px 0 50px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 25%,#25291b 0%,#10110d 28%,#090909 65%)}.hero:after{content:"";position:absolute;width:480px;height:480px;border:1px solid #ffffff0b;border-radius:50%;right:-100px;top:-100px;box-shadow:0 0 0 55px #ffffff04,0 0 0 110px #ffffff03;pointer-events:none}.eyebrow{color:var(--lime);font-size:11px;letter-spacing:.22em;font-weight:800;text-transform:uppercase}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:38px;position:relative;z-index:1}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.03;letter-spacing:-.055em;margin:18px 0}.hero h1 span{color:var(--lime)}.hero p{color:#b8b8b8;max-width:470px;line-height:1.85;font-size:14px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 18px;font-size:12px;font-weight:850;border:1px solid #555;cursor:pointer}.btn.primary{background:var(--lime);color:#101010;border-color:var(--lime)}.btn.ghost{background:transparent;color:#fff}.hero-visual{min-height:300px;display:flex;align-items:center;justify-content:center;position:relative}.hero-visual img{
@@ -26,7 +25,7 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
 @media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero{padding-top:50px}.hero-visual{min-height:200px}.hero-visual img{max-width:none;max-height:300px}.cards{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.hero h1{font-size:44px}.hero{padding:42px 0}.stats{gap:20px}.stat strong{font-size:19px}.section{padding:38px 0}.cards{grid-template-columns:1fr}.bike-img{height:235px}.value-grid{grid-template-columns:1fr;gap:16px}.footer-row{align-items:start;flex-direction:column}.modal-content{grid-template-columns:1fr}.modal-photo,.modal-photo img{min-height:230px;height:230px}.modal-info{padding:20px}.modal-info h2{font-size:24px}}
 
-.pagination{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:30px 0 12px}.pagination button{background:#191919;border:1px solid #393939;color:#fff;padding:10px 13px;cursor:pointer;min-width:40px}.pagination button.active{background:var(--lime);color:#111;border-color:var(--lime);font-weight:900}.pagination button:disabled{opacity:.35;cursor:not-allowed}.sync-status{font-size:11px;color:#aaa;margin:10px 0}.store-name{color:var(--lime);font-size:11px;font-weight:800}.source-link{display:block;margin-top:12px;font-size:12px;color:var(--lime);text-decoration:underline}.no-image{display:grid;place-items:center;height:100%;color:#999;font-size:12px}.card-title{min-height:45px}
+.pagination{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:30px 0 12px}.pagination button{background:#191919;border:1px solid #393939;color:#fff;padding:10px 13px;cursor:pointer;min-width:40px}.pagination button.active{background:var(--lime);color:#111;border-color:var(--lime);font-weight:900}.pagination button:disabled{opacity:.35;cursor:not-allowed}.sync-status{font-size:11px;color:#aaa;margin:10px 0}.store-name{color:var(--lime);font-size:11px;font-weight:800}.no-image{display:grid;place-items:center;height:100%;color:#999;font-size:12px}.card-title{min-height:45px}
 
 /* RenMotor_ 車輛照片顯示優化 */
   .bike-img {
@@ -77,7 +76,7 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
 .line-action{min-height:44px;padding:10px 15px;font-size:14px}
 .line-action:hover,.line-float:hover{background:#22da6d}
 .line-action:focus-visible,.line-float:focus-visible{outline:2px solid #fff;outline-offset:3px}
-.line-contact{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;border:1px solid var(--line);background:var(--panel);padding:16px}
+.line-contact{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;background:var(--panel);padding:17px}
 .line-contact h2{margin:0;font-size:18px;color:#fff}
 .line-contact p{margin:6px 0 12px;font-size:13px;color:#c5c5c5}
 .line-qr{display:block;width:120px;height:120px;object-fit:contain;background:#fff}
@@ -142,8 +141,12 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
   transform: rotate(45deg);
   transform-origin: left center;
 }
-.motor-island-icon { width: 30px; height: 30px; filter: grayscale(1) contrast(5); mix-blend-mode: screen; }
-.footer-note { margin-top: 7px; }
+.threads-icon { width: 18px; height: 18px; }
+.footer-disclaimer { margin-top: 7px; }
+@media (min-width: 750px) {
+  #contact .footer-row { display: grid; grid-template-columns: 29% minmax(0, 1fr) auto; }
+  .footer-copyright { margin-top: 24px; }
+}
 .visually-hidden {
   position: absolute;
   width: 1px;

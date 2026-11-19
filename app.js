@@ -15,7 +15,6 @@ function marketplaceUrl(value, origin) {
   }
 }
 const imageUrl = value => marketplaceUrl(value, 'https://cdn.store-assets.com');
-const productUrl = value => marketplaceUrl(value, 'https://shop.2motor.tw');
 const brandLabels = new Map([...$('brandFilter').options].map(option => [option.value, option.text]));
 const filterIds = ['search', 'storeFilter', 'brandFilter', 'categoryFilter', 'warrantyFilter', 'sortFilter'];
 const filterForm = $('filterForm');
@@ -97,12 +96,11 @@ function renderPages(total,count) {
 }
 function openDetail(id) {
   const b=bikes.find(x=>x.id===id);if(!b)return;
-  const image=imageUrl(b.image_url), link=productUrl(b.source_url);
+  const image=imageUrl(b.image_url);
   $('modalContent').innerHTML=`<div class="modal-photo">${image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)}">`:'<div class="no-image">暫無照片</div>'}</div>
   <div class="modal-info"><div class="eyebrow">${escapeHTML(b.store||'門市待確認')}</div><h2 id="modalTitle">${escapeHTML(b.original_name||b.model)}</h2>
-  <div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>年份</small><strong>${b.year??'未提供'}</strong></div><div class="detail-cell"><small>車輛編號</small><strong>${escapeHTML(b.stock_number||'未提供')}</strong></div><div class="detail-cell"><small>門市</small><strong>${escapeHTML(b.store||'待確認')}</strong></div><div class="detail-cell"><small>里程／保固</small><strong>請洽原商城</strong></div></div>
-  <p>車況、里程、保固及實際庫存請以貳輪嶼公開商城與門市確認。</p>
-  ${link?`<a class="source-link" href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">前往貳輪嶼原始商品頁 ↗</a>`:''}
+  <div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>年份</small><strong>${b.year??'未提供'}</strong></div><div class="detail-cell"><small>車輛編號</small><strong>${escapeHTML(b.stock_number||'未提供')}</strong></div><div class="detail-cell"><small>門市</small><strong>${escapeHTML(b.store||'待確認')}</strong></div><div class="detail-cell"><small>里程／保固</small><strong>請洽阿人車庫</strong></div></div>
+  <p>車況、里程、保固及實際庫存，歡迎透過 LINE 向阿人車庫確認。</p>
   <a class="line-btn line-action" href="${escapeHTML(LINE_URL)}" target="_blank" rel="noopener noreferrer">透過 LINE 詢問 ↗</a></div>`;
   $('modal').classList.add('open');
   document.body.classList.add('modal-lock');
@@ -180,7 +178,6 @@ async function loadVehicles() {
         year: Number.isInteger(b.year) ? b.year : null,
         price: Number.isFinite(b.price) ? b.price : null,
         image_url: String(b.image_url || ''),
-        source_url: String(b.source_url || ''),
         categories: vehicleCategories(b, brand, model),
         warrantyStatus: asIs ? 'as-is' : b.warranty === true ? 'warranty' : '',
         searchText: [name, model, stockNumber, brandLabels.get(brand) || brand, store].join(' ').toLowerCase()
