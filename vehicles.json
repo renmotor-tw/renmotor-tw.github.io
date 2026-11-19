@@ -1,5 +1,95 @@
 [
   {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2018,
+    "model": "山葉 勁戰四代 125",
+    "stock_number": "5758",
+    "price": 48000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113519183.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2018-山葉-勁戰四代-125-5758",
+    "original_name": "【新北中和店】2018 山葉 勁戰四代 125#5758",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "SYM",
+    "year": 2019,
+    "model": "三陽 Z1 ATTILA 125",
+    "stock_number": "8759",
+    "price": 34000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113519028.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2019-三陽-z1-attila-125-8759",
+    "original_name": "【新北中和店】2019 三陽 Z1 ATTILA 125#8759",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "KYMCO",
+    "year": 2019,
+    "model": "光陽 雷霆S150 RACING",
+    "stock_number": "0272",
+    "price": 46000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113518817.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2019-光陽-雷霆s150-racing-0272",
+    "original_name": "【新北中和店】2019 光陽 雷霆S150 RACING #0272",
+    "cc": 150,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "KYMCO",
+    "year": 2013,
+    "model": "光陽 V2 125 鼓煞",
+    "stock_number": "093",
+    "price": 20000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113518637.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2013-光陽-v2-125-鼓煞-093",
+    "original_name": "【新北中和店】2013 光陽 V2 125 鼓煞 #093",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2022,
+    "model": "山葉 R15 V4",
+    "stock_number": "9808",
+    "price": 78000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113518417.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2022-山葉-r15-v4-9808",
+    "original_name": "【新北中和店】2022 山葉 R15 V4 #9808",
+    "cc": 155,
+    "km": null,
+    "warranty": false,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ]
+  },
+  {
     "store": "台中旗艦店",
     "brand": "SYM",
     "year": 2022,
@@ -590,7 +680,7 @@
     "original_name": "【台中太平店】2012 山葉 BWSX 125 #617",
     "cc": 125,
     "km": null,
-    "warranty": true,
+    "warranty": null,
     "as_is": false,
     "categories": [
       "up-to-125"
@@ -4558,9 +4648,7 @@
     "km": null,
     "warranty": true,
     "as_is": false,
-    "categories": [
-      "up-to-125"
-    ]
+    "categories": []
   },
   {
     "store": "南台中店",
@@ -12974,12 +13062,12 @@
     "store": "新北中和店",
     "brand": "KYMCO",
     "year": 2018,
-    "model": "光陽 雷霆S150 RACINGS 雙碟",
+    "model": "優惠  光陽 雷霆S150 RACINGS 雙碟",
     "stock_number": "3017",
-    "price": 46000,
+    "price": 42000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/110025067.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2018-光陽-雷霆s150-racings-雙碟-3017",
-    "original_name": "【新北中和店】2018 光陽 雷霆S150 RACINGS 雙碟#3017",
+    "original_name": "優惠 【新北中和店】2018 光陽 雷霆S150 RACINGS 雙碟#3017",
     "cc": 150,
     "km": null,
     "warranty": true,
