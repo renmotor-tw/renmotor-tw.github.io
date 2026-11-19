@@ -1,5 +1,167 @@
 [
   {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2022,
+    "model": "三陽 野狼傳奇 125 循環檔",
+    "stock_number": "9999",
+    "price": 55000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516899.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2022-三陽-野狼傳奇-125-循環檔-9999",
+    "original_name": "【台中旗艦店】2022 三陽 野狼傳奇 125 循環檔 #9999",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "white-manual"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2019,
+    "model": "三陽 FNX 125 ABS",
+    "stock_number": "3805",
+    "price": 42000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516554.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2019-三陽-fnx-125-abs-3805",
+    "original_name": "【台中旗艦店】2019 三陽 FNX 125 ABS #3805",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "YAMAHA",
+    "year": 2014,
+    "model": "山葉 SMAX 155",
+    "stock_number": "735",
+    "price": 28000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516441.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2014-山葉-smax-155-735",
+    "original_name": "【台中旗艦店】2014 山葉 SMAX 155 #735",
+    "cc": 155,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "151-249"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "KYMCO",
+    "year": 2024,
+    "model": "光陽 RTS 135 TCS",
+    "stock_number": "6073",
+    "price": 75000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516344.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2024-光陽-rts-135-tcs-6073",
+    "original_name": "【台中旗艦店】2024 光陽 RTS 135 TCS #6073",
+    "cc": 135,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "126-150"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SUZUKI",
+    "year": 2025,
+    "model": "台鈴 SUI 125",
+    "stock_number": "3388",
+    "price": 65000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516214.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2025-台鈴-sui-125-3388",
+    "original_name": "【台中旗艦店】2025 台鈴 SUI 125 #3388",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "KYMCO",
+    "year": 2019,
+    "model": "光陽 LIKE 125 ABS",
+    "stock_number": "8875",
+    "price": 40000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516117.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2019-光陽-like-125-abs-8875",
+    "original_name": "【花蓮店】2019 光陽 LIKE 125 ABS#8875",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "YAMAHA",
+    "year": 2019,
+    "model": "山葉 FORCE 155",
+    "stock_number": "8876",
+    "price": 53000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516011.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2019-山葉-force-155-8876",
+    "original_name": "【台中旗艦店】2019 山葉 FORCE 155 #8876",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SUZUKI",
+    "year": 2024,
+    "model": "台鈴 SUI 125",
+    "stock_number": "9773",
+    "price": 60000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113515647.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2024-台鈴-sui-125-9773",
+    "original_name": "【台中旗艦店】2024 台鈴 SUI 125 #9773",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "KYMCO",
+    "year": 2022,
+    "model": "光陽 KRV 180 TCS",
+    "stock_number": "2925",
+    "price": 60000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113515464.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2022-光陽-krv-180-tcs-2925",
+    "original_name": "【台中旗艦店】2022 光陽 KRV 180 TCS #2925",
+    "cc": 180,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ]
+  },
+  {
     "store": "花蓮店",
     "brand": "YAMAHA",
     "year": 2017,
@@ -6154,24 +6316,6 @@
     "categories": [
       "151-249",
       "white-manual"
-    ]
-  },
-  {
-    "store": "南台中店",
-    "brand": "YAMAHA",
-    "year": 2017,
-    "model": "山葉 勁戰四代 125",
-    "stock_number": "5677",
-    "price": 42000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112547773.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-南台中店-2017-山葉-勁戰四代-125-5677-",
-    "original_name": "【南台中店】2017 山葉 勁戰四代 125 #5677",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
     ]
   },
   {
