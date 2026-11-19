@@ -11654,6 +11654,24 @@
   {
     "store": "花蓮店",
     "brand": "KYMCO",
+    "year": 2015,
+    "model": "優惠  光陽 G6 150",
+    "stock_number": "5023",
+    "price": 29999,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/110550473.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2015-三陽-g6-150-5023",
+    "original_name": "優惠 【花蓮店】2015 光陽 G6 150#5023",
+    "cc": 150,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "KYMCO",
     "year": 2021,
     "model": "光陽 LIKE 150",
     "stock_number": "3587",
@@ -11680,6 +11698,24 @@
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-山葉-limi-115-5010",
     "original_name": "【花蓮店】2017 山葉 LIMI 115 #5010",
     "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "KYMCO",
+    "year": 2014,
+    "model": "光陽 MANY 110",
+    "stock_number": "513",
+    "price": 28000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/110549649.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2014-光陽-many-110-513",
+    "original_name": "【花蓮店】2014 光陽 MANY 110#513",
+    "cc": 110,
     "km": null,
     "warranty": true,
     "as_is": false,
@@ -11896,24 +11932,6 @@
     "image_url": "https://cdn.store-assets.com/s/1336053/i/110499547.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2020-pgo-jbubu-125-9210",
     "original_name": "優惠 【台中太平店】2020 PGO JBUBU 125 (前後雙碟)#9210",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
-    "brand": "SYM",
-    "year": 2024,
-    "model": "優惠  三陽 KRN 125",
-    "stock_number": "1778",
-    "price": 62000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110499285.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2024-三陽-krn-125-1778",
-    "original_name": "優惠 【台中旗艦店】2024 三陽 KRN 125 #1778",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -12366,6 +12384,24 @@
     "image_url": "https://cdn.store-assets.com/s/1336053/i/110377144.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2016-光陽-雷霆s125-racings-雙碟-9758",
     "original_name": "【新北中和店】2016 光陽 雷霆S125 RACINGS 雙碟#9758",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ]
+  },
+  {
+    "store": "台南店",
+    "brand": "YAMAHA",
+    "year": 2014,
+    "model": "山葉 BWSX 125 前碟後鼓",
+    "stock_number": "800",
+    "price": 33000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/111685284.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2014-山葉-bwsx-125-前碟後鼓-880",
+    "original_name": "【台南店】2014 山葉 BWSX 125 前碟後鼓#800",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -13477,6 +13513,24 @@
     "as_is": false,
     "categories": [
       "151-249"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "優惠  山葉 BWS 125 水冷",
+    "stock_number": "8292",
+    "price": 69999,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/109033787.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2023-山葉-bws-125-水冷-8292",
+    "original_name": "優惠 【花蓮店】2023 山葉 BWS 125 水冷#8292",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
     ]
   },
   {
