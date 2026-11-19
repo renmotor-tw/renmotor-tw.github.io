@@ -4,7 +4,10 @@ name: RenMotor 全台車庫自動同步
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'
+    # 每三小時完整同步，其餘時段更新清單與新車詳情。
+    - cron: '7 */3 * * *'
+    - cron: '7 1-23/3,2-23/3 * * *'
+    - cron: '37 * * * *'
 
 permissions:
   contents: write
@@ -28,6 +31,8 @@ jobs:
           python-version: '3.12'
 
       - name: 同步貳輪嶼公開車輛
+        env:
+          RENMOTOR_REUSE_PRODUCT_DETAILS: ${{ github.event_name == 'schedule' && github.event.schedule != '7 */3 * * *' }}
         run: python sync_motor.py
 
       - name: 檢查車輛資料
