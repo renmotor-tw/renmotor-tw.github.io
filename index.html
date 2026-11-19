@@ -4,117 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#090909">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.store-assets.com; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
 <title>RenMotor_ 阿人車庫｜中古機車精選</title>
-<style>
-:root{--bg:#090909;--panel:#121212;--panel2:#191919;--line:#2a2a2a;--text:#f4f4f4;--muted:#a3a3a3;--lime:#d6ff3f;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}
-header{border-bottom:1px solid #252525;background:rgba(9,9,9,.92);position:sticky;top:0;z-index:10;backdrop-filter:blur(16px)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.03em}.logo {
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  display: block;
-  object-fit: cover;
-  object-position: center 52%;
-  background: #090909;
-  border: 1px solid var(--lime);
-  border-radius: 3px;
-}.brand small{display:block;color:#aaa;font-size:10px;letter-spacing:.24em;margin-top:2px}.navlinks{display:flex;gap:26px;color:#c8c8c8;font-size:13px}.navlinks a:hover{color:var(--lime)}.nav-cta{background:var(--lime);color:#111;border:0;padding:11px 16px;font-weight:850;font-size:12px;cursor:pointer}
-.hero{padding:72px 0 50px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 25%,#25291b 0%,#10110d 28%,#090909 65%)}.hero:after{content:"";position:absolute;width:480px;height:480px;border:1px solid #ffffff0b;border-radius:50%;right:-100px;top:-100px;box-shadow:0 0 0 55px #ffffff04,0 0 0 110px #ffffff03;pointer-events:none}.eyebrow{color:var(--lime);font-size:11px;letter-spacing:.22em;font-weight:800;text-transform:uppercase}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:38px;position:relative;z-index:1}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.03;letter-spacing:-.055em;margin:18px 0}.hero h1 span{color:var(--lime)}.hero p{color:#b8b8b8;max-width:470px;line-height:1.85;font-size:14px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 18px;font-size:12px;font-weight:850;border:1px solid #555;cursor:pointer}.btn.primary{background:var(--lime);color:#101010;border-color:var(--lime)}.btn.ghost{background:transparent;color:#fff}.hero-visual{min-height:300px;display:flex;align-items:center;justify-content:center;position:relative}.hero-visual img{
-  width:100%;
-  max-width:530px;
-  aspect-ratio:1.25;
-  object-fit:contain;
-  background:#090909;
-  filter:none;
-  border:1px solid #ffffff19;
-}.hero-stamp{position:absolute;bottom:12px;left:0;background:var(--lime);color:#101010;padding:14px 17px;font-size:10px;font-weight:900;letter-spacing:.12em;transform:rotate(-3deg)}.stats{display:flex;gap:28px;margin-top:34px}.stat strong{font-size:22px;display:block}.stat span{font-size:10px;color:#888;letter-spacing:.12em}
-.section{padding:54px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.section-head h2{font-size:30px;letter-spacing:-.04em;margin:8px 0 0}.section-head p{font-size:12px;color:var(--muted);margin:0}.filters{background:var(--panel);border:1px solid var(--line);padding:16px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr auto;gap:10px;margin-bottom:22px}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:10px;color:#9b9b9b;letter-spacing:.08em}.field input,.field select{width:100%;background:#0b0b0b;color:#f4f4f4;border:1px solid #333;padding:12px;outline:none;min-width:0}.field input:focus,.field select:focus{border-color:var(--lime)}.filter-btn{align-self:end;background:var(--lime);color:#111;border:0;padding:13px 17px;font-weight:900;cursor:pointer}.results-line{display:flex;justify-content:space-between;align-items:center;color:#999;font-size:12px;margin-bottom:14px}.results-line strong{color:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.bike-card{background:var(--panel);border:1px solid var(--line);transition:transform .2s,border-color .2s;cursor:pointer;min-width:0}.bike-card:hover{transform:translateY(-4px);border-color:#707b35}.bike-img{height:220px;position:relative;background:#222;overflow:hidden}.bike-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s;filter:contrast(1.04)}.bike-card:hover .bike-img img{transform:scale(1.04)}.tag{position:absolute;top:12px;left:12px;background:var(--lime);color:#111;padding:6px 8px;font-size:9px;font-weight:950;letter-spacing:.08em}.tag.gray{background:#252525;color:#ddd;border:1px solid #555}.card-body{padding:17px}.card-kicker{color:#aaa;font-size:10px;letter-spacing:.1em}.card-title{font-size:18px;font-weight:850;margin:8px 0 13px}.specs{display:flex;gap:12px;flex-wrap:wrap;color:#a7a7a7;font-size:11px}.price-row{display:flex;justify-content:space-between;align-items:end;border-top:1px solid #2a2a2a;margin-top:17px;padding-top:14px}.price{font-size:23px;font-weight:950;letter-spacing:-.04em}.price small{font-size:10px;color:#999;font-weight:500;letter-spacing:0}.details-link{font-size:11px;color:var(--lime);font-weight:800}.empty{display:none;padding:50px 20px;text-align:center;color:#aaa;border:1px dashed #444}.notice{font-size:11px;color:#888;margin-top:16px;line-height:1.8}
-footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{font-size:16px;font-weight:900;color:#fff}.footer-brand span{color:var(--lime)}
-.modal{position:fixed;inset:0;background:#000c;z-index:20;display:none;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.modal-box{background:#111;border:1px solid #444;max-width:900px;width:100%;max-height:90vh;overflow:auto;position:relative}.modal-close{position:sticky;float:right;top:8px;margin:8px 8px 0 0;z-index:2;background:#222;color:#fff;border:1px solid #555;width:36px;height:36px;cursor:pointer}.modal-content{display:grid;grid-template-columns:1fr 1fr;gap:0}.modal-photo{min-height:360px;background:#222}.modal-photo img{width:100%;height:100%;min-height:360px;object-fit:cover}.modal-info{padding:30px}.modal-info h2{font-size:28px;margin:10px 0}.modal-info .price{font-size:30px;color:var(--lime);margin:16px 0}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.detail-cell{background:#1a1a1a;padding:12px}.detail-cell small{display:block;color:#999;font-size:10px;margin-bottom:5px}.detail-cell strong{font-size:13px}.modal-info p{font-size:12px;line-height:1.9;color:#bbb}.warranty{border:1px solid #4e5d20;color:#dfff74;padding:11px;font-size:11px;margin:16px 0}.line-btn{display:flex;width:100%;background:var(--lime);color:#111;justify-content:center;padding:14px;font-weight:950;font-size:12px;margin-top:18px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#222;border:1px solid #555;padding:12px 16px;font-size:12px;display:none;z-index:30}
-@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero{padding-top:50px}.hero-visual{min-height:200px}.hero-visual img{max-width:none;max-height:300px}.filters{grid-template-columns:repeat(2,1fr)}.filter-btn{grid-column:span 2}.cards{grid-template-columns:repeat(2,1fr)}.navlinks{display:none}}
-@media(max-width:560px){.wrap{width:min(100% - 28px,1180px)}.nav{height:65px}.nav-cta{padding:10px;font-size:10px}.hero h1{font-size:44px}.hero{padding:42px 0}.stats{gap:20px}.stat strong{font-size:19px}.section{padding:38px 0}.section-head{align-items:start;flex-direction:column}.section-head h2{font-size:26px}.filters{grid-template-columns:1fr 1fr;padding:12px}.field:first-child{grid-column:span 2}.cards{grid-template-columns:1fr}.bike-img{height:235px}.value-grid{grid-template-columns:1fr;gap:16px}.footer-row{align-items:start;flex-direction:column}.modal-content{grid-template-columns:1fr}.modal-photo,.modal-photo img{min-height:230px;height:230px}.modal-info{padding:20px}.modal-info h2{font-size:24px}}
-
-.filters{grid-template-columns:repeat(4,minmax(0,1fr))}.filter-btn{align-self:end}.pagination{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:30px 0 12px}.pagination button{background:#191919;border:1px solid #393939;color:#fff;padding:10px 13px;cursor:pointer;min-width:40px}.pagination button.active{background:var(--lime);color:#111;border-color:var(--lime);font-weight:900}.pagination button:disabled{opacity:.35;cursor:not-allowed}.sync-status{font-size:11px;color:#aaa;margin:10px 0}.store-name{color:var(--lime);font-size:11px;font-weight:800}.source-link{display:block;margin-top:12px;font-size:12px;color:var(--lime);text-decoration:underline}.bike-img .no-image{display:grid;place-items:center;height:100%;color:#999;font-size:12px}.card-title{min-height:45px}
-@media(max-width:850px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.field:first-child{grid-column:span 2}}
-/* RenMotor_ 車輛照片顯示優化 */
-  .bike-img {
-  height: 300px;
-  background: #181818;
-}
-
-.bike-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-}
-
-@media (max-width: 560px) {
-  .bike-img {
-    height: 280px;
-  }
- }
-  
-/* 隱藏重複的門市小字與年份編號 */
-.bike-card .store-name,
-.bike-card .specs {
-  display: none;
-}
-
-.nav-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.nav-ig{display:grid;place-items:center;width:40px;height:40px;border:1px solid #3c3c3c;color:#f4f4f4}
-.nav-ig:hover,.nav-ig:focus-visible{border-color:var(--lime);color:var(--lime)}
-.ig-icon{display:block;width:17px;height:17px;border:1.6px solid currentColor;border-radius:5px;position:relative}
-.ig-icon::before{content:"";position:absolute;width:7px;height:7px;border:1.5px solid currentColor;border-radius:50%;inset:0;margin:auto}
-.ig-icon::after{content:"";position:absolute;width:2.5px;height:2.5px;background:currentColor;border-radius:50%;right:2px;top:2px}
-#inventory,#faq,#contact{scroll-margin-top:110px}
-.faq-section{border-top:1px solid var(--line);background:#101010}
-.faq-wrap{max-width:780px}
-.faq-wrap h2{font-size:clamp(26px,4vw,34px);margin:0 0 24px;letter-spacing:-.035em}
-.faq-item{border:1px solid var(--line);background:var(--panel)}
-.faq-item+.faq-item{margin-top:10px}
-.faq-item summary{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 18px;cursor:pointer;list-style:none;font-size:15px;font-weight:750}
-.faq-item summary::-webkit-details-marker{display:none}
-.faq-item summary::after{content:"+";color:var(--lime);font-size:19px}
-.faq-item[open] summary::after{content:"−"}
-.faq-item summary:focus-visible{outline:2px solid var(--lime);outline-offset:-2px}
-.faq-item p{margin:0;padding:14px 18px 16px;border-top:1px solid var(--line);font-size:14px;color:#c5c5c5;line-height:1.7}
-.faq-contact{display:flex;align-items:center;flex-wrap:wrap;gap:12px 16px;margin:20px 0 0;font-size:14px}
-.faq-contact .instagram-contact{color:var(--lime);text-decoration:underline;text-underline-offset:3px}
-.line-action,.line-float{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#06c755;color:#0b2113;font-weight:850}
-.line-action{min-height:44px;padding:10px 15px;font-size:14px}
-.line-action:hover,.line-float:hover{background:#22da6d}
-.line-action:focus-visible,.line-float:focus-visible{outline:2px solid #fff;outline-offset:3px}
-.line-contact{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;border:1px solid var(--line);background:var(--panel);padding:16px}
-.line-contact h2{margin:0;font-size:18px;color:#fff}
-.line-contact p{margin:6px 0 12px;font-size:13px;color:#c5c5c5}
-.line-qr{display:block;width:120px;height:120px;object-fit:contain;background:#fff}
-.line-float{position:fixed;z-index:12;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));min-height:46px;padding:10px 15px;border-radius:999px;font-size:13px;box-shadow:0 4px 16px #0008}
-.line-bubble{position:relative;display:block;width:17px;height:13px;border:1.5px solid currentColor;border-radius:5px}
-.line-bubble::after{content:"";position:absolute;width:4px;height:4px;bottom:-3px;left:3px;background:inherit;border-left:1.5px solid currentColor;transform:skewY(-30deg)}
-#contact{padding-bottom:max(84px,calc(env(safe-area-inset-bottom) + 64px))}
-#contact .footer-row{flex-wrap:wrap}
-@media(max-width:560px){
-  .line-contact{width:100%;gap:10px;padding:12px}
-  .line-qr{width:104px;height:104px}
-}
-@media(max-width:850px){
-  .nav{height:auto;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 12px;padding-block:9px}
-  .navlinks{display:flex;grid-row:2;grid-column:1/-1;justify-content:center;gap:20px;padding:6px 0;font-size:12px}
-  .nav-ig{width:36px;height:36px}
-}
-</style>
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 <header><div class="wrap nav">
   <a class="brand" href="#" aria-label="RenMotor 首頁">
-  <img class="logo" src="./ren-logo.png" alt="阿人車庫 Logo">
-  <div>RenMotor_<small>阿人車庫 · RIDE YOUR WAY</small></div>
-</a>
-  <nav class="navlinks" aria-label="網站導覽"><a href="#inventory">現有車款</a><a href="#faq">購車常見問題</a><a href="#contact">聯絡我們</a></nav>
+    <img class="logo" src="./ren-logo.png" alt="阿人車庫 Logo">
+    <div>RenMotor_<small>阿人車庫<span lang="en"> · RIDE YOUR WAY</span></small></div>
+  </a>
+  <nav class="navlinks" aria-label="網站導覽">
+    <a href="#inventory">車庫現有車款</a>
+    <a href="#faq">購車常見問題</a>
+    <a href="#contact">聯絡我們</a>
+  </nav>
   <div class="nav-actions">
-    <a class="nav-ig" href="https://www.instagram.com/renmotor_/" target="_blank" rel="noopener noreferrer" aria-label="RenMotor Instagram"><span class="ig-icon" aria-hidden="true"></span></a>
-    <a class="nav-cta" href="#inventory">探索庫存 ↗</a>
+    <button class="nav-icon nav-filter" id="openFilters" type="button" aria-label="篩選車款" aria-haspopup="dialog" aria-controls="filterDrawer" aria-expanded="false">
+      <span class="search-icon" aria-hidden="true"></span>
+    </button>
+    <a class="nav-icon" href="https://www.instagram.com/renmotor_/" target="_blank" rel="noopener noreferrer" aria-label="RenMotor Instagram"><span class="ig-icon" aria-hidden="true"></span></a>
+    <a class="nav-icon" href="https://shop.2motor.tw/" target="_blank" rel="noopener noreferrer" aria-label="貳輪嶼線上車庫"><img class="motor-island-icon" src="./motor-island.png" alt=""></a>
   </div>
 </div></header>
 <main>
@@ -128,68 +39,22 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
   <div class="hero-stamp">RENMOTOR_ / FIND YOUR RIDE</div>
 </div>
 </div></section>
-<section class="section" id="inventory"><div class="wrap">
-  <div class="section-head"><div><div class="eyebrow">THE CURRENT LINEUP</div><h2>車庫現有車款<span style="color:var(--lime)">.</span></h2></div><p>找到心儀車款？點擊卡片查看完整資訊。</p></div>
-  <div class="filters">
-    <div class="field"><label for="storeFilter">門市</label><select id="storeFilter"><option value="">全部門市</option></select></div>
-    <div class="field"><label for="search">關鍵字搜尋</label><input id="search" type="search" placeholder="輸入品牌、車型或車輛編號"></div>
-    <div class="field">
-  <label for="brandFilter">品牌</label>
-  <select id="brandFilter">
-    <option value="">全部品牌</option>
-    <option value="YAMAHA">YAMAHA 山葉</option>
-    <option value="SYM">SYM 三陽</option>
-    <option value="KYMCO">KYMCO 光陽</option>
-    <option value="HONDA">HONDA 本田</option>
-    <option value="SUZUKI">SUZUKI 台鈴／鈴木</option>
-    <option value="KAWASAKI">KAWASAKI 川崎</option>
-    <option value="GOGORO">GOGORO 睿能</option>
-    <option value="AEON">AEON 宏佳騰</option>
-    <option value="BMW">BMW</option>
-    <option value="HARTFORD">HARTFORD 哈特佛</option>
-    <option value="PGO">PGO</option>
-    <option value="VESPA">VESPA</option>
-  </select>
-</div>
-    <div class="field">
-      <label for="categoryFilter">排氣量與車種</label>
-      <select id="categoryFilter">
-        <option value="">全部車種</option>
-        <option value="electric">電動車款</option>
-        <option value="green-50">50cc 綠牌車款</option>
-        <option value="up-to-125">125cc 以下車款</option>
-        <option value="126-150">126–150cc 車款</option>
-        <option value="151-249">151–249cc 車款</option>
-        <option value="heavy">紅黃牌重機</option>
-        <option value="white-manual">白牌檔車</option>
-        <option value="vespa">偉士牌</option>
-      </select>
-    </div>
-    <div class="field">
-      <label for="warrantyFilter">保固篩選</label>
-      <select id="warrantyFilter">
-        <option value="">全部車輛</option>
-        <option value="warranty">保固車</option>
-        <option value="as-is">現況車</option>
-      </select>
-    </div>
-    <div class="field"><label for="sortFilter">排序方式</label><select id="sortFilter"><option value="newest">最新上架</option><option value="low">價格由低至高</option><option value="high">價格由高至低</option></select></div>
-    <button class="filter-btn" id="resetBtn">重設篩選 ↺</button>
-  </div>
-  <div class="results-line"><span>符合條件 <strong id="resultCount">0</strong> 台車輛</span><span id="pageInfo">每頁 50 台</span></div>
+<section class="section" id="inventory" aria-labelledby="inventory-title"><div class="wrap">
+  <h2 class="visually-hidden" id="inventory-title">車庫現有車款</h2>
+  <div class="results-line"><span aria-live="polite">符合條件 <strong id="resultCount">0</strong> 台車輛</span><span id="pageInfo">每頁 50 台</span></div>
   <div class="sync-status" id="syncStatus">正在載入公開商城車輛資料…</div>
-  <div class="cards" id="cards"></div><div class="empty" id="empty">沒有符合條件的車款，試試調整搜尋條件。</div><div class="pagination" id="pagination" aria-label="車輛分頁"></div>
+  <div class="cards" id="cards"></div><div class="empty" id="empty" hidden>沒有符合條件的車款，試試調整搜尋條件。</div><div class="pagination" id="pagination" aria-label="車輛分頁"></div>
   <p class="notice">※ 資料來源：貳輪嶼公開商城。車輛可能已售出、調價或下架，請以原始商品頁及門市確認為準。本網站非即時庫存保證。</p>
 </div></section>
 <section class="section faq-section" id="faq" aria-labelledby="faq-title"><div class="wrap faq-wrap">
   <h2 id="faq-title">購車常見問題</h2>
   <details class="faq-item" name="purchase-faq" open>
     <summary>保固車和現況車有什麼差別？</summary>
-    <p>保固車的保固期限、涵蓋項目和限制以該車的商品頁及書面約定為準。選購現況車時，可以先向門市確認已知車況、整備項目和交車條件。</p>
+    <p>保固車為<strong>引擎保固一年或行駛10000公里</strong>(以先到為主)、消耗品為<strong>保固一個月或行駛1000公里</strong>(以先到為主)；現況車為優惠價售出，故無任何的售後保固</p>
   </details>
   <details class="faq-item" name="purchase-faq">
     <summary>可以分期付款嗎？</summary>
-    <p>請提供想看的車款，向門市確認可用的分期方案、期數、每期金額及總費用。實際條件以申辦結果與契約為準。</p>
+    <p>我們配合的是民間貸款資融公司；需年滿18歲成年、且有薪轉帳證明或勞健保證明；需<strong>無酒駕及毒駕紀錄‼️</strong><br>請提供想看的車款，向門市確認可用的分期方案、期數、每期金額及總費用。實際條件以申辦結果與契約為準。</p>
   </details>
   <details class="faq-item" name="purchase-faq">
     <summary>可以現場看車或試騎嗎？</summary>
@@ -197,7 +62,7 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
   </details>
   <details class="faq-item" name="purchase-faq">
     <summary>過戶需要準備什麼？</summary>
-    <p>請在下訂前向門市確認需要的證件、強制險、過戶時間，以及相關費用由誰負擔。</p>
+    <p>身分證正本、第二證件正本(健保卡或駕照擇一)、印章<br>※外籍人士需改提供A.R.C</p>
   </details>
   <details class="faq-item" name="purchase-faq">
     <summary>外縣市可以買車或安排託運嗎？</summary>
@@ -209,15 +74,15 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
   </details>
   <div class="faq-contact">
     <a class="line-action" href="https://line.me/R/ti/p/%40499lpcrb" target="_blank" rel="noopener noreferrer">LINE 洽詢 ↗</a>
-    <a class="instagram-contact" href="https://www.instagram.com/renmotor_/" target="_blank" rel="noopener noreferrer">到 Instagram 私訊 RenMotor ↗</a>
+    <a class="line-action" href="https://www.instagram.com/renmotor_/" target="_blank" rel="noopener noreferrer">到 Instagram 私訊 RenMotor ↗</a>
   </div>
 </div></section>
 </main>
 <footer id="contact"><div class="wrap footer-row">
   <div>
     <div class="footer-brand">Ren<span>Motor_</span> 阿人車庫</div>
-    <div style="margin-top:7px"><a class="details-link" href="https://shop.2motor.tw/collections/allmotor" target="_blank" rel="noopener">公開商城來源 ↗</a></div>
-    <div style="margin-top:7px">中古機車精選 · FIND YOUR RIDE</div>
+    <div class="footer-note"><a class="details-link" href="https://shop.2motor.tw/collections/allmotor" target="_blank" rel="noopener noreferrer">公開商城來源 ↗</a></div>
+    <div class="footer-note">中古機車精選 · FIND YOUR RIDE</div>
   </div>
   <div>車況、價格與保固以實際確認及書面約定為準。</div>
   <section class="line-contact" aria-labelledby="line-contact-title">
@@ -232,148 +97,78 @@ footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.fo
 <a class="line-float" href="https://line.me/R/ti/p/%40499lpcrb" target="_blank" rel="noopener noreferrer" aria-label="LINE 洽詢 @499lpcrb">
   <span class="line-bubble" aria-hidden="true"></span> LINE 洽詢
 </a>
+<dialog class="filter-drawer" id="filterDrawer" aria-labelledby="filterTitle">
+  <div class="filter-heading">
+    <h2 id="filterTitle">篩選車款</h2>
+    <button class="filter-close" id="closeFilters" type="button" aria-label="關閉篩選" autofocus>×</button>
+  </div>
+  <form id="filterForm" method="dialog">
+    <div class="filter-fields">
+      <div class="field field-wide">
+        <label for="search">關鍵字搜尋</label>
+        <input id="search" type="search" autocomplete="off" placeholder="輸入品牌、車型或車輛編號">
+      </div>
+      <div class="field">
+        <label for="storeFilter">門市</label>
+        <select id="storeFilter"><option value="">全部門市</option></select>
+      </div>
+      <div class="field">
+        <label for="brandFilter">品牌</label>
+        <select id="brandFilter">
+          <option value="">全部品牌</option>
+          <option value="YAMAHA">YAMAHA 山葉</option>
+          <option value="SYM">SYM 三陽</option>
+          <option value="KYMCO">KYMCO 光陽</option>
+          <option value="HONDA">HONDA 本田</option>
+          <option value="SUZUKI">SUZUKI 台鈴／鈴木</option>
+          <option value="KAWASAKI">KAWASAKI 川崎</option>
+          <option value="GOGORO">GOGORO 睿能</option>
+          <option value="AEON">AEON 宏佳騰</option>
+          <option value="BMW">BMW</option>
+          <option value="HARTFORD">HARTFORD 哈特佛</option>
+          <option value="PGO">PGO</option>
+          <option value="VESPA">VESPA</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="categoryFilter">排氣量與車種</label>
+        <select id="categoryFilter">
+          <option value="">全部車種</option>
+          <option value="electric">電動車款</option>
+          <option value="green-50">50cc 綠牌車款</option>
+          <option value="up-to-125">125cc 以下車款</option>
+          <option value="126-150">126–150cc 車款</option>
+          <option value="151-249">151–249cc 車款</option>
+          <option value="heavy">紅黃牌重機</option>
+          <option value="white-manual">白牌檔車</option>
+          <option value="vespa">偉士牌</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="warrantyFilter">保固篩選</label>
+        <select id="warrantyFilter">
+          <option value="">全部車輛</option>
+          <option value="warranty">保固車</option>
+          <option value="as-is">現況車</option>
+        </select>
+      </div>
+      <div class="field field-wide">
+        <label for="sortFilter">排序方式</label>
+        <select id="sortFilter">
+          <option value="newest">最新上架</option>
+          <option value="low">價格由低至高</option>
+          <option value="high">價格由高至低</option>
+        </select>
+      </div>
+    </div>
+    <div class="filter-actions">
+      <button class="btn ghost" id="resetBtn" type="button">重設全部</button>
+      <button class="btn primary" type="submit">套用篩選</button>
+    </div>
+  </form>
+</dialog>
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-box"><button class="modal-close" id="closeModal" aria-label="關閉">✕</button><div class="modal-content" id="modalContent"></div></div></div>
 <div class="toast" id="toast"></div>
-<script>
-const PAGE_SIZE = 50;
-let bikes = [];
-let currentPage = 1;
-const $ = id => document.getElementById(id);
-const LINE_URL = $('lineAddFriend').href;
-const money = n => Number.isFinite(Number(n)) && n !== null ? "NT$ " + Number(n).toLocaleString("zh-TW") : "價格請洽詢";
-const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const validUrl = value => { try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
-const brandLabels = new Map([...$('brandFilter').options].map(option => [option.value, option.text]));
-const filterIds = ['search', 'storeFilter', 'brandFilter', 'categoryFilter', 'warrantyFilter', 'sortFilter'];
-function vehicleCategories(bike, brand, model) {
-  if (Array.isArray(bike.categories) && bike.categories.length) return bike.categories;
-  const groups = [];
-  const cc = bike.cc;
-  if (brand === 'GOGORO' || /\b(?:EC-?0[25]|EMOVING|IONEX|UR1|AI-?[134])\b|電動車/i.test(model)) {
-    groups.push('electric');
-  } else if (Number.isFinite(cc) && cc > 0) {
-    groups.push(cc <= 50 ? 'green-50' : cc <= 125 ? 'up-to-125' : cc <= 150 ? '126-150' : cc < 250 ? '151-249' : 'heavy');
-  }
-  if (brand === 'VESPA') groups.push('vespa');
-  return groups;
-}
-function setOptions(id, values, defaultLabel) {
-  const el = $(id), old = el.value;
-  el.replaceChildren(new Option(defaultLabel, ''));
-  values.filter(Boolean).sort((a,b)=>a.localeCompare(b,'zh-Hant')).forEach(v => el.add(new Option(v,v)));
-  if ([...el.options].some(o=>o.value===old)) el.value=old;
-}
-function updateFilters() {
-  setOptions(
-    'storeFilter',
-    [...new Set(bikes.map(b => b.store))],
-    '全部門市'
-  );
-}
-function filtered() {
-  const q = $('search').value.trim().toLowerCase();
-  const store = $('storeFilter').value;
-  const brand = $('brandFilter').value;
-  const category = $('categoryFilter').value;
-  const warranty = $('warrantyFilter').value;
-  const result = bikes.filter(b =>
-    (!q || b.searchText.includes(q)) &&
-    (!store || b.store === store) &&
-    (!brand || b.brand === brand) &&
-    (!category || b.categories.includes(category)) &&
-    (!warranty || b.warrantyStatus === warranty)
-  );
-  const sort=$('sortFilter').value;
-  if(sort==='low')result.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));
-  if(sort==='high')result.sort((a,b)=>(b.price??-1)-(a.price??-1));
-  return result;
-}
-function render(reset=false) {
-  if(reset) currentPage=1;
-  const result=filtered(), totalPages=Math.max(1,Math.ceil(result.length/PAGE_SIZE));
-  currentPage=Math.min(currentPage,totalPages);
-  const pageBikes=result.slice((currentPage-1)*PAGE_SIZE,currentPage*PAGE_SIZE);
-  $('resultCount').textContent=result.length;
-  $('pageInfo').textContent=`第 ${currentPage} / ${result.length?totalPages:0} 頁 · 每頁最多 50 台`;
-  $('empty').style.display=result.length?'none':'block';
-  $('cards').innerHTML=pageBikes.map(b=>{
-    const image=validUrl(b.image_url);
-    const img=image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)} 車輛照片" loading="lazy" onerror="this.replaceWith(document.createTextNode('暫無照片'))">`:'<div class="no-image">暫無照片</div>';
-    return `<article class="bike-card" tabindex="0" role="button" data-id="${escapeHTML(b.id)}" aria-label="查看 ${escapeHTML(b.model)}">
-    <div class="bike-img">${img}</div>
-    <div class="card-body"><div class="store-name">${escapeHTML(b.store||'門市待確認')}</div><div class="card-title">${escapeHTML(b.original_name||b.model)}</div>
-    <div class="specs"><span>${b.year??'年份未提供'} 年</span><span>編號 ${escapeHTML(b.stock_number||'未提供')}</span></div>
-    <div class="price-row"><div class="price">${money(b.price)}</div><span class="details-link">查看車輛 ↗</span></div></div></article>`;
-  }).join('');
-  $('cards').querySelectorAll('.bike-card').forEach(el=>{el.addEventListener('click',()=>openDetail(el.dataset.id));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openDetail(el.dataset.id)}})});
-  renderPages(totalPages,result.length);
-}
-function renderPages(total,count) {
-  const holder=$('pagination');holder.replaceChildren();if(count<=PAGE_SIZE)return;
-  function btn(label,page,disabled=false,active=false) {
-    const el=document.createElement('button');el.textContent=label;el.disabled=disabled;el.className=active?'active':'';
-    el.addEventListener('click',()=>{currentPage=page;render();$('inventory').scrollIntoView({behavior:'smooth'});});holder.appendChild(el);
-  }
-  btn('上一頁',currentPage-1,currentPage===1);
-  const candidates=new Set([1,total,currentPage-2,currentPage-1,currentPage,currentPage+1,currentPage+2]);
-  let prev=0;
-  [...candidates].filter(n=>n>=1&&n<=total).sort((a,b)=>a-b).forEach(n=>{if(n-prev>1){const s=document.createElement('span');s.textContent='…';holder.appendChild(s)}btn(String(n),n,false,n===currentPage);prev=n});
-  btn('下一頁',currentPage+1,currentPage===total);
-}
-function openDetail(id) {
-  const b=bikes.find(x=>x.id===id);if(!b)return;
-  const image=validUrl(b.image_url), link=validUrl(b.source_url);
-  $('modalContent').innerHTML=`<div class="modal-photo">${image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)}">`:'<div class="no-image">暫無照片</div>'}</div>
-  <div class="modal-info"><div class="eyebrow">${escapeHTML(b.store||'門市待確認')}</div><h2 id="modalTitle">${escapeHTML(b.original_name||b.model)}</h2>
-  <div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>年份</small><strong>${b.year??'未提供'}</strong></div><div class="detail-cell"><small>車輛編號</small><strong>${escapeHTML(b.stock_number||'未提供')}</strong></div><div class="detail-cell"><small>門市</small><strong>${escapeHTML(b.store||'待確認')}</strong></div><div class="detail-cell"><small>里程／保固</small><strong>請洽原商城</strong></div></div>
-  <p>車況、里程、保固及實際庫存請以貳輪嶼公開商城與門市確認。</p>
-  ${link?`<a class="source-link" href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">前往貳輪嶼原始商品頁 ↗</a>`:''}
-  <a class="line-btn line-action" href="${escapeHTML(LINE_URL)}" target="_blank" rel="noopener noreferrer">透過 LINE 詢問 ↗</a></div>`;
-  $('modal').classList.add('open');document.body.style.overflow='hidden';
-}
-function closeModal(){$('modal').classList.remove('open');document.body.style.overflow=''}
-$('closeModal').addEventListener('click',closeModal);
-$('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-filterIds.forEach(id => $(id).addEventListener(id === 'search' ? 'input' : 'change', () => render(true)));
-$('resetBtn').addEventListener('click', () => {
-  filterIds.forEach(id => $(id).value = id === 'sortFilter' ? 'newest' : '');
-  render(true);
-});
-async function loadVehicles() {
-  try {
-    const response=await fetch('./vehicles.json?ts='+Date.now(),{cache:'no-store'});
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    const data=await response.json();
-    if(!Array.isArray(data))throw new Error('資料格式錯誤');
-    bikes = data.map((b, i) => {
-      const model = String(b.model || '');
-      const name = String(b.original_name || model);
-      const store = String(b.store || '門市待確認');
-      const stockNumber = String(b.stock_number || '');
-      const brand = /GOGORO|睿能/i.test(`${name} ${model}`) ? 'GOGORO' : String(b.brand || '其他').trim().toUpperCase();
-      const asIs = b.as_is === true || `${name} ${model} ${b.description || ''}`.includes('現況');
-      return {
-        id: String(b.source_url || i),
-        store, brand, model, original_name: name, stock_number: stockNumber,
-        year: Number.isInteger(b.year) ? b.year : null,
-        price: Number.isFinite(b.price) ? b.price : null,
-        image_url: String(b.image_url || ''),
-        source_url: String(b.source_url || ''),
-        categories: vehicleCategories(b, brand, model),
-        warrantyStatus: asIs ? 'as-is' : b.warranty === true ? 'warranty' : '',
-        searchText: [name, model, stockNumber, brandLabels.get(brand) || brand, store].join(' ').toLowerCase()
-      };
-    });
-    updateFilters();render(true);
-    $('syncStatus').textContent=`已載入 ${bikes.length} 筆公開商品資料。資料為定期更新，非即時庫存。`;
-  } catch(error) {
-    $('syncStatus').textContent='目前無法讀取車庫資料，請確認 vehicles.json 已上傳及自動同步流程正常。';
-    $('empty').style.display='block';$('empty').textContent='車庫資料尚未準備完成。';
-    console.error('RenMotor load error:',error);
-  }
-}
-loadVehicles();
-</script>
+<script src="./app.js"></script>
 </body>
 </html>
