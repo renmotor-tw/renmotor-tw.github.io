@@ -74,7 +74,7 @@ function render(reset=false) {
     const image=imageUrl(b.image_url);
     const img=image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)} 車輛照片" loading="lazy">`:'<div class="no-image">暫無照片</div>';
     return `<article class="bike-card" tabindex="0" role="button" data-id="${escapeHTML(b.id)}" aria-label="查看 ${escapeHTML(b.model)}">
-    <div class="bike-img">${img}</div>
+    <div class="bike-img">${img}${vehicleBadge(b)}</div>
     <div class="card-body"><div class="store-name">${escapeHTML(b.store||'門市待確認')}</div><div class="card-title">${escapeHTML(b.original_name||b.model)}</div>
     <div class="specs"><span>${b.year??'年份未提供'} 年</span><span>編號 ${escapeHTML(b.stock_number||'未提供')}</span></div>
     <div class="price-row"><div class="price">${money(b.price)}</div><span class="details-link">查看車輛 ↗</span></div></div></article>`;
@@ -94,15 +94,73 @@ function renderPages(total,count) {
   [...candidates].filter(n=>n>=1&&n<=total).sort((a,b)=>a-b).forEach(n=>{if(n-prev>1){const s=document.createElement('span');s.textContent='…';holder.appendChild(s)}btn(String(n),n,false,n===currentPage);prev=n});
   btn('下一頁',currentPage+1,currentPage===total);
 }
+function vehicleBadge(bike) {
+  if (bike.warrantyStatus === 'as-is') return '<span class="vehicle-badge as-is">🔧 現況車款</span>';
+  if (bike.warrantyStatus === 'warranty') return '<span class="vehicle-badge">🔧 保固車款</span>';
+  return '';
+}
+function setupGallery(photos, model) {
+  if (photos.length < 2) return;
+  const gallery = $('modalContent').querySelector('.vehicle-gallery');
+  const stage = gallery.querySelector('.gallery-stage');
+  const thumbs = [...gallery.querySelectorAll('[data-photo]')];
+  let index = 0;
+  function show(next) {
+    index = (next + photos.length) % photos.length;
+    const photo = document.createElement('img');
+    photo.src = photos[index];
+    photo.alt = `${model} 第 ${index + 1} 張照片`;
+    stage.querySelector('.gallery-image').replaceChildren(photo);
+    gallery.querySelector('.gallery-count').textContent = `${index + 1} / ${photos.length}`;
+    thumbs.forEach((thumb, i) => thumb.setAttribute('aria-pressed', i === index));
+    const thumb = thumbs[index];
+    const strip = thumb.parentElement;
+    if (thumb.offsetLeft < strip.scrollLeft) strip.scrollLeft = thumb.offsetLeft;
+    if (thumb.offsetLeft + thumb.offsetWidth > strip.scrollLeft + strip.clientWidth) {
+      strip.scrollLeft = thumb.offsetLeft + thumb.offsetWidth - strip.clientWidth;
+    }
+  }
+  thumbs.forEach((thumb, i) => thumb.addEventListener('click', () => show(i)));
+  gallery.querySelector('.gallery-prev').addEventListener('click', () => show(index - 1));
+  gallery.querySelector('.gallery-next').addEventListener('click', () => show(index + 1));
+  gallery.addEventListener('keydown', event => {
+    if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+    event.preventDefault();
+    show(index + (event.key === 'ArrowLeft' ? -1 : 1));
+  });
+}
 function openDetail(id) {
   const b=bikes.find(x=>x.id===id);if(!b)return;
-  const image=imageUrl(b.image_url);
-  $('modalContent').innerHTML=`<div class="modal-photo">${image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(b.model)}">`:'<div class="no-image">暫無照片</div>'}</div>
+  const photos = [...new Set(b.image_urls.map(imageUrl).filter(Boolean))];
+  const cover = imageUrl(b.image_url);
+  if (!photos.length && cover) photos.push(cover);
+  const controls = photos.length > 1 ? `
+    <button type="button" class="gallery-prev" aria-label="上一張照片">‹</button>
+    <button type="button" class="gallery-next" aria-label="下一張照片">›</button>
+    <span class="gallery-count" aria-live="polite">1 / ${photos.length}</span>` : '';
+  const thumbnails = photos.length > 1 ? `<div class="gallery-thumbs">${photos.map((url, i) =>
+    `<button type="button" data-photo="${i}" aria-label="查看第 ${i + 1} 張照片" aria-pressed="${i === 0}"><img src="${escapeHTML(url)}" alt="" loading="lazy"></button>`).join('')}</div>` : '';
+  $('modalContent').innerHTML=`<section class="vehicle-gallery" aria-label="車輛照片">
+    <div class="gallery-stage"><div class="gallery-image">${photos.length ? `<img src="${escapeHTML(photos[0])}" alt="${escapeHTML(b.model)} 第 1 張照片">` : '<div class="no-image">暫無照片</div>'}</div>${controls}</div>
+    ${thumbnails}
+  </section>
   <div class="modal-info"><div class="eyebrow">${escapeHTML(b.store||'門市待確認')}</div><h2 id="modalTitle">${escapeHTML(b.original_name||b.model)}</h2>
+  ${vehicleBadge(b)}
   <div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>年份</small><strong>${b.year??'未提供'}</strong></div><div class="detail-cell"><small>車輛編號</small><strong>${escapeHTML(b.stock_number||'未提供')}</strong></div><div class="detail-cell"><small>門市</small><strong>${escapeHTML(b.store||'待確認')}</strong></div><div class="detail-cell"><small>里程／保固</small><strong>請洽阿人車庫</strong></div></div>
   <p>車況、里程、保固及實際庫存，歡迎透過 LINE 向阿人車庫確認。</p>
-  <a class="line-btn line-action" href="${escapeHTML(LINE_URL)}" target="_blank" rel="noopener noreferrer">透過 LINE 詢問 ↗</a></div>`;
+  <a class="line-btn line-action" href="${escapeHTML(LINE_URL)}" target="_blank" rel="noopener noreferrer">透過 LINE 詢問 ↗</a>
+  <section class="vehicle-services" aria-labelledby="servicesTitle">
+    <h3 id="servicesTitle">保障服務</h3>
+    <ul>
+      <li>✅ 買賣履約保證，交易更安心</li>
+      <li>✅ 保證無重大事故、無泡水、非 AB 車</li>
+      <li>✅ 可無卡分期 &amp; 提供六期零利率</li>
+      <li>✅ 車換車補價差，提供線上估價</li>
+      <li>✅ 可協助托運，全台配送</li>
+    </ul>
+  </section></div>`;
   $('modal').classList.add('open');
+  setupGallery(photos, b.model);
   document.body.classList.add('modal-lock');
 }
 function closeModal() {
@@ -178,6 +236,7 @@ async function loadVehicles() {
         year: Number.isInteger(b.year) ? b.year : null,
         price: Number.isFinite(b.price) ? b.price : null,
         image_url: String(b.image_url || ''),
+        image_urls: Array.isArray(b.image_urls) ? b.image_urls : [],
         categories: vehicleCategories(b, brand, model),
         warrantyStatus: asIs ? 'as-is' : b.warranty === true ? 'warranty' : '',
         searchText: [name, model, stockNumber, brandLabels.get(brand) || brand, store].join(' ').toLowerCase()

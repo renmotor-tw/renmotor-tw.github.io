@@ -27,7 +27,7 @@ CATEGORY_COLLECTIONS = {
 }
 MAX_PAGES = 100  # 直到遇到沒有新商品的頁面，設上限避免無限迴圈
 OUTPUT = Path(__file__).with_name("vehicles.json")
-DESCRIPTION_FIELDS = ("cc", "warranty", "as_is")
+DESCRIPTION_FIELDS = ("cc", "warranty", "as_is", "image_urls")
 
 BRANDS = {
     "YAMAHA": ("山葉", "YAMAHA"),
@@ -67,6 +67,7 @@ MODEL_CC = {
     "SUZUKI": ((r"SALUTO", 125),),
 }
 CC_VALUE = r"(?<![\d.])([1-9]\d{1,3})(?:\.\d+)?\s*(?:c\.?c\.?|cubic\s+centimeters?|cm[³3]|㏄)"
+DISCOUNT_NO_WARRANTY = re.compile(r"特價車款[\s，、,：:]*無\s*保固")
 NO_WARRANTY = re.compile(r"(?:不(?:另行|予|再)?(?:提供|含|附|享有)|未提供|沒有|無)\s*(?:任何)?\s*(?:原廠)?\s*保固")
 WITH_WARRANTY = re.compile(r"保固車款?|保固項目|(?:提供|享有|附有)\s*(?:.{0,16})保固")
 
@@ -101,7 +102,7 @@ def update_vehicle_details(vehicle, description):
     model = vehicle["model"]
     brand = vehicle_brand(model, vehicle["brand"])
     text = f'{vehicle["original_name"]} {description}'
-    as_is = "現況" in text
+    as_is = "現況" in text or bool(DISCOUNT_NO_WARRANTY.search(text))
     warranty = None
     if as_is or NO_WARRANTY.search(text):
         warranty = False
@@ -121,9 +122,25 @@ class ProductDescription(HTMLParser):
         self.depth = 0
         self.parts = []
         self.meta = {}
+        self.image_urls = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if attrs.get("id") == "ProductDataStorage" and attrs.get("data-product"):
+            try:
+                product = json.loads(attrs["data-product"])
+            except json.JSONDecodeError:
+                product = {}
+            images = product.get("images") if isinstance(product, dict) else None
+            if isinstance(images, list):
+                urls = []
+                for image in images:
+                    if not isinstance(image, dict) or image.get("type") != "Images":
+                        continue
+                    src = image.get("src") or image.get("img_url")
+                    if isinstance(src, str) and src.startswith("https://cdn.store-assets.com/"):
+                        urls.append(src)
+                self.image_urls = list(dict.fromkeys(urls))
         if tag == "meta" and attrs.get("property"):
             self.meta[attrs["property"]] = attrs.get("content", "")
         if tag == "div":
@@ -218,7 +235,7 @@ def parse(item):
     }
 
 
-def fetch_description(source_url):
+def fetch_product_details(source_url):
     # The product URL is sufficient. There is no need to download its photos.
     path = urlsplit(source_url).path
     product_path = path[path.index("/products/"):]
@@ -233,13 +250,14 @@ def fetch_description(source_url):
             body = gzip.decompress(body)
     parser = ProductDescription()
     parser.feed(body.decode("utf-8", "replace"))
-    return parser.description()
+    return parser.description(), parser.image_urls
 
 
 def update_catalog_details(vehicles, previous, *, reuse_details=False):
     def update(vehicle):
+        images = None
         try:
-            description = fetch_description(vehicle["source_url"])
+            description, images = fetch_product_details(vehicle["source_url"])
         except HTTPError as exc:
             if exc.code not in (404, 410):
                 return exc
@@ -247,6 +265,9 @@ def update_catalog_details(vehicles, previous, *, reuse_details=False):
         except (OSError, ValueError) as exc:
             return exc
         update_vehicle_details(vehicle, description)
+        if images is None:
+            images = previous.get(vehicle["source_url"], {}).get("image_urls", [])
+        vehicle["image_urls"] = images
         return None
 
     pending = []
