@@ -413,7 +413,7 @@
     "cc": 155,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "white-manual"
     ],
@@ -753,7 +753,7 @@
     "cc": 321,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "heavy"
     ],
@@ -884,7 +884,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "151-249",
       "white-manual"
@@ -2099,7 +2099,7 @@
     "cc": 155,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "151-249",
       "white-manual"
@@ -2152,7 +2152,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"
@@ -3772,7 +3772,7 @@
     "cc": 500,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "heavy"
     ],
@@ -4629,7 +4629,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"
@@ -5795,7 +5795,7 @@
     "cc": 500,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "heavy"
     ],
@@ -8203,7 +8203,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "151-249",
       "white-manual"
@@ -10049,7 +10049,7 @@
     "cc": 155,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "151-249",
       "white-manual"
@@ -14795,7 +14795,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"
@@ -15453,7 +15453,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"
@@ -15510,7 +15510,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"
@@ -15596,7 +15596,7 @@
     "cc": 150,
     "km": null,
     "warranty": false,
-    "as_is": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"

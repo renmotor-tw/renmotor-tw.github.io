@@ -102,7 +102,11 @@ def update_vehicle_details(vehicle, description):
     model = vehicle["model"]
     brand = vehicle_brand(model, vehicle["brand"])
     text = f'{vehicle["original_name"]} {description}'
-    as_is = "現況" in text or bool(DISCOUNT_NO_WARRANTY.search(text))
+    as_is = (
+        "現況" in text
+        or bool(DISCOUNT_NO_WARRANTY.search(text))
+        or bool(re.search(r"不\s*提供\s*保固", text))
+    )
     warranty = None
     if as_is or NO_WARRANTY.search(text):
         warranty = False
