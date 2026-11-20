@@ -2,6 +2,375 @@
   {
     "store": "新北樹林店",
     "brand": "KYMCO",
+    "year": 2020,
+    "model": "優惠  光陽 LIKE 125 ABS",
+    "stock_number": "3785",
+    "price": 47000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557844.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2020-光陽-like-125-abs-3785--1",
+    "original_name": "優惠 【新北樹林店】2020 光陽 LIKE 125 ABS #3785",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557844.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557845.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557847.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557848.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557850.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557852.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "GOGORO",
+    "year": 2020,
+    "model": "優惠  睿能 GOGORO VIVA KEYLESS",
+    "stock_number": "2235",
+    "price": 25000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557830.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2020-睿能-gogoro-viva-keyless-2235-1",
+    "original_name": "優惠 【新北樹林店】2020 睿能 GOGORO VIVA KEYLESS #2235",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric",
+      "green-50"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557830.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557831.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557832.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557833.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557834.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557835.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557836.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "SYM",
+    "year": 2022,
+    "model": "優惠  三陽 JET SR 125 碟煞 CBS",
+    "stock_number": "1831",
+    "price": 59000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557796.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2022-三陽-jet-sr-125-碟煞-cbs-1831-1",
+    "original_name": "優惠 【新北樹林店】2022 三陽 JET SR 125 碟煞 CBS #1831",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557796.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557798.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557799.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557801.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557802.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557803.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2018,
+    "model": "優惠  山葉 NEW CUXI 115 碟煞",
+    "stock_number": "5622",
+    "price": 42000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557782.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-山葉-new-cuxi-115-碟煞-5622--1",
+    "original_name": "優惠 【新北樹林店】2018 山葉 NEW CUXI 115 碟煞 #5622",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557782.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557783.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557784.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557785.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557786.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557787.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2018,
+    "model": "優惠  山葉 SMAX 155 LED ABS",
+    "stock_number": "5695",
+    "price": 48000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557764.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-山葉-smax-155-led-abs-5695",
+    "original_name": "優惠 【新北樹林店】2018 山葉 SMAX 155 LED ABS #5695",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557764.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557765.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557766.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557767.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557768.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557769.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2020,
+    "model": "優惠  山葉 BWSR 125",
+    "stock_number": "6516",
+    "price": 46000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557731.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2020-山葉-bwsr-125-6516-",
+    "original_name": "優惠 【新北樹林店】2020 山葉 BWSR 125 #6516",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557731.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557732.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557733.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557734.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557735.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557736.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2021,
+    "model": "優惠  山葉 LIMI 125",
+    "stock_number": "8792",
+    "price": 50000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557722.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2021-山葉-limi-125-8792",
+    "original_name": "優惠 【新北樹林店】2021 山葉 LIMI 125 #8792",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557722.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557723.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557724.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557725.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557726.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557727.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2016,
+    "model": "優惠  山葉 BWSR 125",
+    "stock_number": "1863",
+    "price": 36000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557678.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2016-山葉-bwsr-125-1863--3",
+    "original_name": "優惠 【新北樹林店】2016 山葉 BWSR 125 #1863",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557678.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557679.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557680.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557681.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557682.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557683.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "GOGORO",
+    "year": 2019,
+    "model": "優惠  睿能 GOGORO VIVA KEYLESS",
+    "stock_number": "0232",
+    "price": 23000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557660.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2019-睿能-gogoro-viva-keyless-0232",
+    "original_name": "優惠 【新北樹林店】2019 睿能 GOGORO VIVA KEYLESS #0232",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric",
+      "green-50"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557660.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557661.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557662.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557663.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557664.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557665.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "GOGORO",
+    "year": 2019,
+    "model": "優惠  睿能 GOGORO 2 DELIGHT",
+    "stock_number": "9582",
+    "price": 23000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557644.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2019-睿能-gogoro-2-delight-9582",
+    "original_name": "優惠 【新北樹林店】2019 睿能 GOGORO 2 DELIGHT #9582",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557644.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557645.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557648.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557649.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557651.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557652.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2024,
+    "model": "優惠  山葉 JOG 125",
+    "stock_number": "1216",
+    "price": 43000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557612.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2024-山葉-jog-125-1216-3",
+    "original_name": "優惠 【新北樹林店】2024 山葉 JOG 125 #1216",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557612.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557614.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557622.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557628.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557629.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557630.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "AEON",
+    "year": 2018,
+    "model": "優惠  宏佳騰 MY150",
+    "stock_number": "8272",
+    "price": 37000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557594.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-宏佳騰-my150-8272",
+    "original_name": "優惠 【新北樹林店】2018 宏佳騰 MY150 #8272",
+    "cc": 150,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "126-150",
+      "white-manual"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557594.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557595.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557596.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557597.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557598.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557599.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "優惠  山葉 JOG 125 鼓煞",
+    "stock_number": "7832",
+    "price": 40000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557546.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-山葉-jog-125-鼓煞-7832-1",
+    "original_name": "優惠 【新北樹林店】2023 山葉 JOG 125 鼓煞 #7832",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557546.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557547.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557548.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557550.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557551.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557553.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "AEON",
+    "year": 2017,
+    "model": "優惠  宏佳騰 MY150",
+    "stock_number": "9626",
+    "price": 35000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557521.jpg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2017-宏佳騰-my150-9626",
+    "original_name": "優惠 【新北樹林店】2017 宏佳騰 MY150 #9626",
+    "cc": 150,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "126-150",
+      "white-manual"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113557521.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557522.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557523.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557524.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557525.jpg",
+      "https://cdn.store-assets.com/s/1336053/i/113557526.jpg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "KYMCO",
     "year": 2017,
     "model": "光陽 V2 125 鼓煞",
     "stock_number": "0927",
@@ -770,32 +1139,6 @@
   {
     "store": "新北樹林店",
     "brand": "KYMCO",
-    "year": 2020,
-    "model": "光陽 LIKE 125 ABS",
-    "stock_number": "3785",
-    "price": 50000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113473264.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2020-光陽-like-125-abs-3785-",
-    "original_name": "【新北樹林店】2020 光陽 LIKE 125 ABS #3785",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113473264.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113473266.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113473265.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113473268.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113473267.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113473269.jpeg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "KYMCO",
     "year": 2017,
     "model": "光陽 雷霆S150 RACINGS 雙碟",
     "stock_number": "1996",
@@ -843,32 +1186,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113471305.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113471304.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113471303.jpeg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "SYM",
-    "year": 2022,
-    "model": "三陽 JET SR 125 碟煞 CBS",
-    "stock_number": "1831",
-    "price": 63000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113471094.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2022-三陽-jet-sr-125-碟煞-cbs-1831",
-    "original_name": "【新北樹林店】2022 三陽 JET SR 125 碟煞 CBS #1831",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113471094.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113471097.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113471095.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113471096.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113471098.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113471099.jpeg"
     ]
   },
   {
@@ -5014,32 +5331,6 @@
   },
   {
     "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2018,
-    "model": "山葉 NEW CUXI 115 碟煞",
-    "stock_number": "5622",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113042666.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-山葉-new-cuxi-115-碟煞-5622-",
-    "original_name": "【新北樹林店】2018 山葉 NEW CUXI 115 碟煞 #5622",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113042666.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113042664.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113042663.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113042665.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113042661.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113042662.jpeg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
     "brand": "KYMCO",
     "year": 2017,
     "model": "光陽 CUE 100",
@@ -7059,34 +7350,6 @@
     ]
   },
   {
-    "store": "新北樹林店",
-    "brand": "GOGORO",
-    "year": 2020,
-    "model": "睿能 GOGORO VIVA KEYLESS",
-    "stock_number": "2235",
-    "price": 27000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112812788.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2020-睿能-gogoro-viva-keyless-2235",
-    "original_name": "【新北樹林店】2020 睿能 GOGORO VIVA KEYLESS #2235",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric",
-      "green-50"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112812788.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112812789.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112812787.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112812791.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112812790.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112812786.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112812784.jpeg"
-    ]
-  },
-  {
     "store": "新竹店",
     "brand": "KYMCO",
     "year": 2020,
@@ -7269,32 +7532,6 @@
   {
     "store": "新北樹林店",
     "brand": "YAMAHA",
-    "year": 2018,
-    "model": "山葉 SMAX 155 LED ABS",
-    "stock_number": "5695",
-    "price": 50000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112787194.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-山葉-smax-155-led-abs-5695-1",
-    "original_name": "【新北樹林店】2018 山葉 SMAX 155 LED ABS #5695",
-    "cc": 155,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112787194.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787195.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787196.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787197.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787198.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787200.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
     "year": 2015,
     "model": "山葉 勁戰三代 125",
     "stock_number": "1667",
@@ -7372,32 +7609,6 @@
   },
   {
     "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2020,
-    "model": "山葉 BWSR 125",
-    "stock_number": "6516",
-    "price": 48000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112787010.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2020-山葉-bwsr-125-6516--1",
-    "original_name": "【新北樹林店】2020 山葉 BWSR 125 #6516",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112787010.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787011.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787012.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787014.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787015.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787016.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
     "brand": "KYMCO",
     "year": 2025,
     "model": "光陽 DOLLAR 150 碟煞",
@@ -7449,58 +7660,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112786981.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112786982.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112786983.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2021,
-    "model": "優惠  山葉 LIMI 125",
-    "stock_number": "8792",
-    "price": 53000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112786963.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2021-山葉-limi-125-8792-1",
-    "original_name": "優惠 【新北樹林店】2021 山葉 LIMI 125 #8792",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112786963.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786965.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786967.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786970.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786971.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786972.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "優惠  山葉 BWSR 125",
-    "stock_number": "1863",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112786867.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2016-山葉-bwsr-125-1863--2",
-    "original_name": "優惠 【新北樹林店】2016 山葉 BWSR 125 #1863",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112786867.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786868.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786869.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786870.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786871.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786872.jpg"
     ]
   },
   {
@@ -7703,58 +7862,6 @@
       "151-249"
     ],
     "image_urls": []
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2024,
-    "model": "優惠  山葉 JOG 125",
-    "stock_number": "1216",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112786539.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2024-山葉-jog-125-1216-2",
-    "original_name": "優惠 【新北樹林店】2024 山葉 JOG 125 #1216",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112786539.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786540.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786542.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786544.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786545.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786547.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2023,
-    "model": "優惠  山葉 JOG 125 鼓煞",
-    "stock_number": "7832",
-    "price": 42000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112786498.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-山葉-jog-125-鼓煞-7832",
-    "original_name": "優惠 【新北樹林店】2023 山葉 JOG 125 鼓煞 #7832",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112786498.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786499.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786501.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786502.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786504.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786505.jpg"
-    ]
   },
   {
     "store": "新北中和店",
@@ -15176,59 +15283,6 @@
   },
   {
     "store": "新北樹林店",
-    "brand": "GOGORO",
-    "year": 2019,
-    "model": "睿能 GOGORO VIVA KEYLESS",
-    "stock_number": "0232",
-    "price": 26000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111141842.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2019-睿能-gogoro-viva-keyless-0232-1",
-    "original_name": "【新北樹林店】2019 睿能 GOGORO VIVA KEYLESS #0232",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric",
-      "green-50"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111141842.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141843.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141845.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141846.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141847.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141848.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "GOGORO",
-    "year": 2019,
-    "model": "睿能 GOGORO 2 DELIGHT",
-    "stock_number": "9582",
-    "price": 28000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111141786.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2019-睿能-gogoro-2-delight-9582-1",
-    "original_name": "【新北樹林店】2019 睿能 GOGORO 2 DELIGHT #9582",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111141786.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141787.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141788.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141789.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141790.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111141791.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
     "brand": "YAMAHA",
     "year": 2021,
     "model": "山葉 BWS 125 水冷",
@@ -15337,33 +15391,6 @@
     ]
   },
   {
-    "store": "新北樹林店",
-    "brand": "AEON",
-    "year": 2018,
-    "model": "宏佳騰 MY150",
-    "stock_number": "8272",
-    "price": 39000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111140649.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-宏佳騰-my150-8272-2",
-    "original_name": "【新北樹林店】2018 宏佳騰 MY150 #8272",
-    "cc": 150,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "126-150",
-      "white-manual"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111140649.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140650.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140651.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140652.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140653.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140654.jpg"
-    ]
-  },
-  {
     "store": "桃園中壢店",
     "brand": "KYMCO",
     "year": 2020,
@@ -15420,33 +15447,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111140082.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111140080.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111140086.jpeg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "AEON",
-    "year": 2017,
-    "model": "宏佳騰 MY150",
-    "stock_number": "9626",
-    "price": 37000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111140257.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2017-宏佳騰-my150-9626-2",
-    "original_name": "【新北樹林店】2017 宏佳騰 MY150 #9626",
-    "cc": 150,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "126-150",
-      "white-manual"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111140257.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140258.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140259.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140260.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140262.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/111140263.jpg"
     ]
   },
   {
