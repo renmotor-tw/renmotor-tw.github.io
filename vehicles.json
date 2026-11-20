@@ -1,6 +1,31 @@
 [
   {
     "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2019,
+    "model": "山葉 勁戰五代 125 雙碟",
+    "stock_number": "8661",
+    "price": 50000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113573098.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2019-山葉-勁戰五代-125-雙碟-8661",
+    "original_name": "【新北中和店】2019 山葉 勁戰五代 125 雙碟 #8661",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113573098.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113573094.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113573095.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113573096.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113573097.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
     "brand": "GOGORO",
     "year": 2024,
     "model": "GOGORO VIVA MIX BELT",
@@ -2261,32 +2286,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113441914.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113441913.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113441910.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2023,
-    "model": "光陽 KRV 180 NERO",
-    "stock_number": "8199",
-    "price": 69999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113406130.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2023-光陽-krv-180-nero-8199",
-    "original_name": "【花蓮店】2023 光陽 KRV 180 NERO#8199",
-    "cc": 180,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113406130.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113406129.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113406134.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113406135.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113406133.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113406131.jpeg"
     ]
   },
   {
@@ -7565,32 +7564,6 @@
     ]
   },
   {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2023,
-    "model": "山葉 VINOORA M",
-    "stock_number": "9021",
-    "price": 66000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112813162.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-山葉-vinoora-m-9021",
-    "original_name": "【新北樹林店】2023 山葉 VINOORA M #9021",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112813162.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813164.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813161.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813166.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813165.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813163.jpeg"
-    ]
-  },
-  {
     "store": "新竹店",
     "brand": "YAMAHA",
     "year": 2016,
@@ -10509,31 +10482,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112457053.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112457055.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112457052.jpeg"
-    ]
-  },
-  {
-    "store": "台中太平店",
-    "brand": "SYM",
-    "year": 2026,
-    "model": "三陽 DRG 2.5代 鑰匙版(電推+彎道TCS+ABS)",
-    "stock_number": "2057",
-    "price": 108000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112446857.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2026-三陽-drg2-5-電推-2057-",
-    "original_name": "【台中太平店】2026 三陽 DRG 2.5代 鑰匙版(電推+彎道TCS+ABS) #2057",
-    "cc": 158,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112446857.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112446858.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112446854.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112446855.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112446856.jpeg"
     ]
   },
   {
@@ -16395,32 +16343,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110910648.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110910655.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110910654.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "SUZUKI",
-    "year": 2021,
-    "model": "GSX R 150 ABS 雙碟 國際檔",
-    "stock_number": "3510",
-    "price": 58000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110910323.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2021-gsx-r-150-abs-雙碟-國際檔-3510",
-    "original_name": "【新竹店】2021 GSX R 150 ABS 雙碟 國際檔 #3510",
-    "cc": 150,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "126-150",
-      "white-manual"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110910323.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110910324.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110910327.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110910326.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110910325.jpeg"
     ]
   },
   {
