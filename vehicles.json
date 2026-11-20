@@ -1,5 +1,112 @@
 [
   {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2018,
+    "model": "山葉 勁戰四代 125",
+    "stock_number": "3861",
+    "price": 48000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113587183.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-山葉-勁戰四代-125-3861",
+    "original_name": "【新北樹林店】2018 山葉 勁戰四代 125 #3861",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113587183.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587186.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587182.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587184.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587185.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587181.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "KYMCO",
+    "year": 2023,
+    "model": "光陽 新名流 125 碟煞",
+    "stock_number": "0569",
+    "price": 38000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113586923.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-光陽-新名流-125-碟煞-0569-1",
+    "original_name": "【新北樹林店】2023 光陽 新名流 125 碟煞 #0569",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113586923.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586948.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586920.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586921.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586922.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586919.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "YAMAHA",
+    "year": 2022,
+    "model": "山葉 BWS 125 水冷",
+    "stock_number": "5902",
+    "price": 69000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113586275.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2022-山葉-bws-125-水冷-5902",
+    "original_name": "【新北新莊店】2022 山葉 BWS 125 水冷 #5902",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113586275.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586273.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586276.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586274.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586271.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586272.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "YAMAHA",
+    "year": 2019,
+    "model": "山葉 BWSR 125",
+    "stock_number": "3599",
+    "price": 45000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113586206.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2019-山葉-bwsr-125-3599",
+    "original_name": "【新北新莊店】2019 山葉 BWSR 125 #3599",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113586206.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586208.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586204.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586209.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586207.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586205.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586202.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586201.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113586203.jpeg"
+    ]
+  },
+  {
     "store": "新北中和店",
     "brand": "YAMAHA",
     "year": 2019,
@@ -7590,6 +7697,32 @@
     ]
   },
   {
+    "store": "新北樹林店",
+    "brand": "GOGORO",
+    "year": 2019,
+    "model": "睿能 GOGORO S2",
+    "stock_number": "1732",
+    "price": 29999,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/112812953.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2019-睿能-gogoro-s2-1732",
+    "original_name": "【新北樹林店】2019 睿能 GOGORO S2 #1732",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/112812953.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112812950.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112812949.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112812952.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112812951.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112812948.jpeg"
+    ]
+  },
+  {
     "store": "新竹店",
     "brand": "KYMCO",
     "year": 2020,
@@ -8004,32 +8137,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112786627.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112786628.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112786629.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "KYMCO",
-    "year": 2023,
-    "model": "光陽 新名流 125 碟煞",
-    "stock_number": "0569",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112786601.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-光陽-新名流-125-碟煞-0569",
-    "original_name": "【新北樹林店】2023 光陽 新名流 125 碟煞 #0569",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112786601.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786602.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786603.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786604.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786605.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786606.jpg"
     ]
   },
   {
@@ -10383,31 +10490,6 @@
   },
   {
     "store": "新北中和店",
-    "brand": "YAMAHA",
-    "year": 2014,
-    "model": "山葉 勁戰三代 125",
-    "stock_number": "992",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112479198.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2014-山葉-勁戰三代-125-992",
-    "original_name": "【新北中和店】2014 山葉 勁戰三代 125#992",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112479198.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112479197.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112479199.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112479200.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112479196.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
     "brand": "SYM",
     "year": 2020,
     "model": "三陽 JET SR 125 ABS",
@@ -10814,39 +10896,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112369480.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112369481.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112369475.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "SYM",
-    "year": 2022,
-    "model": "三陽 JET SR 125 (雙碟/CBS)",
-    "stock_number": "5057",
-    "price": 63000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112351396.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2022-三陽-jet-sr-125-雙碟-cbs-5057",
-    "original_name": "【台南店】2022 三陽 JET SR 125 (雙碟/CBS) #5057",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112351396.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351385.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351388.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351395.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351387.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351394.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351389.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351392.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351391.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351393.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351397.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351390.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112351386.jpeg"
     ]
   },
   {
@@ -11418,32 +11467,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112264430.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112264438.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112264436.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "SYM",
-    "year": 2008,
-    "model": "三陽 野狼125 (三表/化油/循環四檔)",
-    "stock_number": "990",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112249205.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2008-三陽-野狼125-三表-化油-循環四檔-990-1",
-    "original_name": "【台南店】2008 三陽 野狼125 (三表/化油/循環四檔) #990",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125",
-      "white-manual"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112249205.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112249202.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112249204.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112249201.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112249203.jpeg"
     ]
   },
   {
@@ -17555,31 +17578,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110530138.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110530139.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110530137.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "YAMAHA",
-    "year": 2021,
-    "model": "山葉 FORCE 155 雙碟",
-    "stock_number": "1112",
-    "price": 62000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110530076.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2021-山葉-force-155-雙碟-1112",
-    "original_name": "【新竹店】2021 山葉 FORCE 155 雙碟 #1112",
-    "cc": 155,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110530076.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110530074.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110530079.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110530082.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110530078.jpeg"
     ]
   },
   {
