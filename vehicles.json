@@ -1,5 +1,108 @@
 [
   {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2021,
+    "model": "三陽 JET SL 125 ABS",
+    "stock_number": "8615",
+    "price": 68000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113592283.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2021-三陽-jet-sl-125-abs-8615",
+    "original_name": "【台中旗艦店】2021 三陽 JET SL 125 ABS #8615",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113592283.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592286.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592288.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592285.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592287.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "YAMAHA",
+    "year": 2017,
+    "model": "山葉 LIMI 115",
+    "stock_number": "9520",
+    "price": 30000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113592174.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2017-山葉-limi-115-9520",
+    "original_name": "【台中旗艦店】2017 山葉 LIMI 115 #9520",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113592174.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592175.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592176.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592177.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592178.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2020,
+    "model": "三陽 DRG 158 六期",
+    "stock_number": "0575",
+    "price": 58000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113592147.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2020-三陽-drg-158-六期-0575",
+    "original_name": "【台中旗艦店】2020 三陽 DRG 158 六期 #0575",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113592147.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592145.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592146.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592144.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592143.jpeg"
+    ]
+  },
+  {
+    "store": "台南店",
+    "brand": "KYMCO",
+    "year": 2023,
+    "model": "光陽 GP 125 鼓煞",
+    "stock_number": "3380",
+    "price": 38000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113591653.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2023-光陽-gp-125-鼓煞-3380",
+    "original_name": "【台南店】2023 光陽 GP 125 鼓煞#3380",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113591653.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113591652.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113591655.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113591656.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113591651.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113591657.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113591654.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113591658.jpeg"
+    ]
+  },
+  {
     "store": "新北樹林店",
     "brand": "YAMAHA",
     "year": 2020,
@@ -2237,31 +2340,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113451099.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113451098.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113451100.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
-    "brand": "YAMAHA",
-    "year": 2015,
-    "model": "山葉 勁戰四代 125",
-    "stock_number": "529",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113451020.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2015-山葉-勁戰四代-125-529",
-    "original_name": "【新北中和店】2015 山葉 勁戰四代 125#529",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113451020.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113451019.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113451018.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113451017.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113451021.jpeg"
     ]
   },
   {
@@ -6442,31 +6520,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112979831.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112979834.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112979833.jpeg"
-    ]
-  },
-  {
-    "store": "南台中店",
-    "brand": "SYM",
-    "year": 2023,
-    "model": "三陽 JET SL 125 (ABS+TCS)",
-    "stock_number": "6527",
-    "price": 73000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112979512.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-南台中店-2023-三陽-jet-sl-125-abs-tcs-6527-",
-    "original_name": "【南台中店】2023 三陽 JET SL 125 (ABS+TCS) #6527",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112979512.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112979516.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112979515.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112979514.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112979513.jpeg"
     ]
   },
   {
@@ -12951,11 +13004,11 @@
     "brand": "GOGORO",
     "year": 2023,
     "model": "睿能 GOGORO VIVA 鑰匙版 雙碟 SBS",
-    "stock_number": "7835",
+    "stock_number": "8703",
     "price": 30000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/111811688.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2023-睿能-gogoro-viva-鑰匙版-雙碟-sbs-7835",
-    "original_name": "【新竹店】2023 睿能 GOGORO VIVA 鑰匙版 雙碟 SBS #7835",
+    "original_name": "【新竹店】2023 睿能 GOGORO VIVA 鑰匙版 雙碟 SBS #8703",
     "cc": null,
     "km": null,
     "warranty": false,
@@ -13716,31 +13769,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111605997.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111605999.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111605996.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
-    "brand": "YAMAHA",
-    "year": 2019,
-    "model": "山葉 勁戰五代 125 ABS",
-    "stock_number": "7681",
-    "price": 52000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111605988.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2019-山葉-勁戰五代-125-abs-7681",
-    "original_name": "【台中旗艦店】2019 山葉 勁戰五代 125 ABS #7681",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111605988.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111605990.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111605987.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111605989.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111605986.jpeg"
     ]
   },
   {
