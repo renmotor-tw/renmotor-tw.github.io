@@ -2,6 +2,128 @@
   {
     "store": "新北樹林店",
     "brand": "YAMAHA",
+    "year": 2020,
+    "model": "山葉 勁戰六代 125 ABS",
+    "stock_number": "5968",
+    "price": 67000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113588414.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2020-山葉-勁戰六代-125-abs-5968",
+    "original_name": "【新北樹林店】2020 山葉 勁戰六代 125 ABS #5968",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113588414.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588417.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588415.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588416.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588413.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588412.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2014,
+    "model": "山葉 BWSX 125",
+    "stock_number": "800",
+    "price": 35000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113588231.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2014-山葉-bwsx-125-800",
+    "original_name": "【新北中和店】2014 山葉 BWSX 125 #800",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113588231.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588233.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588232.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588229.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113588230.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2017,
+    "model": "優惠  山葉 Force 155",
+    "stock_number": "5669",
+    "price": 45000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113588187.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2017-山葉-force-155-5669-1",
+    "original_name": "優惠 【新北樹林店】2017 山葉 Force 155 #5669",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "image_urls": []
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2024,
+    "model": "山葉 BWS 125 水冷",
+    "stock_number": "6766",
+    "price": 74000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113587957.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2024-山葉-bws-125-水冷-6766",
+    "original_name": "【新北樹林店】2024 山葉 BWS 125 水冷 #6766",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113587957.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587955.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587954.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587959.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587958.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587956.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "山葉 勁戰6.5代 TCS",
+    "stock_number": "1962",
+    "price": 76000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113587509.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-山葉-勁戰6-5代-tcs-1962",
+    "original_name": "【新北樹林店】2023 山葉 勁戰6.5代 TCS #1962",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113587509.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587507.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587505.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587511.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587508.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113587506.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
     "year": 2018,
     "model": "山葉 勁戰四代 125",
     "stock_number": "3861",
@@ -6324,6 +6446,31 @@
   },
   {
     "store": "南台中店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 JET SL 125 (ABS+TCS)",
+    "stock_number": "6527",
+    "price": 73000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/112979512.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-南台中店-2023-三陽-jet-sl-125-abs-tcs-6527-",
+    "original_name": "【南台中店】2023 三陽 JET SL 125 (ABS+TCS) #6527",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/112979512.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979516.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979515.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979514.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979513.jpeg"
+    ]
+  },
+  {
+    "store": "南台中店",
     "brand": "YAMAHA",
     "year": 2018,
     "model": "山葉 FORCE 155",
@@ -8138,25 +8285,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112786628.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112786629.jpg"
     ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2017,
-    "model": "優惠  山葉 Force 155",
-    "stock_number": "5669",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112786583.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2017-山葉-force-155-5669",
-    "original_name": "優惠 【新北樹林店】2017 山葉 Force 155 #5669",
-    "cc": 155,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "image_urls": []
   },
   {
     "store": "新北中和店",
