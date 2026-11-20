@@ -1,5 +1,95 @@
 [
   {
+    "store": "高雄店",
+    "brand": "KYMCO",
+    "year": 2022,
+    "model": "光陽KYMCO VJR 4V 125(碟煞)(ABS+TCS)",
+    "stock_number": "0367",
+    "price": 55000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113568817.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2022-光陽kymco-vjr-4v-125-碟煞-abs-tcs-0367",
+    "original_name": "【高雄店】2022 光陽KYMCO VJR 4V 125(碟煞)(ABS+TCS)#0367",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113568817.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568822.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568819.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568820.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568821.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568813.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568816.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568815.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568812.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568818.jpeg"
+    ]
+  },
+  {
+    "store": "高雄店",
+    "brand": "GOGORO",
+    "year": 2020,
+    "model": "睿能GOGORO 2 DELIGHT(碟煞)(鏈條)",
+    "stock_number": "0605",
+    "price": 23000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113568412.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2020-睿能gogoro-2-delight-碟煞-0605",
+    "original_name": "【高雄店】2020 睿能GOGORO 2 DELIGHT(碟煞)(鏈條)#0605",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113568412.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568410.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568408.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568406.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568411.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568407.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568405.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568404.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568403.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113568409.jpeg"
+    ]
+  },
+  {
+    "store": "高雄店",
+    "brand": "KYMCO",
+    "year": 2015,
+    "model": "光陽KYMCO 超級金牌150(碟煞)",
+    "stock_number": "8985",
+    "price": 36000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113562315.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2015-光陽kymco-超級金牌150-碟煞-8985",
+    "original_name": "【高雄店】2015 光陽KYMCO 超級金牌150(碟煞)#8985",
+    "cc": 150,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "126-150"
+    ],
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113562315.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562312.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562309.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562311.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562308.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562307.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562313.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562306.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562310.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113562314.jpeg"
+    ]
+  },
+  {
     "store": "新北樹林店",
     "brand": "KYMCO",
     "year": 2020,
@@ -7480,32 +7570,6 @@
   },
   {
     "store": "新北樹林店",
-    "brand": "PGO",
-    "year": 2019,
-    "model": "PGO BON 125 ABS",
-    "stock_number": "0218",
-    "price": 35000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112787220.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2019-pgo-bon-125-abs-0218-1",
-    "original_name": "【新北樹林店】2019 PGO BON 125 ABS #0218",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112787220.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787221.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787223.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787225.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787226.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112787227.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
     "brand": "YAMAHA",
     "year": 2015,
     "model": "山葉 勁戰三代 125",
@@ -7661,32 +7725,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112786823.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112786824.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112786825.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "SYM",
-    "year": 2023,
-    "model": "三陽 MMBCU",
-    "stock_number": "9326",
-    "price": 85000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112786806.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-三陽-mmbcu-9326-1",
-    "original_name": "【新北樹林店】2023 三陽 MMBCU #9326",
-    "cc": 158,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112786806.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786807.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786808.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786809.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786810.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112786811.jpg"
     ]
   },
   {
@@ -13581,31 +13619,6 @@
     ]
   },
   {
-    "store": "新北中和店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "山葉 BWSR 125",
-    "stock_number": "0277",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111576871.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2016-山葉-bwsr-125-0277",
-    "original_name": "【新北中和店】2016 山葉 BWSR 125#0277",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111576871.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111576873.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111576875.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111576872.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111576874.jpeg"
-    ]
-  },
-  {
     "store": "高雄店",
     "brand": "KYMCO",
     "year": 2022,
@@ -14939,31 +14952,6 @@
     ]
   },
   {
-    "store": "新北中和店",
-    "brand": "SYM",
-    "year": 2019,
-    "model": "三陽 新迪爵 125 鼓煞",
-    "stock_number": "3212",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111254764.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2019-三陽-新迪爵-125-鼓煞-3212",
-    "original_name": "【新北中和店】2019 三陽 新迪爵 125 鼓煞#3212",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111254764.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111254763.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111254765.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111254766.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111254767.jpeg"
-    ]
-  },
-  {
     "store": "新北新莊店",
     "brand": "SYM",
     "year": 2021,
@@ -15857,12 +15845,12 @@
     "store": "高雄店",
     "brand": "GOGORO",
     "year": 2020,
-    "model": "睿能 gogroro2 delight(碟煞)(鍊條)",
+    "model": "優惠  睿能 gogroro2 delight(碟煞)(鍊條)",
     "stock_number": "9662",
-    "price": 28000,
+    "price": 23000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/111034002.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2020-睿能-gogroro2-delight-碟煞-鍊條-9662",
-    "original_name": "【高雄店】2020 睿能 gogroro2 delight(碟煞)(鍊條)#9662",
+    "original_name": "優惠 【高雄店】2020 睿能 gogroro2 delight(碟煞)(鍊條)#9662",
     "cc": null,
     "km": null,
     "warranty": false,
@@ -15911,36 +15899,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111008753.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111008755.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111008751.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "GOGORO",
-    "year": 2019,
-    "model": "睿能GOGORO S2 (碟煞)(鏈條)",
-    "stock_number": "7955",
-    "price": 29999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111006872.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2019-睿能gogoro-s2-碟煞-鏈條-7955",
-    "original_name": "【高雄店】2019 睿能GOGORO S2 (碟煞)(鏈條)#7955",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric"
-    ],
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111006872.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006877.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006875.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006878.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006879.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006876.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006871.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006873.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006874.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111006870.jpeg"
     ]
   },
   {
