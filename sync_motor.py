@@ -9,6 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
+from unicodedata import normalize
 from urllib.error import HTTPError
 from urllib.parse import quote, unquote, urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
@@ -27,7 +28,7 @@ CATEGORY_COLLECTIONS = {
 }
 MAX_PAGES = 100  # 直到遇到沒有新商品的頁面，設上限避免無限迴圈
 OUTPUT = Path(__file__).with_name("vehicles.json")
-DESCRIPTION_FIELDS = ("cc", "warranty", "as_is", "image_urls")
+DESCRIPTION_FIELDS = ("cc", "warranty", "as_is", "image_urls", "mileage")
 
 BRANDS = {
     "YAMAHA": ("山葉", "YAMAHA"),
@@ -70,6 +71,12 @@ CC_VALUE = r"(?<![\d.])([1-9]\d{1,3})(?:\.\d+)?\s*(?:c\.?c\.?|cubic\s+centimeter
 DISCOUNT_NO_WARRANTY = re.compile(r"特價車款[\s，、,：:]*無\s*保固")
 NO_WARRANTY = re.compile(r"(?:不(?:另行|予|再)?(?:提供|含|附|享有)|未提供|沒有|無)\s*(?:任何)?\s*(?:原廠)?\s*保固")
 WITH_WARRANTY = re.compile(r"保固車款?|保固項目|(?:提供|享有|附有)\s*(?:.{0,16})保固")
+MILEAGE = re.compile(
+    r"里程(?:數)?\s*:\s*(?P<prefix>目前儀[表錶]里程\s*)?(?:約\s*)?"
+    r"(?P<distance>[0-9][0-9x]*(?:\s*[,.]\s*[0-9x]+)*(?:\s*萬)?)\s*(?:公里|km\b)",
+    re.I,
+)
+MILEAGE_NOTE = re.compile(r"\s*(?:(?:[,/]\s*)?(?:因)?儀[表錶][^()◉◎🔹📌]{0,75})?\([^()]{1,90}\)")
 
 
 def vehicle_brand(model, fallback="其他"):
@@ -98,6 +105,23 @@ def engine_cc(model, brand, description=""):
     return None
 
 
+def advertised_mileage(description):
+    # Some product descriptions contain escaped comments pasted with mileage values.
+    text = normalize("NFKC", re.sub(r"<!--.*?-->", "", description, flags=re.S))
+    match = MILEAGE.search(text)
+    if not match:
+        return None
+    distance = re.sub(r"\s*([,.])\s*", r"\1", match["distance"])
+    prefix = (match["prefix"] or "").strip()
+    note = MILEAGE_NOTE.match(text, match.end())
+    if note:
+        suffix = re.sub(r"^,\s*", "，", note[0].strip())
+        suffix = re.sub(r"\(\s*(.*?)\s*\)", r"（\1）", suffix)
+    else:
+        suffix = ""
+    return f"{prefix}約 {distance} 公里{suffix}"
+
+
 def update_vehicle_details(vehicle, description):
     model = vehicle["model"]
     brand = vehicle_brand(model, vehicle["brand"])
@@ -117,6 +141,7 @@ def update_vehicle_details(vehicle, description):
         cc=engine_cc(model, brand, description),
         as_is=as_is,
         warranty=warranty,
+        mileage=advertised_mileage(description),
     )
 
 
@@ -301,7 +326,7 @@ def update_catalog_details(vehicles, previous, *, reuse_details=False):
     if len(failures) > len(vehicles) // 2:
         raise RuntimeError(f"多數商品頁讀取失敗，保留舊檔：{failures[0]}")
     if failures:
-        print(f"{len(failures)} 筆商品頁讀取失敗，沿用可取得的前次分類：{failures[0]}", flush=True)
+        print(f"{len(failures)} 筆商品頁讀取失敗，沿用可取得的前次詳情：{failures[0]}", flush=True)
 
 
 def fetch(page, collection=COLLECTION):

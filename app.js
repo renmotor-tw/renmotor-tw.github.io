@@ -3,6 +3,8 @@ let bikes = [];
 let currentPage = 1;
 const $ = id => document.getElementById(id);
 const LINE_URL = $('lineAddFriend').href;
+const LINE_ID = new URL(LINE_URL).pathname.split('/').at(-1);
+const LINE_INQUIRY = '您好，我從阿人車庫-阿人業務介紹看到您們，想詢問這台車：';
 const money = n => Number.isFinite(Number(n)) && n !== null ? "NT$ " + Number(n).toLocaleString("zh-TW") : "價格請洽詢";
 const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function marketplaceUrl(value, origin) {
@@ -15,6 +17,13 @@ function marketplaceUrl(value, origin) {
   }
 }
 const imageUrl = value => marketplaceUrl(value, 'https://cdn.store-assets.com');
+function vehicleProductUrl(value) {
+  const source = marketplaceUrl(value, 'https://shop.2motor.tw');
+  if (!source) return '';
+  const url = new URL(source);
+  const product = url.pathname.match(/\/products\/[^/]+\/?$/);
+  return product ? new URL(product[0], url.origin).href : '';
+}
 const brandLabels = new Map([...$('brandFilter').options].map(option => [option.value, option.text]));
 const filterIds = ['search', 'storeFilter', 'brandFilter', 'categoryFilter', 'warrantyFilter', 'sortFilter'];
 const filterForm = $('filterForm');
@@ -94,11 +103,114 @@ function renderPages(total,count) {
   [...candidates].filter(n=>n>=1&&n<=total).sort((a,b)=>a-b).forEach(n=>{if(n-prev>1){const s=document.createElement('span');s.textContent='…';holder.appendChild(s)}btn(String(n),n,false,n===currentPage);prev=n});
   btn('下一頁',currentPage+1,currentPage===total);
 }
-function vehicleBadge(bike) {
-  if (bike.warrantyStatus === 'as-is') return '<span class="vehicle-badge as-is">🔧 現況車款</span>';
-  if (bike.warrantyStatus === 'warranty') return '<span class="vehicle-badge">🔧 保固車款</span>';
-  return '';
+function vehiclePreviewButton(className, preview, label) {
+  return `<button type="button" class="vehicle-preview-trigger ${className}" data-vehicle-preview="${preview}" aria-expanded="false" aria-controls="vehiclePreview">${label}</button>`;
 }
+function vehicleBadge(bike, interactive = false) {
+  if (!bike.warrantyStatus) return '';
+  const asIs = bike.warrantyStatus === 'as-is';
+  const className = asIs ? 'vehicle-badge as-is' : 'vehicle-badge';
+  const label = `<span aria-hidden="true">🔧</span> ${asIs ? '現況車款' : '保固車款'}`;
+  if (interactive) return vehiclePreviewButton(className, asIs ? 'asIsPreview' : 'warrantyPreview', label);
+  return `<span class="${className}">${label}</span>`;
+}
+
+const modal = $('modal');
+const modalBox = modal.querySelector('.modal-box');
+const vehiclePreview = $('vehiclePreview');
+const previewBackdrop = $('vehiclePreviewBackdrop');
+const previewBody = $('vehiclePreviewBody');
+const previewClose = $('closeVehiclePreview');
+let modalOpener;
+let activePreview = null;
+let previewCloseTimer;
+
+function closeVehiclePreview(restoreFocus = false) {
+  window.clearTimeout(previewCloseTimer);
+  if (!activePreview) return false;
+  const { trigger } = activePreview;
+  activePreview = null;
+  trigger.setAttribute('aria-expanded', 'false');
+  vehiclePreview.hidden = true;
+  previewBackdrop.hidden = true;
+  if (restoreFocus) trigger.focus({ preventScroll: true });
+  return true;
+}
+function positionVehiclePreview() {
+  if (!activePreview || activePreview.centered) return;
+  const { left, top, bottom } = activePreview.trigger.getBoundingClientRect();
+  const box = modalBox.getBoundingClientRect();
+  if (bottom <= box.top || top >= box.bottom) {
+    closeVehiclePreview();
+    return;
+  }
+  const edge = 12;
+  const { clientWidth, clientHeight } = document.documentElement;
+  const below = clientHeight - bottom - edge;
+  const above = top - edge;
+  vehiclePreview.style.removeProperty('--preview-room');
+  const showBelow = below >= vehiclePreview.offsetHeight || below >= above;
+  vehiclePreview.style.setProperty('--preview-left', `${Math.max(edge, Math.min(left, clientWidth - vehiclePreview.offsetWidth - edge))}px`);
+  vehiclePreview.style.setProperty('--preview-top', showBelow ? `${bottom}px` : 'auto');
+  vehiclePreview.style.setProperty('--preview-bottom', showBelow ? 'auto' : `${clientHeight - top}px`);
+  vehiclePreview.style.setProperty('--preview-room', `${showBelow ? below : above}px`);
+}
+function showVehiclePreview(trigger, pinned = false, centered = false) {
+  window.clearTimeout(previewCloseTimer);
+  if (!pinned && activePreview?.pinned) return;
+  const sameTrigger = activePreview?.trigger === trigger;
+  if (sameTrigger) {
+    if (!pinned) return;
+    if (activePreview.pinned) {
+      closeVehiclePreview(true);
+      return;
+    }
+  } else {
+    closeVehiclePreview();
+    const template = $(trigger.dataset.vehiclePreview);
+    $('vehiclePreviewTitle').textContent = template.dataset.heading;
+    previewBody.replaceChildren(template.content.cloneNode(true));
+    vehiclePreview.dataset.kind = template.id;
+  }
+  activePreview = { trigger, pinned, centered };
+  trigger.setAttribute('aria-expanded', 'true');
+  vehiclePreview.classList.toggle('is-anchored', !centered);
+  previewBackdrop.hidden = !centered;
+  vehiclePreview.hidden = false;
+  if (centered) vehiclePreview.style.removeProperty('--preview-room');
+  if (!sameTrigger) previewBody.scrollTop = 0;
+  positionVehiclePreview();
+  if (pinned) previewClose.focus({ preventScroll: true });
+}
+function scheduleVehiclePreviewClose(event) {
+  if (event.pointerType !== 'mouse' || !activePreview || activePreview.pinned) return;
+  window.clearTimeout(previewCloseTimer);
+  previewCloseTimer = window.setTimeout(() => {
+    if (!activePreview?.trigger.matches(':hover') && !vehiclePreview.matches(':hover') &&
+        !vehiclePreview.contains(document.activeElement)) closeVehiclePreview();
+  }, 180);
+}
+function setupVehiclePreviewTriggers() {
+  for (const trigger of $('modalContent').querySelectorAll('[data-vehicle-preview]')) {
+    trigger.addEventListener('pointerenter', event => {
+      if (event.pointerType === 'mouse') showVehiclePreview(trigger);
+    });
+    trigger.addEventListener('pointerleave', scheduleVehiclePreviewClose);
+    trigger.addEventListener('click', event => {
+      const centered = event.pointerType === 'touch' || event.pointerType === 'pen' ||
+        (event.pointerType !== 'mouse' && window.matchMedia('(pointer: coarse)').matches);
+      showVehiclePreview(trigger, true, centered);
+    });
+  }
+}
+
+previewClose.addEventListener('click', () => closeVehiclePreview(true));
+previewBackdrop.addEventListener('click', () => closeVehiclePreview(true));
+vehiclePreview.addEventListener('pointerenter', () => window.clearTimeout(previewCloseTimer));
+vehiclePreview.addEventListener('pointerleave', scheduleVehiclePreviewClose);
+modalBox.addEventListener('scroll', positionVehiclePreview);
+window.addEventListener('resize', positionVehiclePreview);
+
 function setupGallery(photos, model) {
   if (photos.length < 2) return;
   const gallery = $('modalContent').querySelector('.vehicle-gallery');
@@ -129,8 +241,95 @@ function setupGallery(photos, model) {
     show(index + (event.key === 'ArrowLeft' ? -1 : 1));
   });
 }
+function drawVehicleLineQr(canvas, url) {
+  if (typeof qrcode !== 'function') return false;
+  const context = canvas.getContext('2d');
+  if (!context) return false;
+  const code = qrcode(0, 'M');
+  code.addData(url);
+  try {
+    code.make();
+  } catch (error) {
+    console.warn('RenMotor LINE QR error:', error);
+    return false;
+  }
+  const modules = code.getModuleCount();
+  const quietZone = 4;
+  const cell = 5;
+  const size = (modules + 2 * quietZone) * cell;
+  canvas.width = canvas.height = size;
+  context.fillStyle = '#fff';
+  context.fillRect(0, 0, size, size);
+  context.fillStyle = '#000';
+  for (let row = 0; row < modules; row += 1) {
+    for (let column = 0; column < modules; column += 1) {
+      if (code.isDark(row, column)) {
+        context.fillRect((column + quietZone) * cell, (row + quietZone) * cell, cell, cell);
+      }
+    }
+  }
+  return true;
+}
+
+const vehicleLineDialog = $('vehicleLineDialog');
+const vehicleLineDraft = $('vehicleLineDraft');
+const vehicleLineStatus = $('vehicleLineStatus');
+
+function showVehicleLineDialog(url, message) {
+  if (vehicleLineDialog.open) return;
+  closeVehiclePreview();
+  const canvas = $('vehicleLineQr');
+  $('vehicleLineChat').href = url;
+  vehicleLineDraft.value = message;
+  vehicleLineDraft.hidden = true;
+  vehicleLineStatus.textContent = '';
+  canvas.hidden = !drawVehicleLineQr(canvas, url);
+  vehicleLineDialog.showModal();
+  vehicleLineDialog.scrollTop = 0;
+}
+
+$('vehicleLineAddFriend').href = LINE_URL;
+$('closeVehicleLineDialog').addEventListener('click', () => vehicleLineDialog.close());
+vehicleLineDialog.addEventListener('click', event => {
+  if (event.target !== vehicleLineDialog) return;
+  const { left, right, top, bottom } = vehicleLineDialog.getBoundingClientRect();
+  if (event.clientX < left || event.clientX > right || event.clientY < top || event.clientY > bottom) {
+    vehicleLineDialog.close();
+  }
+});
+vehicleLineDialog.addEventListener('close', () => {
+  if (!vehicleLineDialog.open && modal.classList.contains('open')) {
+    $('openVehicleLineDialog').focus({ preventScroll: true });
+  }
+});
+$('copyVehicleLineDraft').addEventListener('click', async () => {
+  const message = vehicleLineDraft.value;
+  let copied = false;
+  try {
+    await navigator.clipboard.writeText(message);
+    copied = true;
+  } catch {
+    // Allow manual copying when clipboard access is unavailable.
+  }
+  if (!vehicleLineDialog.open || vehicleLineDraft.value !== message) return;
+  vehicleLineDraft.hidden = copied;
+  vehicleLineStatus.textContent = copied ? '已複製，可貼到 LINE 聊天室。' : '請複製已選取的詢問內容。';
+  if (!copied) {
+    vehicleLineDraft.focus();
+    vehicleLineDraft.select();
+  }
+});
+
 function openDetail(id) {
   const b=bikes.find(x=>x.id===id);if(!b)return;
+  closeVehiclePreview();
+  modalOpener = document.activeElement;
+  const vehicleName = b.original_name || b.model;
+  const lineMessage = [LINE_INQUIRY, vehicleName, b.productUrl].filter(Boolean).join('\n');
+  const encodedMessage = encodeURIComponent(lineMessage).replace(/[!'()*]/g, char =>
+    '%' + char.charCodeAt(0).toString(16).toUpperCase()
+  );
+  const lineChatUrl = `https://line.me/R/oaMessage/${LINE_ID}/?${encodedMessage}`;
   const photos = [...new Set(b.image_urls.map(imageUrl).filter(Boolean))];
   const cover = imageUrl(b.image_url);
   if (!photos.length && cover) photos.push(cover);
@@ -144,11 +343,24 @@ function openDetail(id) {
     <div class="gallery-stage"><div class="gallery-image">${photos.length ? `<img src="${escapeHTML(photos[0])}" alt="${escapeHTML(b.model)} 第 1 張照片">` : '<div class="no-image">暫無照片</div>'}</div>${controls}</div>
     ${thumbnails}
   </section>
-  <div class="modal-info"><div class="eyebrow">${escapeHTML(b.store||'門市待確認')}</div><h2 id="modalTitle">${escapeHTML(b.original_name||b.model)}</h2>
-  ${vehicleBadge(b)}
-  <div class="price">${money(b.price)}</div><div class="detail-grid"><div class="detail-cell"><small>年份</small><strong>${b.year??'未提供'}</strong></div><div class="detail-cell"><small>車輛編號</small><strong>${escapeHTML(b.stock_number||'未提供')}</strong></div><div class="detail-cell"><small>門市</small><strong>${escapeHTML(b.store||'待確認')}</strong></div><div class="detail-cell"><small>里程／保固</small><strong>請洽阿人車庫</strong></div></div>
-  <p>車況、里程、保固及實際庫存，歡迎透過 LINE 向阿人車庫確認。</p>
-  <a class="line-btn line-action" href="${escapeHTML(LINE_URL)}" target="_blank" rel="noopener noreferrer">透過 LINE 詢問 ↗</a>
+  <div class="modal-info"><div class="eyebrow">${escapeHTML(b.store||'門市待確認')}</div><h2 id="modalTitle">${escapeHTML(vehicleName)}</h2>
+  <div class="vehicle-preview-actions">
+    ${vehicleBadge(b, true)}
+    ${vehiclePreviewButton('contract-trigger', 'contractPreview', '<span aria-hidden="true">📜</span> 定型化契約預覽')}
+  </div>
+  <div class="price">${money(b.price)}</div>
+  <div class="detail-grid">
+    <div class="detail-cell"><small>年份</small><strong>${b.year??'未提供'}</strong></div>
+    <div class="detail-cell"><small>車輛編號</small><strong>${escapeHTML(b.stock_number||'未提供')}</strong></div>
+    <div class="detail-cell"><small>門市</small><strong>${escapeHTML(b.store||'待確認')}</strong></div>
+    <div class="detail-cell"><small>里程</small><strong>${escapeHTML(b.mileage || '未提供')}</strong></div>
+  </div>
+  <section class="vehicle-contact" aria-labelledby="vehicleContactTitle">
+    <h3 id="vehicleContactTitle">看中這台車了嗎？</h3>
+    <p>透過阿人車庫找到喜歡的車款後，歡迎使用貳輪嶼官方 LINE 進行諮詢，我們將協助您確認車輛資訊、安排賞車及後續購車事宜。</p>
+    <button class="line-btn line-action" id="openVehicleLineDialog" type="button" aria-haspopup="dialog" aria-controls="vehicleLineDialog">透過貳輪嶼官方 LINE 詢問</button>
+    <p class="vehicle-contact-note">※ 點擊後將導向貳輪嶼全公司官方 LINE，建議提供車輛名稱或截圖，並告知客服『從阿人車庫 RenMotor_ 看到此車』。</p>
+  </section>
   <section class="vehicle-services" aria-labelledby="servicesTitle">
     <h3 id="servicesTitle">保障服務</h3>
     <ul>
@@ -159,13 +371,21 @@ function openDetail(id) {
       <li>✅ 可協助托運，全台配送</li>
     </ul>
   </section></div>`;
-  $('modal').classList.add('open');
+  modal.classList.add('open');
   setupGallery(photos, b.model);
+  setupVehiclePreviewTriggers();
+  $('openVehicleLineDialog').addEventListener('click', () => showVehicleLineDialog(lineChatUrl, lineMessage));
   document.body.classList.add('modal-lock');
+  modalBox.scrollTop = 0;
+  $('closeModal').focus({ preventScroll: true });
 }
 function closeModal() {
-  $('modal').classList.remove('open');
+  closeVehiclePreview();
+  if (vehicleLineDialog.open) vehicleLineDialog.close();
+  modal.classList.remove('open');
   document.body.classList.remove('modal-lock');
+  modalOpener?.focus({ preventScroll: true });
+  modalOpener = null;
 }
 function showMissingImage(event) {
   if (!(event.target instanceof HTMLImageElement)) return;
@@ -177,9 +397,14 @@ function showMissingImage(event) {
 $('cards').addEventListener('error', showMissingImage, true);
 $('modalContent').addEventListener('error', showMissingImage, true);
 $('closeModal').addEventListener('click',closeModal);
-$('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+modal.addEventListener('click', event => {
+  if (event.target.closest('#vehiclePreview, [data-vehicle-preview]')) return;
+  if (!closeVehiclePreview() && event.target === modal) closeModal();
+});
 document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && $('modal').classList.contains('open')) closeModal();
+  if (event.key !== 'Escape' || !modal.classList.contains('open') || vehicleLineDialog.open) return;
+  if (closeVehiclePreview(true)) event.preventDefault();
+  else closeModal();
 });
 
 function applyFilters() {
@@ -230,11 +455,17 @@ async function loadVehicles() {
       const stockNumber = String(b.stock_number || '');
       const brand = /GOGORO|睿能/i.test(`${name} ${model}`) ? 'GOGORO' : String(b.brand || '其他').trim().toUpperCase();
       const asIs = b.as_is === true || `${name} ${model} ${b.description || ''}`.includes('現況');
+      let mileage = typeof b.mileage === 'string' ? b.mileage.trim() : '';
+      if (!mileage && Number.isSafeInteger(b.km) && b.km >= 0) {
+        mileage = `約 ${b.km.toLocaleString('zh-TW')} 公里`;
+      }
       return {
         id: String(b.source_url || i),
         store, brand, model, original_name: name, stock_number: stockNumber,
         year: Number.isInteger(b.year) ? b.year : null,
         price: Number.isFinite(b.price) ? b.price : null,
+        mileage,
+        productUrl: vehicleProductUrl(b.source_url),
         image_url: String(b.image_url || ''),
         image_urls: Array.isArray(b.image_urls) ? b.image_urls : [],
         categories: vehicleCategories(b, brand, model),
