@@ -1,5 +1,35 @@
 [
   {
+    "store": "台南店",
+    "brand": "GOGORO",
+    "year": 2023,
+    "model": "GOGORO VIVA XL 皮帶",
+    "stock_number": "2287",
+    "price": 36000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113629091.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2023-gogoro-viva-xl-皮帶-2287",
+    "original_name": "【台南店】2023 GOGORO VIVA XL 皮帶#2287",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "mileage": "約 221XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113629091.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629092.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629094.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629095.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629093.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629129.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629130.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629131.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113629132.jpeg"
+    ]
+  },
+  {
     "store": "新北中和店",
     "brand": "YAMAHA",
     "year": 2024,
@@ -2060,7 +2090,7 @@
     "year": 2017,
     "model": "山葉 FORCE 155",
     "stock_number": "1399",
-    "price": 48000,
+    "price": 46000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/113506461.jpg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2017-山葉-force-155-1399",
     "original_name": "【新北新莊店】2017 山葉 FORCE 155 #1399",
@@ -2087,7 +2117,7 @@
     "year": 2022,
     "model": "優惠  偉士牌 衝刺 150 ABS",
     "stock_number": "3286",
-    "price": 130000,
+    "price": 125000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/113506326.jpg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2022-偉士牌-衝刺-150-abs-3286",
     "original_name": "優惠 【新北新莊店】2022 偉士牌 衝刺 150 ABS #3286",
@@ -9448,7 +9478,7 @@
     "year": 2025,
     "model": "優惠  三陽 CLBCU 鑰匙版",
     "stock_number": "7301",
-    "price": 68000,
+    "price": 65000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/112730567.jpg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2025-三陽-clbcu-鑰匙版-7301-1",
     "original_name": "優惠 【新北新莊店】2025 三陽 CLBCU 鑰匙版#7301",
