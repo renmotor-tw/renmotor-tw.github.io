@@ -2870,13 +2870,13 @@
   {
     "store": "高雄店",
     "brand": "SYM",
-    "year": 2023,
-    "model": "三陽SYM 曼巴MMBCU 158 (碟煞)(ABS+TCS)",
+    "year": null,
+    "model": "三陽SYM 曼巴MMBCU (碟煞)(ABS+TCS)(小改款非電推)",
     "stock_number": "2356",
     "price": 86000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/113442890.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2023-三陽sym-曼巴mmbcu-158-碟煞-abs-tcs-2356",
-    "original_name": "【高雄店】2023 三陽SYM 曼巴MMBCU 158 (碟煞)(ABS+TCS) #2356",
+    "original_name": "【高雄店】三陽SYM 曼巴MMBCU (碟煞)(ABS+TCS)(小改款非電推)#2356",
     "cc": 158,
     "km": null,
     "warranty": false,
@@ -4464,32 +4464,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113246896.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113246898.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113246897.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "SYM",
-    "year": 2020,
-    "model": "三陽 FIDDLE LT 115 前碟後鼓",
-    "stock_number": "3360",
-    "price": 42000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113246877.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2020-三陽-fiddle-lt-115-前碟後鼓-3360",
-    "original_name": "【新竹店】2020 三陽 FIDDLE LT 115 前碟後鼓 #3360",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 10,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113246877.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246878.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246879.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246881.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246880.jpeg"
     ]
   },
   {
@@ -6179,37 +6153,6 @@
     ]
   },
   {
-    "store": "高雄店",
-    "brand": "YAMAHA",
-    "year": 2018,
-    "model": "山葉YAMAHA JOG FS115(碟煞)",
-    "stock_number": "7197",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113092553.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2018-山葉yamaha-jog-fs115-碟煞-7197",
-    "original_name": "【高雄店】2018 山葉YAMAHA JOG FS115(碟煞)#7197",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 36,0XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113092553.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092557.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092558.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092554.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092559.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092552.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092550.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092551.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092555.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113092556.jpeg"
-    ]
-  },
-  {
     "store": "新北中和店",
     "brand": "YAMAHA",
     "year": 2016,
@@ -7591,32 +7534,6 @@
   },
   {
     "store": "新北中和店",
-    "brand": "YAMAHA",
-    "year": 2026,
-    "model": "山葉 VINOORA",
-    "stock_number": "7678",
-    "price": 68000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112932795.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2026-山葉-vinoora-7678",
-    "original_name": "【新北中和店】2026 山葉 VINOORA#7678",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 2XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112932795.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112932794.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112932829.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112932798.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112932796.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
     "brand": "KYMCO",
     "year": 2024,
     "model": "光陽 JetSL 158",
@@ -7981,32 +7898,6 @@
     ]
   },
   {
-    "store": "新竹店",
-    "brand": "KYMCO",
-    "year": 2021,
-    "model": "光陽 MANY 110 前碟後鼓",
-    "stock_number": "1689",
-    "price": 50000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112900480.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2021-光陽-many-110-前碟後鼓-1689",
-    "original_name": "【新竹店】2021 光陽 MANY 110 前碟後鼓 #1689",
-    "cc": 110,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 11,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112900480.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112900479.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112900477.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112900478.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112900481.jpeg"
-    ]
-  },
-  {
     "store": "桃園中壢店",
     "brand": "YAMAHA",
     "year": 2025,
@@ -8349,32 +8240,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112813602.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112813600.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112813597.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "山葉 JOG FS 115 前碟後鼓",
-    "stock_number": "9997",
-    "price": 35000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112813440.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2016-山葉-jog-fs-115-前碟後鼓-9997",
-    "original_name": "【新竹店】2016 山葉 JOG FS 115 前碟後鼓 #9997",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 17,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112813440.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813437.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813439.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813438.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112813436.jpeg"
     ]
   },
   {
@@ -10297,32 +10162,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112600768.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112600767.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112600764.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "山葉 FORCE 155 雙碟",
-    "stock_number": "0007",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112583963.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2016-山葉-force-155-雙碟-0007",
-    "original_name": "【新竹店】2016 山葉 FORCE 155 雙碟 #0007",
-    "cc": 155,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 4,XXXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112583963.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112583961.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112583960.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112583959.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112583962.jpeg"
     ]
   },
   {
@@ -16119,37 +15958,6 @@
   },
   {
     "store": "高雄店",
-    "brand": "SYM",
-    "year": 2020,
-    "model": "三陽SYM 新迪爵125(鼓煞)(CBS)",
-    "stock_number": "7919",
-    "price": 39999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111215317.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2020-三陽sym-新迪爵125-鼓煞-cbs-7919-",
-    "original_name": "【高雄店】2020 三陽SYM 新迪爵125(鼓煞)(CBS)#7919",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 25,8XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111215317.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215319.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215322.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215321.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215323.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215318.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215326.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215325.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215324.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111215320.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
     "brand": "YAMAHA",
     "year": 2017,
     "model": "山葉YAMAHA JOG SWEET 115(鼓煞)",
@@ -18025,32 +17833,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "KYMCO",
-    "year": 2015,
-    "model": "光陽 GP 125 前碟後鼓",
-    "stock_number": "9368",
-    "price": 32000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110690798.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2015-光陽-gp-125-前碟後鼓-9368",
-    "original_name": "【新竹店】2015 光陽 GP 125 前碟後鼓 #9368",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 32,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110690798.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110690799.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110690800.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110690802.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110690801.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "SYM",
     "year": 2017,
     "model": "三陽 野狼傳奇 150 前碟後鼓 國際檔",
@@ -19272,32 +19054,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110381764.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110381765.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110381762.jpeg"
-    ]
-  },
-  {
-    "store": "台中太平店",
-    "brand": "KYMCO",
-    "year": 2014,
-    "model": "光陽 MANY 125",
-    "stock_number": "185",
-    "price": 33000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110380170.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2014-光陽-many-125-185",
-    "original_name": "【台中太平店】2014 光陽 MANY 125 #185",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 37,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110380170.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110380166.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110380167.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110380168.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110380169.jpeg"
     ]
   },
   {
@@ -21508,32 +21264,6 @@
       "https://cdn.store-assets.com/s/1336053/i/107474676.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/107474675.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/107474677.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
-    "brand": "KYMCO",
-    "year": 2023,
-    "model": "光陽 超級金牌 150",
-    "stock_number": "8123",
-    "price": 52000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/107270849.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2023-光陽-超級金牌-150-8123",
-    "original_name": "【台中旗艦店】2023 光陽 超級金牌 150 #8123",
-    "cc": 150,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "126-150"
-    ],
-    "mileage": "約 10,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/107270849.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/107270848.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/107270847.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/107270845.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/107270846.jpeg"
     ]
   },
   {
