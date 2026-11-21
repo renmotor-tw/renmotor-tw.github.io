@@ -1,5 +1,57 @@
 [
   {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2024,
+    "model": "山葉 AUGUR 155",
+    "stock_number": "1231",
+    "price": 76000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113627556.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2024-山葉-augur-155-1231",
+    "original_name": "【新北中和店】2024 山葉 AUGUR 155#1231",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 13XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113627556.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627559.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627558.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627560.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627557.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2022,
+    "model": "山葉 VINOORA 125",
+    "stock_number": "9897",
+    "price": 63000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113627459.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2022-山葉-vinoora-125-9897",
+    "original_name": "【新北中和店】2022 山葉 VINOORA 125 #9897",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 15XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113627459.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627458.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627456.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627460.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113627457.jpeg"
+    ]
+  },
+  {
     "store": "台中太平店",
     "brand": "YAMAHA",
     "year": 2016,
@@ -14907,37 +14959,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111468566.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111468567.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111468565.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "YAMAHA",
-    "year": 2015,
-    "model": "山葉YAMAHA 勁戰四代(碟煞)",
-    "stock_number": "530",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111455345.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2015-山葉yamaha-勁戰四代-碟煞-530",
-    "original_name": "【高雄店】2015 山葉YAMAHA 勁戰四代(碟煞)#530",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 24,8XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111455345.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455344.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455342.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455343.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455346.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455340.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455341.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455338.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455339.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111455347.jpeg"
     ]
   },
   {
