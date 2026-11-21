@@ -1,5 +1,84 @@
 [
   {
+    "store": "台中太平店",
+    "brand": "YAMAHA",
+    "year": 2016,
+    "model": "優惠  山葉 BWSR 125 (前後雙碟)",
+    "stock_number": "0277",
+    "price": 38000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113621019.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2016-山葉-bwsr-125-前後雙碟-0277",
+    "original_name": "優惠 【台中太平店】2016 山葉 BWSR 125 (前後雙碟)#0277",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 59,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113621019.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113621018.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113621016.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113621015.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113621017.jpeg"
+    ]
+  },
+  {
+    "store": "台中太平店",
+    "brand": "SYM",
+    "year": 2019,
+    "model": "優惠  三陽 新迪爵 125 (鼓煞)",
+    "stock_number": "3212",
+    "price": 38000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113620903.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2019-三陽-新迪爵-125-鼓煞-3212",
+    "original_name": "優惠 【台中太平店】2019 三陽 新迪爵 125 (鼓煞) #3212",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 58,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113620903.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620901.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620904.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620900.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620902.jpeg"
+    ]
+  },
+  {
+    "store": "台中太平店",
+    "brand": "YAMAHA",
+    "year": 2022,
+    "model": "優惠  山葉 R15M v4 (ABS+TCS+快排)",
+    "stock_number": "0893",
+    "price": 76000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113620658.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2022-山葉-r15m-v4-abs-tcs-快排-0893",
+    "original_name": "優惠 【台中太平店】2022 山葉 R15M v4 (ABS+TCS+快排)#0893",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249",
+      "white-manual"
+    ],
+    "mileage": "約 8,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113620658.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620656.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620657.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620660.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113620659.jpeg"
+    ]
+  },
+  {
     "store": "台南店",
     "brand": "SYM",
     "year": 2024,
@@ -7285,33 +7364,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112947668.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112947669.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112947670.jpg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2022,
-    "model": "優惠  三陽 全新迪爵 125 碟煞 CBS",
-    "stock_number": "9528",
-    "price": 47000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112947626.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2022-三陽-全新迪爵-125-碟煞-cbs-9528-1",
-    "original_name": "優惠 【新北新莊店】2022 三陽 全新迪爵 125 碟煞 CBS #9528",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 10XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112947626.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947627.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947628.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947629.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947630.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947631.jpg"
     ]
   },
   {
