@@ -1,5 +1,40 @@
 [
   {
+    "store": "台南店",
+    "brand": "YAMAHA",
+    "year": 2009,
+    "model": "山葉 CUXI 100 (指針/化油)",
+    "stock_number": "290",
+    "price": 28000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113605452.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2009-山葉-cuxi-100-指針-化油-290",
+    "original_name": "【台南店】2009 山葉 CUXI 100 (指針/化油) #290",
+    "cc": 100,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 418XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113605452.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605451.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605450.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605455.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605456.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605454.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605453.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605458.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605460.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605457.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605459.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605461.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605462.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113605463.jpeg"
+    ]
+  },
+  {
     "store": "新北樹林店",
     "brand": "YAMAHA",
     "year": 2019,
