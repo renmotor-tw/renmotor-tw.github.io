@@ -1,3 +1,29 @@
+const analyticsId = 'G-HZRLCDXY6P';
+const analyticsEnabled = window.location.origin === 'https://renmotor-tw.github.io';
+if (analyticsEnabled) {
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag() { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', analyticsId, {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+  const tag = document.createElement('script');
+  tag.async = true;
+  tag.src = `https://www.googletagmanager.com/gtag/js?id=${analyticsId}`;
+  document.head.appendChild(tag);
+}
+
+function trackVehicleEvent(event, bike) {
+  if (!analyticsEnabled) return;
+  window.gtag('event', event, {
+    send_to: analyticsId,
+    vehicle_stock_number: bike.stock_number,
+    vehicle_model: bike.model.slice(0, 100),
+    vehicle_store: bike.store
+  });
+}
+
 const PAGE_SIZE = 50;
 let bikes = [];
 let currentPage = 1;
@@ -24,6 +50,18 @@ function vehicleProductUrl(value) {
   const product = url.pathname.match(/\/products\/[^/]+\/?$/);
   return product ? new URL(product[0], url.origin).href : '';
 }
+// Warranty verified against the original listings. Explicit as-is notices still take priority.
+const confirmedWarrantyProducts = new Set([
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2023-%E4%B8%89%E9%99%BDsym-%E6%9B%BC%E5%B7%B4mmbcu-158-%E7%A2%9F%E7%85%9E-abs-tcs-2356',
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2024-%E5%B1%B1%E8%91%89yamaha-mt-15-%E7%A2%9F%E7%85%9E-abs-6008',
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2023-%E4%B8%89%E9%99%BDsym-%E9%87%8E%E7%8B%BC125-%E7%A2%9F%E7%85%9E-2176',
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2023-%E4%B8%89%E9%99%BDsym-fiddle-125-%E7%A2%9F%E7%85%9E-1355',
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2025-%E5%85%89%E9%99%BDkymco-%E5%A4%A7%E5%9C%B0%E5%90%8D%E6%B5%81125-%E9%BC%93%E7%85%9E-7319',
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2025-%E4%B8%89%E9%99%BDstm-jet-sl-158-%E7%A2%9F%E7%85%9E-abs-tcs-5388',
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2023-%E5%B1%B1%E8%91%89yamaha-mt-15-%E7%A2%9F%E7%85%9E-abs-8019',
+  'https://shop.2motor.tw/products/-%E9%AB%98%E9%9B%84%E5%BA%97-2025-%E9%88%B4%E6%9C%A8suzuki-new-nex-125-%E7%A2%9F%E7%85%9E-3666',
+  'https://shop.2motor.tw/products/2025-%E4%B8%89%E9%99%BDsym-mmbcu-158-%E5%B0%8F%E6%94%B9%E6%AC%BE-%E9%9D%9E%E9%9B%BB%E9%A9%85%E7%89%88%E6%9C%AC-9903',
+]);
 const brandLabels = new Map([...$('brandFilter').options].map(option => [option.value, option.text]));
 const filterIds = ['search', 'storeFilter', 'brandFilter', 'categoryFilter', 'warrantyFilter', 'sortFilter'];
 const filterForm = $('filterForm');
@@ -76,8 +114,16 @@ function render(reset=false) {
   const result=filtered(), totalPages=Math.max(1,Math.ceil(result.length/PAGE_SIZE));
   currentPage=Math.min(currentPage,totalPages);
   const pageBikes=result.slice((currentPage-1)*PAGE_SIZE,currentPage*PAGE_SIZE);
-  $('resultCount').textContent=result.length;
-  $('pageInfo').textContent=`第 ${currentPage} / ${result.length?totalPages:0} 頁 · 每頁最多 50 台`;
+  let warrantyCount = 0;
+  let asIsCount = 0;
+  for (const bike of result) {
+    if (bike.warrantyStatus === 'warranty') warrantyCount++;
+    if (bike.warrantyStatus === 'as-is') asIsCount++;
+  }
+  $('resultCount').textContent = result.length;
+  $('warrantyCount').textContent = warrantyCount;
+  $('asIsCount').textContent = asIsCount;
+  $('pageInfo').textContent = `第 ${result.length ? currentPage : 0} / ${result.length ? totalPages : 0} 頁`;
   $('empty').hidden = result.length > 0;
   $('cards').innerHTML=pageBikes.map(b=>{
     const image=imageUrl(b.image_url);
@@ -374,10 +420,14 @@ function openDetail(id) {
   modal.classList.add('open');
   setupGallery(photos, b.model);
   setupVehiclePreviewTriggers();
-  $('openVehicleLineDialog').addEventListener('click', () => showVehicleLineDialog(lineChatUrl, lineMessage));
+  $('openVehicleLineDialog').addEventListener('click', () => {
+    showVehicleLineDialog(lineChatUrl, lineMessage);
+    trackVehicleEvent('line_inquiry_click', b);
+  });
   document.body.classList.add('modal-lock');
   modalBox.scrollTop = 0;
   $('closeModal').focus({ preventScroll: true });
+  trackVehicleEvent('vehicle_detail_view', b);
 }
 function closeModal() {
   closeVehiclePreview();
@@ -455,6 +505,8 @@ async function loadVehicles() {
       const stockNumber = String(b.stock_number || '');
       const brand = /GOGORO|睿能/i.test(`${name} ${model}`) ? 'GOGORO' : String(b.brand || '其他').trim().toUpperCase();
       const asIs = b.as_is === true || `${name} ${model} ${b.description || ''}`.includes('現況');
+      const productUrl = vehicleProductUrl(b.source_url);
+      const hasWarranty = b.warranty === true || confirmedWarrantyProducts.has(productUrl.replace(/\/$/, ''));
       let mileage = typeof b.mileage === 'string' ? b.mileage.trim() : '';
       if (!mileage && Number.isSafeInteger(b.km) && b.km >= 0) {
         mileage = `約 ${b.km.toLocaleString('zh-TW')} 公里`;
@@ -465,14 +517,25 @@ async function loadVehicles() {
         year: Number.isInteger(b.year) ? b.year : null,
         price: Number.isFinite(b.price) ? b.price : null,
         mileage,
-        productUrl: vehicleProductUrl(b.source_url),
+        productUrl,
         image_url: String(b.image_url || ''),
         image_urls: Array.isArray(b.image_urls) ? b.image_urls : [],
         categories: vehicleCategories(b, brand, model),
-        warrantyStatus: asIs ? 'as-is' : b.warranty === true ? 'warranty' : '',
+        warrantyStatus: asIs ? 'as-is' : hasWarranty ? 'warranty' : '',
         searchText: [name, model, stockNumber, brandLabels.get(brand) || brand, store].join(' ').toLowerCase()
       };
     });
+    const updated = $('inventoryUpdated');
+    const modified = updated.dateTime || response.headers.get('Last-Modified');
+    const timestamp = modified ? Date.parse(modified) : NaN;
+    if (Number.isFinite(timestamp)) {
+      const date = new Date(timestamp);
+      updated.dateTime = date.toISOString();
+      updated.textContent = new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei', month: 'numeric', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+      }).format(date);
+    }
     updateFilters();render(true);
     $('syncStatus').textContent=`已載入 ${bikes.length} 筆公開商品資料。資料為定期更新，非即時庫存。`;
   } catch(error) {
@@ -482,4 +545,5 @@ async function loadVehicles() {
     console.error('RenMotor load error:',error);
   }
 }
+$('pageSize').textContent = PAGE_SIZE;
 loadVehicles();

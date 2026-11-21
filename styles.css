@@ -1,4 +1,4 @@
-:root{--bg:#090909;--panel:#121212;--panel2:#191919;--line:#2a2a2a;--text:#f4f4f4;--muted:#a3a3a3;--lime:#d6ff3f;--white:#fff}
+:root{--as-is-color:#ffbd57;--bg:#090909;--panel:#121212;--panel2:#191919;--line:#2a2a2a;--text:#f4f4f4;--muted:#a3a3a3;--lime:#d6ff3f;--white:#fff}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}
 header{border-bottom:1px solid #252525;background:rgba(9,9,9,.92);position:sticky;top:0;z-index:10;backdrop-filter:blur(16px)}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.03em}.logo {
   width: 44px;
@@ -53,7 +53,7 @@ header{border-bottom:1px solid #252525;background:rgba(9,9,9,.92);position:stick
   .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .hero-about { max-width: 34rem; justify-self: start; }
 }
-.section{padding:54px 0}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:13px;color:#9b9b9b;letter-spacing:.08em}.field input,.field select{width:100%;background:#0b0b0b;color:#f4f4f4;border:1px solid #333;padding:10px 11px;min-height:42px;outline:none;min-width:0}.field input:focus,.field select:focus{border-color:var(--lime)}.results-line{display:flex;justify-content:space-between;align-items:center;color:#999;font-size:12px;margin-bottom:14px}.results-line strong{color:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.bike-card{background:var(--panel);border:1px solid var(--line);transition:transform .2s,border-color .2s;cursor:pointer;min-width:0}.bike-card:hover{transform:translateY(-4px);border-color:#707b35}.bike-img{height:220px;position:relative;background:#222;overflow:hidden}.bike-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s;filter:contrast(1.04)}.bike-card:hover .bike-img img{transform:scale(1.04)}.tag{position:absolute;top:12px;left:12px;background:var(--lime);color:#111;padding:6px 8px;font-size:9px;font-weight:950;letter-spacing:.08em}.tag.gray{background:#252525;color:#ddd;border:1px solid #555}.card-body{padding:17px}.card-kicker{color:#aaa;font-size:10px;letter-spacing:.1em}.card-title{font-size:18px;font-weight:850;margin:8px 0 13px}.specs{display:flex;gap:12px;flex-wrap:wrap;color:#a7a7a7;font-size:11px}.price-row{display:flex;justify-content:space-between;align-items:end;border-top:1px solid #2a2a2a;margin-top:17px;padding-top:14px}.price{font-size:23px;font-weight:950;letter-spacing:-.04em}.price small{font-size:10px;color:#999;font-weight:500;letter-spacing:0}.details-link{font-size:11px;color:var(--lime);font-weight:800}.empty{padding:50px 20px;text-align:center;color:#aaa;border:1px dashed #444}.notice{font-size:11px;color:#888;margin-top:16px;line-height:1.8}
+.section{padding:54px 0}.field{display:flex;flex-direction:column;gap:7px}.field label{font-size:13px;color:#9b9b9b;letter-spacing:.08em}.field input,.field select{width:100%;background:#0b0b0b;color:#f4f4f4;border:1px solid #333;padding:10px 11px;min-height:42px;outline:none;min-width:0}.field input:focus,.field select:focus{border-color:var(--lime)}.results-line strong{color:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.bike-card{background:var(--panel);border:1px solid var(--line);transition:transform .2s,border-color .2s;cursor:pointer;min-width:0}.bike-card:hover{transform:translateY(-4px);border-color:#707b35}.bike-img{height:220px;position:relative;background:#222;overflow:hidden}.bike-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s;filter:contrast(1.04)}.bike-card:hover .bike-img img{transform:scale(1.04)}.tag{position:absolute;top:12px;left:12px;background:var(--lime);color:#111;padding:6px 8px;font-size:9px;font-weight:950;letter-spacing:.08em}.tag.gray{background:#252525;color:#ddd;border:1px solid #555}.card-body{padding:17px}.card-kicker{color:#aaa;font-size:10px;letter-spacing:.1em}.card-title{font-size:18px;font-weight:850;margin:8px 0 13px}.specs{display:flex;gap:12px;flex-wrap:wrap;color:#a7a7a7;font-size:11px}.price-row{display:flex;justify-content:space-between;align-items:end;border-top:1px solid #2a2a2a;margin-top:17px;padding-top:14px}.price{font-size:23px;font-weight:950;letter-spacing:-.04em}.price small{font-size:10px;color:#999;font-weight:500;letter-spacing:0}.details-link{font-size:11px;color:var(--lime);font-weight:800}.empty{padding:50px 20px;text-align:center;color:#aaa;border:1px dashed #444}.notice{font-size:11px;color:#888;margin-top:16px;line-height:1.8}
 footer{padding:34px 0;border-top:1px solid #292929;color:#999;font-size:11px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{font-size:16px;font-weight:900;color:#fff}.footer-brand span{color:var(--lime)}
 .modal{position:fixed;inset:0;background:#000c;z-index:20;display:none;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.modal-box{background:#111;border:1px solid #444;max-width:900px;width:100%;max-height:90vh;overflow:auto;position:relative}.modal-close{position:sticky;float:right;top:8px;margin:8px 8px 0 0;z-index:2;background:#222;color:#fff;border:1px solid #555;width:36px;height:36px;cursor:pointer}.modal-content{display:grid;grid-template-columns:1fr 1fr;gap:0}.modal-photo{min-height:360px;background:#222}.modal-photo img{width:100%;height:100%;min-height:360px;object-fit:cover}.modal-info{padding:30px}.modal-info h2{font-size:28px;margin:10px 0}.modal-info .price{font-size:30px;color:var(--lime);margin:16px 0}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.detail-cell{background:#1a1a1a;padding:12px}.detail-cell small{display:block;color:#999;font-size:10px;margin-bottom:5px}.detail-cell strong{font-size:13px}.modal-info p{font-size:12px;line-height:1.9;color:#bbb}.warranty{border:1px solid #4e5d20;color:#dfff74;padding:11px;font-size:11px;margin:16px 0}.line-btn{display:flex;width:100%;background:var(--lime);color:#111;justify-content:center;padding:14px;font-weight:950;font-size:12px;margin-top:18px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#222;border:1px solid #555;padding:12px 16px;font-size:12px;display:none;z-index:30}
 @media(max-width:850px){.hero{padding-top:50px}.hero-visual{min-height:200px}.hero-visual img{max-width:none;max-height:300px}.cards{grid-template-columns:repeat(2,1fr)}}
@@ -289,7 +289,7 @@ html:has(.filter-drawer[open]), body.modal-lock { overflow: hidden; }
 .gallery-thumbs img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .bike-img { position: relative; }
 .vehicle-badge { display: inline-block; padding: 4px 8px; border: 1px solid currentColor; background: #111; color: var(--lime); font-size: 13px; font-weight: 750; }
-.vehicle-badge.as-is { color: #ffbd57; }
+.vehicle-badge.as-is { color: var(--as-is-color); }
 .bike-img .vehicle-badge { position: absolute; top: 8px; left: 8px; }
 .vehicle-services { margin-top: 18px; background: #1a1a1a; padding: 16px; }
 .vehicle-services h3 { margin: 0 0 8px; font-size: 16px; }
@@ -545,4 +545,41 @@ html:has(.filter-drawer[open]), body.modal-lock { overflow: hidden; }
 .contract-clauses li::marker { font-weight: 700; }
 @media (pointer: coarse) {
   .vehicle-preview-trigger { min-height: 44px; }
+}
+
+.inventory-summary {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.inventory-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-height: 94px;
+  padding: 10px;
+  border: 1px solid #303638;
+  border-radius: 8px;
+  background: #1d2325;
+  color: var(--lime);
+  text-align: center;
+}
+.inventory-stat strong {
+  color: #f4f4f4;
+  font-size: 1.0625rem;
+  font-variant-numeric: tabular-nums;
+}
+.inventory-stat-label {
+  color: #bfc7c9;
+  font-size: .875rem;
+}
+.inventory-stat--as-is { color: var(--as-is-color); }
+.inventory-stat--page { color: #bfc7c9; }
+@media (max-width: 700px) {
+  .inventory-summary { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .inventory-stat { grid-column: span 2; }
+  .inventory-stat:nth-last-child(-n + 2) { grid-column: span 3; }
 }

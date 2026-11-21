@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#090909">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.store-assets.com; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; img-src 'self' https://cdn.store-assets.com https://www.googletagmanager.com https://*.google-analytics.com; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
 <title>阿人車庫 RenMotor｜中古機車查詢與購車諮詢</title>
 <meta name="description" content="阿人車庫 RenMotor_ 為貳輪嶼中古機車在職業務獨立建立的車輛展示平台。瀏覽中古機車並透過貳輪嶼官方 LINE 詢問車況、價格與賞車安排。">
 <link rel="canonical" href="https://renmotor-tw.github.io/">
 <link rel="icon" href="./favicon.png" type="image/png" sizes="96x96">
-<link rel="stylesheet" href="./styles.css?v=babe67c7564d">
+<link rel="stylesheet" href="./styles.css?v=11671c093dfc">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -59,7 +59,33 @@
 </div></section>
 <section class="section" id="inventory" aria-labelledby="inventory-title"><div class="wrap">
   <h2 class="visually-hidden" id="inventory-title">車庫現有車款</h2>
-  <div class="results-line"><span aria-live="polite">符合條件 <strong id="resultCount">0</strong> 台車輛</span><span id="pageInfo">每頁 50 台</span></div>
+  <div class="inventory-summary" role="group" aria-label="車輛統計與分頁" aria-live="polite">
+    <div class="inventory-stat">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="17" r="4"/><circle cx="19" cy="17" r="4"/><path d="m5 17 5-9 4 9H5m9 0 4-9m-2-3h3m-11 3H6"/></svg>
+      <strong><span id="resultCount">—</span> 台</strong>
+      <span class="inventory-stat-label">符合條件的在售車輛</span>
+    </div>
+    <div class="inventory-stat">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-3 7-10V5l-7-3-7 3v7c0 7 7 10 7 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+      <strong><span id="warrantyCount">—</span> 台</strong>
+      <span class="inventory-stat-label">保固車</span>
+    </div>
+    <div class="inventory-stat inventory-stat--as-is">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-3 7-10V5l-7-3-7 3v7c0 7 7 10 7 10Z"/><path d="M12 8v4m0 4h.01"/></svg>
+      <strong><span id="asIsCount">—</span> 台</strong>
+      <span class="inventory-stat-label">現況車</span>
+    </div>
+    <div class="inventory-stat">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7a9 9 0 0 0-15 2M20 3v4h-4M4 17a9 9 0 0 0 15-2M4 21v-4h4"/></svg>
+      <strong><time id="inventoryUpdated">—</time></strong>
+      <span class="inventory-stat-label">資料更新（台灣時間）</span>
+    </div>
+    <div class="inventory-stat inventory-stat--page">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6m-6 4h6m-6 4h4"/></svg>
+      <strong><span id="pageInfo">第 — / — 頁</span></strong>
+      <span class="inventory-stat-label">每頁最多 <span id="pageSize">50</span> 台</span>
+    </div>
+  </div>
   <div class="sync-status" id="syncStatus">正在載入公開商城車輛資料…</div>
   <div class="cards" id="cards"></div><div class="empty" id="empty" hidden>沒有符合條件的車款，試試調整搜尋條件。</div><div class="pagination" id="pagination" aria-label="車輛分頁"></div>
   <p class="notice">※ 資料來源：貳輪嶼公開商城。車輛可能已售出、調價或下架，歡迎透過 LINE 詢問確認。本網站非即時庫存保證。</p>
@@ -257,6 +283,6 @@
 </template>
 <div class="toast" id="toast"></div>
 <script src="./qrcode.js?v=510f3b947ecf"></script>
-<script src="./app.js?v=fa9fcfad004b"></script>
+<script src="./app.js?v=246fd35788f6"></script>
 </body>
 </html>
