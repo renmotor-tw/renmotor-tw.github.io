@@ -6716,37 +6716,6 @@
   },
   {
     "store": "高雄店",
-    "brand": "KYMCO",
-    "year": 2020,
-    "model": "光陽KYMCO NICE 100(鼓煞)",
-    "stock_number": "7016",
-    "price": 29999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113010180.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2020-光陽kymco-nice-100-鼓煞-7016",
-    "original_name": "【高雄店】2020 光陽KYMCO NICE 100(鼓煞)#7016",
-    "cc": 100,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 36,4XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113010180.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010176.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010182.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010174.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010181.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010177.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010178.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010175.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010173.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113010179.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
     "brand": "YAMAHA",
     "year": 2024,
     "model": "山葉YAMAHA MT-15(碟煞)(ABS)",
@@ -21666,6 +21635,37 @@
       "https://cdn.store-assets.com/s/1336053/i/106320679.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/106320678.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/106320680.jpeg"
+    ]
+  },
+  {
+    "store": "高雄店",
+    "brand": "KYMCO",
+    "year": 2019,
+    "model": "優惠  光陽KYMCO CUE 100(鼓煞)",
+    "stock_number": "1687",
+    "price": 27000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/106306023.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2019-光陽kymco-cue-100-鼓煞-1687",
+    "original_name": "優惠 【高雄店】2019 光陽KYMCO CUE 100(鼓煞)#1687",
+    "cc": 100,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 32,3XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/106306023.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306028.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306027.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306026.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306024.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306030.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306025.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306021.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306029.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/106306022.jpeg"
     ]
   },
   {
