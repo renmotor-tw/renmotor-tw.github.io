@@ -5834,32 +5834,6 @@
   },
   {
     "store": "台中旗艦店",
-    "brand": "YAMAHA",
-    "year": 2019,
-    "model": "山葉 勁戰五代 125 ABS",
-    "stock_number": "9100",
-    "price": 53000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113127809.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2019-山葉-勁戰五代-125-abs-9100-",
-    "original_name": "【台中旗艦店】2019 山葉 勁戰五代 125 ABS#9100",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 24,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113127809.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127810.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127811.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127812.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127813.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
     "brand": "SYM",
     "year": 2021,
     "model": "三陽 FIDDLE LT 115",
@@ -18521,38 +18495,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110513245.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110513242.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110513243.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "SYM",
-    "year": 2024,
-    "model": "三陽SYM 野狼125(鼓煞)",
-    "stock_number": "1962",
-    "price": 55000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110513012.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2024-三陽sym-野狼125-鼓煞-1962",
-    "original_name": "【高雄店】2024 三陽SYM 野狼125(鼓煞)#1962",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125",
-      "white-manual"
-    ],
-    "mileage": "約 5,2XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110513012.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513015.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513014.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513011.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513013.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513016.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513017.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513018.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513009.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513010.jpeg"
     ]
   },
   {
