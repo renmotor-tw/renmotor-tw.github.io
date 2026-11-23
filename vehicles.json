@@ -5756,32 +5756,6 @@
   },
   {
     "store": "台中旗艦店",
-    "brand": "KYMCO",
-    "year": 2014,
-    "model": "光陽 G6E 125",
-    "stock_number": "2072",
-    "price": 28000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113127936.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2014-光陽-g6e-125-2072-",
-    "original_name": "【台中旗艦店】2014 光陽 G6E 125 #2072",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 36,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113127936.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127937.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127938.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127940.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113127939.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
     "brand": "SYM",
     "year": 2021,
     "model": "三陽 FIDDLE LT 115",
