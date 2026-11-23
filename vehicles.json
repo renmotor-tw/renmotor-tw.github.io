@@ -1,5 +1,31 @@
 [
   {
+    "store": "台中旗艦店",
+    "brand": "HONDA",
+    "year": 2024,
+    "model": "本田 CBR 500R",
+    "stock_number": "6097",
+    "price": 170000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113717924.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2024-本田-cbr-500r-6097",
+    "original_name": "【台中旗艦店】2024 本田 CBR 500R #6097",
+    "cc": 500,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "heavy"
+    ],
+    "mileage": "約 2,9XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113717924.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113717926.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113717927.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113717925.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113717932.jpeg"
+    ]
+  },
+  {
     "store": "台南店",
     "brand": "YAMAHA",
     "year": 2019,
