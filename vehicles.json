@@ -1,5 +1,74 @@
 [
   {
+    "store": "台南店",
+    "brand": "YAMAHA",
+    "year": 2019,
+    "model": "山葉 勁戰五代 125 (雙碟)",
+    "stock_number": "0931",
+    "price": 48000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113716776.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2019-山葉-勁戰五代-125-雙碟-0931",
+    "original_name": "【台南店】2019 山葉 勁戰五代 125 (雙碟) #0931",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 748XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113716776.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716785.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716779.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716784.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716771.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716766.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716772.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716775.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716778.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716774.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716777.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716768.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716767.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716780.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716770.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716769.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716773.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716781.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716783.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716782.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716786.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "KYMCO",
+    "year": 2016,
+    "model": "光陽 GP125 XGOING",
+    "stock_number": "6065",
+    "price": 30000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113716454.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2016-光陽-gp125-xgoing-6065",
+    "original_name": "【新北樹林店】2016 光陽 GP125 XGOING #6065",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 266XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113716454.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716470.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716455.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716458.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716457.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113716456.jpeg"
+    ]
+  },
+  {
     "store": "台中太平店",
     "brand": "GOGORO",
     "year": 2021,
