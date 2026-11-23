@@ -6362,38 +6362,6 @@
   {
     "store": "桃園中壢店",
     "brand": "YAMAHA",
-    "year": 2014,
-    "model": "山葉 NEW CUXI 115 前碟後鼓",
-    "stock_number": "701",
-    "price": 33000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113160742.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2014-山葉-new-cuxi-115-前碟後鼓-701",
-    "original_name": "【桃園中壢店】2014 山葉 NEW CUXI 115 前碟後鼓 #701",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 23,937 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113160742.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160748.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160745.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160743.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160746.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160747.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160744.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160751.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160749.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160750.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113160741.jpeg"
-    ]
-  },
-  {
-    "store": "桃園中壢店",
-    "brand": "YAMAHA",
     "year": 2023,
     "model": "山葉 勁豪 125 前碟後鼓",
     "stock_number": "0238",
@@ -7634,6 +7602,32 @@
       "https://cdn.store-assets.com/s/1336053/i/112979831.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112979834.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112979833.jpeg"
+    ]
+  },
+  {
+    "store": "南台中店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 JET SL 125 (ABS+TCS)",
+    "stock_number": "6527",
+    "price": 73000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/112979512.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-南台中店-2023-三陽-jet-sl-125-abs-tcs-6527-",
+    "original_name": "【南台中店】2023 三陽 JET SL 125 (ABS+TCS) #6527",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 249XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/112979512.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979516.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979515.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979514.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112979513.jpeg"
     ]
   },
   {
@@ -12883,32 +12877,6 @@
     ]
   },
   {
-    "store": "台中太平店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "三陽 JET SR 125 (ABS)",
-    "stock_number": "2775",
-    "price": 73000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112195169.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2025-三陽-jet-sr-125-abs-2775",
-    "original_name": "【台中太平店】2025 三陽 JET SR 125 (ABS) #2775",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 8,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112195169.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112195170.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112195171.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112195172.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112195173.jpeg"
-    ]
-  },
-  {
     "store": "高雄店",
     "brand": "KYMCO",
     "year": 2022,
@@ -14407,32 +14375,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111714366.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111714363.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111714364.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
-    "brand": "KYMCO",
-    "year": 2013,
-    "model": "光陽 奔騰 V2 125 碟煞",
-    "stock_number": "2201",
-    "price": 22000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111713904.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2013-光陽-奔騰-v2-125-碟煞-2201",
-    "original_name": "【新北中和店】2013 光陽 奔騰 V2 125 碟煞#2201",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 47XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111713904.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111713903.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111713902.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111713900.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111713901.jpeg"
     ]
   },
   {
@@ -18464,12 +18406,10 @@
     "original_name": "優惠 【台中旗艦店】2024 三陽 KRN 125 #1778",
     "cc": 125,
     "km": null,
-    "warranty": true,
+    "warranty": null,
     "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 24,XXX 公里",
+    "categories": [],
+    "mileage": null,
     "image_urls": [
       "https://cdn.store-assets.com/s/1336053/i/110499285.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110499288.jpeg",
