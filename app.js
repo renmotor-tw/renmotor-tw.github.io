@@ -95,11 +95,35 @@ function updateFilters() {
     '全部門市'
   );
 }
+function normalizeSearchText(text) {
+  return text.normalize('NFKC').toLowerCase().replace(/\s+/g, ' ').trim();
+}
+function createVehicleSearch(query) {
+  const search = normalizeSearchText(query);
+  const modelCode = search.replace(/[\s\p{Pd}\u2212]/gu, '');
+  if (!/^[a-z]+\d[a-z0-9]*$/.test(modelCode)) {
+    return bike => bike.searchText.includes(search);
+  }
+
+  const separator = '[\\s\\p{Pd}\\u2212]*';
+  let modelPattern = modelCode.match(/[a-z]|\d+/g).join(separator);
+  if (/^r15(?:v4m?|mv4)$/.test(modelCode)) {
+    // The inventory uses both R15M V4 and R15 V4M for the M trim.
+    const version = `v${separator}4(?!\\d)`;
+    const trims = [`m${separator}${version}`, `${version}${separator}m`];
+    if (modelCode === 'r15v4') trims.push(version);
+    modelPattern = `r${separator}15${separator}(?:${trims.join('|')})`;
+  }
+
+  // A model code starts at a word boundary, and its number cannot be a prefix of another number.
+  const pattern = new RegExp(`(?:^|[^a-z0-9])${modelPattern}(?!\\d)`, 'u');
+  return bike => pattern.test(bike.modelSearchText);
+}
 function filtered() {
-  const q = activeFilters.search.toLowerCase();
+  const matchesSearch = createVehicleSearch(activeFilters.search);
   const {storeFilter: store, brandFilter: brand, categoryFilter: category, warrantyFilter: warranty, sortFilter: sort} = activeFilters;
   const result = bikes.filter(b =>
-    (!q || b.searchText.includes(q)) &&
+    matchesSearch(b) &&
     (!store || b.store === store) &&
     (!brand || b.brand === brand) &&
     (!category || b.categories.includes(category)) &&
@@ -522,7 +546,8 @@ async function loadVehicles() {
         image_urls: Array.isArray(b.image_urls) ? b.image_urls : [],
         categories: vehicleCategories(b, brand, model),
         warrantyStatus: asIs ? 'as-is' : hasWarranty ? 'warranty' : '',
-        searchText: [name, model, stockNumber, brandLabels.get(brand) || brand, store].join(' ').toLowerCase()
+        searchText: normalizeSearchText([name, model, stockNumber, brandLabels.get(brand) || brand, store].join(' ')),
+        modelSearchText: normalizeSearchText(`${name} | ${model}`)
       };
     });
     const updated = $('inventoryUpdated');
