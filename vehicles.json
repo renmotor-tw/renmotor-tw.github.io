@@ -1,5 +1,213 @@
 [
   {
+    "store": "台中旗艦店",
+    "brand": "GOGORO",
+    "year": 2019,
+    "model": "睿能 GOGORO 2 DELIGHT",
+    "stock_number": "7076",
+    "price": 23000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652604.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2019-睿能-gogoro-2-delight-7076-",
+    "original_name": "【台中旗艦店】2019 睿能 GOGORO 2 DELIGHT #7076",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "mileage": "約 33,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652604.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652606.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652605.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652608.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652607.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "KYMCO",
+    "year": 2021,
+    "model": "光陽 新名流 125 碟煞",
+    "stock_number": "0515",
+    "price": 40000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652547.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2021-光陽-新名流-125-碟煞-0515-",
+    "original_name": "【台中旗艦店】2021 光陽 新名流 125 碟煞 #0515",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 24,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652547.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652551.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652549.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652550.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652553.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2019,
+    "model": "三陽 MIO 115 碟煞",
+    "stock_number": "7215",
+    "price": 33000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652461.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2019-三陽-mio-115-碟煞-7215",
+    "original_name": "【台中旗艦店】2019 三陽 MIO 115 碟煞 #7215",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 26,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652461.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652464.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652465.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652462.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652463.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "山葉 勁戰6.5代 TCS",
+    "stock_number": "5777",
+    "price": 78000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652408.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2023-山葉-勁戰6-5代-tcs-5777",
+    "original_name": "【台中旗艦店】2023 山葉 勁戰6.5代 TCS #5777",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 15,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652408.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652410.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652409.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652411.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652412.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "YAMAHA",
+    "year": 2021,
+    "model": "山葉 FORCE 2.0",
+    "stock_number": "0391",
+    "price": 65000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652365.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2021-山葉-force-2-0-0391-",
+    "original_name": "【台中旗艦店】2021 山葉 FORCE 2.0 #0391",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "126-150"
+    ],
+    "mileage": "約 17,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652365.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652362.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652361.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652364.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652363.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 MMBCU",
+    "stock_number": "1020",
+    "price": 88000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652283.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2023-三陽-mmbcu-1020-",
+    "original_name": "【台中旗艦店】2023 三陽 MMBCU #1020",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 16,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652283.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652286.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652284.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652285.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652287.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2022,
+    "model": "三陽 MMBCU",
+    "stock_number": "5278",
+    "price": 75000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652199.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2022-三陽-mmbcu-5278",
+    "original_name": "【台中旗艦店】2022 三陽 MMBCU #5278",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 43,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652199.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652200.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652203.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652202.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652201.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "KYMCO",
+    "year": 2023,
+    "model": "光陽 RCS 150 MOTO TCS",
+    "stock_number": "5002",
+    "price": 65000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113652132.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2023-光陽-rcs-150-moto-tcs-5002-",
+    "original_name": "【台中旗艦店】2023 光陽 RCS 150 MOTO TCS #5002",
+    "cc": 150,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "126-150"
+    ],
+    "mileage": "約 23,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113652132.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652133.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652129.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652131.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113652130.jpeg"
+    ]
+  },
+  {
     "store": "台南店",
     "brand": "GOGORO",
     "year": 2023,
@@ -422,6 +630,32 @@
       "https://cdn.store-assets.com/s/1336053/i/113592288.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113592285.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113592287.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "SYM",
+    "year": 2025,
+    "model": "三陽 JET SR 125 碟煞 CBS",
+    "stock_number": "8005",
+    "price": 70000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113592220.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2025-三陽-jet-sr-125-碟煞-cbs-8005-",
+    "original_name": "【台中旗艦店】2025 三陽 JET SR 125 碟煞 CBS #8005",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 2,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113592220.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592221.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592222.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592225.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113592223.jpeg"
     ]
   },
   {
@@ -2519,32 +2753,6 @@
   },
   {
     "store": "台中太平店",
-    "brand": "HONDA",
-    "year": 2019,
-    "model": "本田 CB 300R ABS",
-    "stock_number": "1576",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113454898.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2019-本田-cb-300r-abs-1576",
-    "original_name": "【台中太平店】2019 本田 CB 300R ABS #1576",
-    "cc": 300,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "heavy"
-    ],
-    "mileage": "約 55,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113454898.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113454897.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113454896.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113454895.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113454894.jpeg"
-    ]
-  },
-  {
-    "store": "台中太平店",
     "brand": "YAMAHA",
     "year": 2016,
     "model": "山葉 BWSR 125",
@@ -4573,32 +4781,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113246896.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113246898.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113246897.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "KYMCO",
-    "year": 2016,
-    "model": "光陽 G6 125 前碟後鼓",
-    "stock_number": "7868",
-    "price": 32000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113246862.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2016-光陽-g6-125-前碟後鼓-7868",
-    "original_name": "【新竹店】2016 光陽 G6 125 前碟後鼓 #7868",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 36,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113246862.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246863.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246865.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246866.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113246864.jpeg"
     ]
   },
   {
@@ -10289,32 +10471,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "SYM",
-    "year": 2021,
-    "model": "三陽 JET SR 125 碟煞 CBS",
-    "stock_number": "1175",
-    "price": 58000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112546386.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2021-三陽-jet-sr-125-碟煞-cbs-1175",
-    "original_name": "【新竹店】2021 三陽 JET SR 125 碟煞 CBS #1175",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 18,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112546386.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546387.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546389.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546390.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546388.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "YAMAHA",
     "year": 2022,
     "model": "山葉 BWS 水冷 125 UBS 雙碟",
@@ -12608,32 +12764,6 @@
     ]
   },
   {
-    "store": "台中旗艦店",
-    "brand": "SYM",
-    "year": 2024,
-    "model": "優惠  三陽 4MICA 150 ABS",
-    "stock_number": "9397",
-    "price": 73000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112116351.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2024-三陽-4mica-150-abs-9397",
-    "original_name": "優惠 【台中旗艦店】2024 三陽 4MICA 150 ABS #9397",
-    "cc": 150,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "126-150"
-    ],
-    "mileage": "約 25,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112116351.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112116357.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112116358.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112116359.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112116360.jpeg"
-    ]
-  },
-  {
     "store": "新北新莊店",
     "brand": "KYMCO",
     "year": 2024,
@@ -13400,32 +13530,6 @@
   {
     "store": "新竹店",
     "brand": "YAMAHA",
-    "year": 2018,
-    "model": "山葉 FORCE 155 雙碟",
-    "stock_number": "8886",
-    "price": 50000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111811575.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2018-山葉-force-155-雙碟-8886",
-    "original_name": "【新竹店】2018 山葉 FORCE 155 雙碟 #8886",
-    "cc": 155,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 25,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111811575.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811576.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811577.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811578.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811579.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "YAMAHA",
     "year": 2017,
     "model": "山葉 勁豪 125 雙鼓",
     "stock_number": "6818",
@@ -13499,32 +13603,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111811319.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111811320.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111811321.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "SYM",
-    "year": 2013,
-    "model": "三陽 FIGHTER 150 雙碟",
-    "stock_number": "5052",
-    "price": 30000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111811206.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2013-三陽-fighter-150-雙碟-5052-37xxxkm",
-    "original_name": "【新竹店】2013 三陽 FIGHTER 150 雙碟 #5052",
-    "cc": 150,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "126-150"
-    ],
-    "mileage": "約 37,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111811206.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811207.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811208.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811209.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111811210.jpeg"
     ]
   },
   {
@@ -16423,41 +16501,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111080912.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111080911.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111080913.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "KYMCO",
-    "year": 2017,
-    "model": "光陽 VJR 125 (雙碟)",
-    "stock_number": "7117",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111048360.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2017-光陽-vjr-125-雙碟-7117",
-    "original_name": "【台南店】2017 光陽 VJR 125 (雙碟) #7117",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [],
-    "mileage": "約 4XX 公里（有更換過儀表,原始里程約莫28000-30000km）",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111048360.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048363.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048361.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048358.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048352.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048359.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048349.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048348.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048354.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048355.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048351.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048362.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048353.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048350.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048356.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111048357.jpeg"
     ]
   },
   {
@@ -21762,32 +21805,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110780794.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110780792.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110780791.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "KYMCO",
-    "year": 2013,
-    "model": "優惠   光陽 V2 125",
-    "stock_number": "8385",
-    "price": 24999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/103785235.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2013-光陽-v2-125-8385",
-    "original_name": "優惠 【新竹店】 2013 光陽 V2 125 #8385",
-    "cc": 125,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 37,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/103785235.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/103785236.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/103785237.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/103785238.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/103785239.jpeg"
     ]
   },
   {
