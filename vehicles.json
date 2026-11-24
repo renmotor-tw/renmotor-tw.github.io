@@ -1,5 +1,171 @@
 [
   {
+    "store": "新北新莊店",
+    "brand": "SYM",
+    "year": 2021,
+    "model": "三陽 Z1 ATTILA 125",
+    "stock_number": "0010",
+    "price": 42000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113764776.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2021-三陽-z1-attila-125-0010-1",
+    "original_name": "【新北新莊店】2021 三陽 Z1 ATTILA 125 #0010",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 62XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113764776.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764777.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764780.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764774.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764778.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764775.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "優惠  三陽 FIDDLE 125 ABS",
+    "stock_number": "9372",
+    "price": 55000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113764555.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2023-三陽-fiddle-125-abs-9372",
+    "original_name": "優惠 【新北新莊店】2023 三陽 FIDDLE 125 ABS #9372",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 11XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113764555.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764556.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764553.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764557.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764551.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764552.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764554.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "SYM",
+    "year": 2017,
+    "model": "三陽 野狼 300 ABS",
+    "stock_number": "5315",
+    "price": 49999,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113764330.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2017-三陽-野狼-300-abs-5315",
+    "original_name": "【新北新莊店】2017 三陽 野狼 300 ABS #5315",
+    "cc": 300,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "heavy"
+    ],
+    "mileage": "約 19XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113764330.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764332.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764333.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764331.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764329.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764328.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "SYM",
+    "year": 2019,
+    "model": "優惠  三陽 新迪爵 125 鼓煞",
+    "stock_number": "3186",
+    "price": 36000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113764061.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2019-三陽-新迪爵-125-鼓煞-3186",
+    "original_name": "優惠 【新北新莊店】2019 三陽 新迪爵 125 鼓煞 #3186",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 21XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113764061.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764062.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764064.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764063.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764058.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113764059.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "KYMCO",
+    "year": 2023,
+    "model": "光陽 KRV 180 MOTO",
+    "stock_number": "5259",
+    "price": 75000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113763925.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2023-光陽-krv-180-moto-5259",
+    "original_name": "【新北新莊店】2023 光陽 KRV 180 MOTO #5259",
+    "cc": 180,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 14XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113763925.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763926.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763923.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763927.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763921.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763922.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763919.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763920.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "GOGORO",
+    "year": 2022,
+    "model": "睿能 GOGORO VIVA 鑰匙版",
+    "stock_number": "6232",
+    "price": 33000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113763796.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2022-睿能-gogoro-viva-鑰匙版-6232",
+    "original_name": "【新北新莊店】2022 睿能 GOGORO VIVA 鑰匙版 #6232",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric",
+      "green-50"
+    ],
+    "mileage": "約 8XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113763796.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763790.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763793.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763792.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763791.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113763795.jpeg"
+    ]
+  },
+  {
     "store": "桃園中壢店",
     "brand": "YAMAHA",
     "year": 2026,
@@ -264,33 +430,6 @@
   },
   {
     "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2019,
-    "model": "優惠  三陽 新迪爵 125 鼓煞",
-    "stock_number": "3186",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113742855.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2019-三陽-新迪爵-125-鼓煞-3186-1",
-    "original_name": "優惠 【新北新莊店】2019 三陽 新迪爵 125 鼓煞 #3186",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 21XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113742855.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742856.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742857.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742858.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742859.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742860.jpg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
     "brand": "YAMAHA",
     "year": 2022,
     "model": "優惠  山葉 BWS 125 水冷",
@@ -340,33 +479,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113742725.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113742728.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113742727.jpeg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2023,
-    "model": "優惠  三陽 FIDDLE 125 ABS",
-    "stock_number": "9372",
-    "price": 55000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113742768.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2023-三陽-fiddle-125-abs-9372-1",
-    "original_name": "優惠 【新北新莊店】2023 三陽 FIDDLE 125 ABS #9372",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 11XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113742768.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742769.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742770.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742771.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742772.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113742773.jpg"
     ]
   },
   {
@@ -8611,32 +8723,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "SYM",
-    "year": 2023,
-    "model": "三陽 全新迪爵 125 CBS 前碟後鼓",
-    "stock_number": "3381",
-    "price": 48000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112902561.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2023-三陽-全新迪爵-125-cbs-前碟後鼓-3381",
-    "original_name": "【新竹店】2023 三陽 全新迪爵 125 CBS 前碟後鼓 #3381",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 12,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112902561.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112902562.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112902563.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112902565.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112902564.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "YAMAHA",
     "year": 2020,
     "model": "山葉 BWS 125 水冷UBS 雙碟",
@@ -8689,32 +8775,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "SYM",
-    "year": 2018,
-    "model": "三陽 新迪爵 125 雙鼓",
-    "stock_number": "3903",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112901960.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2018-三陽-新迪爵-125-雙鼓-3903",
-    "original_name": "【新竹店】2018 三陽 新迪爵 125 雙鼓 #3903",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 15,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112901960.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901961.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901963.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901964.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901965.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "KYMCO",
     "year": 2014,
     "model": "光陽 GP125 雙鼓",
@@ -8763,32 +8823,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112901379.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112901383.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112901381.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "YAMAHA",
-    "year": 2017,
-    "model": "山葉 JOG SWEET 115 雙鼓",
-    "stock_number": "0023",
-    "price": 33000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112901035.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2017-山葉-jog-sweet-115-雙鼓-0023",
-    "original_name": "【新竹店】2017 山葉 JOG SWEET 115 雙鼓 #0023",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 19,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112901035.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901038.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901037.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901036.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112901039.jpeg"
     ]
   },
   {
@@ -11147,32 +11181,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112547296.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112547298.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112547300.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "KYMCO",
-    "year": 2016,
-    "model": "光陽 CHERRY 100",
-    "stock_number": "3897",
-    "price": 30000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112546538.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2016-光陽-cherry-100-7562",
-    "original_name": "【新竹店】2016 光陽 CHERRY 100 #3897",
-    "cc": 100,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 11,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112546538.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546539.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546540.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546542.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112546541.jpeg"
     ]
   },
   {
@@ -15683,33 +15691,6 @@
   },
   {
     "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2021,
-    "model": "三陽 Z1 ATTILA 125",
-    "stock_number": "0010",
-    "price": 42000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111370744.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2021-三陽-z1-attila-125-0010",
-    "original_name": "【新北新莊店】2021 三陽 Z1 ATTILA 125 #0010",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 62XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111370744.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111370741.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111370745.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111370742.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111370743.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111370740.jpeg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
     "brand": "YAMAHA",
     "year": 2018,
     "model": "山葉 FORCE 155",
@@ -18205,32 +18186,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110575627.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110575628.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110575629.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "YAMAHA",
-    "year": 2014,
-    "model": "山葉 勁戰三代 125 前碟後鼓",
-    "stock_number": "806",
-    "price": 33000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110575513.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2014-山葉-勁戰三代-125-前碟後鼓-806",
-    "original_name": "【新竹店】2014 山葉 勁戰三代 125 前碟後鼓 #806",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 44,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110575513.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110575514.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110575517.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110575515.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110575516.jpeg"
     ]
   },
   {
