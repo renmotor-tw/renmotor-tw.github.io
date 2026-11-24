@@ -1,5 +1,32 @@
 [
   {
+    "store": "桃園中壢店",
+    "brand": "YAMAHA",
+    "year": 2026,
+    "model": "山葉 R15M V4 155 ABS+TCS 雙碟 國際檔 公司車",
+    "stock_number": "9112",
+    "price": 108000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113754857.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2026-山葉-r15m-v4-155-abs-tcs-雙碟-國際檔-公司車-9112",
+    "original_name": "【桃園中壢店】2026 山葉 R15M V4 155 ABS+TCS 雙碟 國際檔 公司車 #9112",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249",
+      "white-manual"
+    ],
+    "mileage": "約 5,159 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113754857.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754859.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754861.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754858.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754860.jpeg"
+    ]
+  },
+  {
     "store": "新北中和店",
     "brand": "YAMAHA",
     "year": 2023,
@@ -11841,35 +11868,6 @@
     ]
   },
   {
-    "store": "桃園中壢店",
-    "brand": "YAMAHA",
-    "year": 2021,
-    "model": "優惠  山葉 水冷 BWS 125 UBS 雙碟",
-    "stock_number": "5050",
-    "price": 58000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112457047.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2021-山葉-水冷-bws-125-ubs-雙碟-5050",
-    "original_name": "優惠 【桃園中壢店】2021 山葉 水冷 BWS 125 UBS 雙碟 #5050",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 31,969 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112457047.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112457048.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112457051.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112457054.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112457049.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112457053.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112457055.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112457052.jpeg"
-    ]
-  },
-  {
     "store": "台中太平店",
     "brand": "SYM",
     "year": 2022,
@@ -12154,37 +12152,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112369886.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112369883.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112369884.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "三陽SYM 曼巴MMBCU (碟煞)(ABS+TCS)(小改款非電推)",
-    "stock_number": "5269",
-    "price": 92000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112369478.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2025-三陽sym-曼巴mmbcu-碟煞-abs-tcs-小改款非電推-5269",
-    "original_name": "【高雄店】2025 三陽SYM 曼巴MMBCU (碟煞)(ABS+TCS)(小改款非電推)#5269",
-    "cc": 158,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 18,8XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112369478.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369484.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369482.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369476.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369477.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369483.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369479.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369480.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369481.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112369475.jpeg"
     ]
   },
   {
@@ -17086,37 +17053,6 @@
   },
   {
     "store": "高雄店",
-    "brand": "YAMAHA",
-    "year": 2022,
-    "model": "優惠  山葉YAMAHA JOG 125(鼓煞)",
-    "stock_number": "1650",
-    "price": 39999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111008754.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2022-山葉yamaha-jog-125-鼓煞-1650",
-    "original_name": "優惠 【高雄店】2022 山葉YAMAHA JOG 125(鼓煞)#1650",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 36,5XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111008754.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008752.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008759.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008756.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008757.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008758.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008750.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008753.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008755.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111008751.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
     "brand": "KYMCO",
     "year": 2016,
     "model": "光陽KYMCO CUE 100(鼓煞)",
@@ -20820,37 +20756,6 @@
       "https://cdn.store-assets.com/s/1336053/i/108967294.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/108967295.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/108967296.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "KYMCO",
-    "year": 2017,
-    "model": "光陽KYMCO VJR 125(碟煞)",
-    "stock_number": "8905",
-    "price": 39999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/108860026.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2017-光陽kymco-vjr-125-碟煞-8905",
-    "original_name": "【高雄店】2017 光陽KYMCO VJR 125(碟煞) #8905",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 59,1XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/108860026.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860032.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860031.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860034.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860033.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860035.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860028.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860027.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860030.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108860025.jpeg"
     ]
   },
   {
