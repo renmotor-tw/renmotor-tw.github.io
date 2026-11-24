@@ -1,5 +1,109 @@
 [
   {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "山葉 BWS 125 水冷",
+    "stock_number": "0522",
+    "price": 70000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113755216.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2023-山葉-bws-125-水冷-0522",
+    "original_name": "【新北中和店】2023 山葉 BWS 125 水冷#0522",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 23XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113755216.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755218.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755217.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755219.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755220.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "山葉 勁戰6.5代 TCS",
+    "stock_number": "5556",
+    "price": 80000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113755157.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2023-山葉-勁戰6-5代-tcs-5556",
+    "original_name": "【新北中和店】2023 山葉 勁戰6.5代 TCS#5556",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 4XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113755157.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755159.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755158.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755155.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755156.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "KYMCO",
+    "year": 2023,
+    "model": "光陽 雷霆S150 RACINGS ABS",
+    "stock_number": "7087",
+    "price": 56000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113755051.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2023-光陽-雷霆s150-racings-abs-7087",
+    "original_name": "【新北中和店】2023 光陽 雷霆S150 RACINGS ABS #7087",
+    "cc": 150,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 23XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113755051.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755049.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755052.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755053.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113755050.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2017,
+    "model": "山葉 FORCE 155",
+    "stock_number": "9253",
+    "price": 50000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113754721.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2017-山葉-force-155-9253",
+    "original_name": "【新北中和店】2017 山葉 FORCE 155#9253",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 61XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113754721.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754722.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754724.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754725.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113754723.jpeg"
+    ]
+  },
+  {
     "store": "新竹店",
     "brand": "SYM",
     "year": 2022,
@@ -84,11 +188,11 @@
     "brand": "YAMAHA",
     "year": 2015,
     "model": "山葉 勁戰三代 125 前碟後鼓",
-    "stock_number": "7081",
+    "stock_number": "819",
     "price": 35000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/113742935.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2015-山葉-勁戰三代-125-前碟後鼓-7081",
-    "original_name": "【新竹店】2015 山葉 勁戰三代 125 前碟後鼓 #7081",
+    "original_name": "【新竹店】2015 山葉 勁戰三代 125 前碟後鼓 #819",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -7940,33 +8044,6 @@
     ]
   },
   {
-    "store": "桃園中壢店",
-    "brand": "YAMAHA",
-    "year": 2026,
-    "model": "山葉 R15M V4 155 ABS+TCS 雙碟 國際檔 公司車",
-    "stock_number": "9112",
-    "price": 108000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112951512.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2026-山葉-r15m-v4-155-abs-tcs-雙碟-國際檔-公司車-9112",
-    "original_name": "【桃園中壢店】2026 山葉 R15M V4 155 ABS+TCS 雙碟 國際檔 公司車 #9112",
-    "cc": 155,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249",
-      "white-manual"
-    ],
-    "mileage": "約 5,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112951512.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112951507.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112951508.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112951511.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112951509.jpeg"
-    ]
-  },
-  {
     "store": "新北新莊店",
     "brand": "HONDA",
     "year": 2021,
@@ -8692,11 +8769,11 @@
     "brand": "YAMAHA",
     "year": 2024,
     "model": "山葉 LIMI 125 UBS 前碟後鼓",
-    "stock_number": "5689",
+    "stock_number": "5069",
     "price": 62000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/112900789.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2024-山葉-limi-125-ubs-前碟後鼓-5689",
-    "original_name": "【新竹店】2024 山葉 LIMI 125 UBS 前碟後鼓 #5689",
+    "original_name": "【新竹店】2024 山葉 LIMI 125 UBS 前碟後鼓 #5069",
     "cc": 125,
     "km": null,
     "warranty": true,
