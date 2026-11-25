@@ -1,5 +1,86 @@
 [
   {
+    "store": "新北樹林店",
+    "brand": "KYMCO",
+    "year": 2017,
+    "model": "光陽 ROMEO 125 水鑽",
+    "stock_number": "2133",
+    "price": 38000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113854304.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2017-光陽-romeo-125-水鑽-2133",
+    "original_name": "【新北樹林店】2017 光陽 ROMEO 125 水鑽 #2133",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 102XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113854304.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854300.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854299.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854301.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854303.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854302.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2014,
+    "model": "山葉 勁戰三代 125",
+    "stock_number": "806",
+    "price": 32000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113854143.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2014-山葉-勁戰三代-125-806",
+    "original_name": "【新北樹林店】2014 山葉 勁戰三代 125 #806",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 449XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113854143.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854141.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854142.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854145.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854144.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113854146.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "KYMCO",
+    "year": 2016,
+    "model": "光陽 CHERRY 100",
+    "stock_number": "3897",
+    "price": 28000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113853916.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2016-光陽-cherry-100-3897",
+    "original_name": "【新北樹林店】2016 光陽 CHERRY 100 #3897",
+    "cc": 100,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 112XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113853916.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113853913.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113853915.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113853912.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113853917.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113853914.jpeg"
+    ]
+  },
+  {
     "store": "新北新莊店",
     "brand": "SYM",
     "year": 2025,
@@ -3523,33 +3604,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113709438.jpg",
       "https://cdn.store-assets.com/s/1336053/i/113709440.jpg",
       "https://cdn.store-assets.com/s/1336053/i/113709444.jpg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "優惠  三陽 新迪爵 125 碟煞",
-    "stock_number": "5582",
-    "price": 52000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113709381.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2025-三陽-新迪爵-125-碟煞-5582-1",
-    "original_name": "優惠 【新北新莊店】2025 三陽 新迪爵 125 碟煞 #5582",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 33XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113709381.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113709382.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113709384.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113709385.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113709386.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113709388.jpg"
     ]
   },
   {
