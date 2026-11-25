@@ -1,6 +1,37 @@
 [
   {
     "store": "高雄店",
+    "brand": "KYMCO",
+    "year": 2020,
+    "model": "光陽KYMCO 雷霆S150(碟煞)(ABS)",
+    "stock_number": "0830",
+    "price": 46000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113818744.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2020-光陽kymco-雷霆s150-碟煞-abs-0830",
+    "original_name": "【高雄店】2020 光陽KYMCO 雷霆S150(碟煞)(ABS)#0830",
+    "cc": 150,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "126-150"
+    ],
+    "mileage": "約 35,7XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113818744.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818741.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818737.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818743.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818738.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818740.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818739.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818736.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818742.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818735.jpeg"
+    ]
+  },
+  {
+    "store": "高雄店",
     "brand": "SUZUKI",
     "year": 2019,
     "model": "鈴木SUZUKI GSX-R150小阿魯(碟煞)(ABS)",
@@ -7600,6 +7631,32 @@
       "https://cdn.store-assets.com/s/1336053/i/113127376.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113127374.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113127371.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "KYMCO",
+    "year": 2020,
+    "model": "光陽 GP 125 鼓煞",
+    "stock_number": "1827",
+    "price": 35000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113127244.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2020-光陽-gp-125-鼓煞-1827",
+    "original_name": "【台中旗艦店】2020 光陽 GP 125 鼓煞 #1827",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 35,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113127244.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113127245.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113127246.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113127247.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113127248.jpeg"
     ]
   },
   {
