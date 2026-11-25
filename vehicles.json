@@ -1,5 +1,177 @@
 [
   {
+    "store": "新北新莊店",
+    "brand": "SYM",
+    "year": 2025,
+    "model": "三陽 MMBCU 小改款",
+    "stock_number": "7708",
+    "price": 95000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113848650.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2025-三陽-mmbcu-小改款-7708",
+    "original_name": "【新北新莊店】2025 三陽 MMBCU 小改款 #7708",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 3XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113848650.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848652.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848654.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848653.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848651.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848649.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "KYMCO",
+    "year": 2022,
+    "model": "光陽 NICE XL 115",
+    "stock_number": "9979",
+    "price": 38000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113848413.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2022-光陽-nice-xl-115-9979",
+    "original_name": "【新北新莊店】2022 光陽 NICE XL 115 #9979",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 55XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113848413.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848404.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848407.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848405.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848409.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848406.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848412.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848411.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848408.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848410.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "山葉 BWS 125 水冷",
+    "stock_number": "2208",
+    "price": 72000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113848281.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2023-山葉-bws-125-水冷-2208",
+    "original_name": "【新北新莊店】2023 山葉 BWS 125 水冷 #2208",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 14XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113848281.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848282.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848280.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848270.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848278.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848279.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "KYMCO",
+    "year": 2024,
+    "model": "光陽 新豪邁 125 碟煞 VCS",
+    "stock_number": "9801",
+    "price": 48000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113848200.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2024-光陽-新豪邁-125-碟煞-vcs-9801",
+    "original_name": "【新北新莊店】2024 光陽 新豪邁 125 碟煞 VCS #9801",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 63XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113848200.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848201.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848204.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848202.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848203.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848199.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "SYM",
+    "year": 2022,
+    "model": "三陽 JET SL 125 ABS",
+    "stock_number": "3150",
+    "price": 72000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113848068.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2022-三陽-jet-sl-125-abs-3150",
+    "original_name": "【新北新莊店】2022 三陽 JET SL 125 ABS #3150",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 22XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113848068.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848066.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848059.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848064.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848067.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848065.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848069.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848063.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848060.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848061.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113848062.jpeg"
+    ]
+  },
+  {
+    "store": "新北新莊店",
+    "brand": "SYM",
+    "year": 2020,
+    "model": "三陽 野狼傳奇 125",
+    "stock_number": "1902",
+    "price": 46000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113847994.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2020-三陽-野狼傳奇-125-1902",
+    "original_name": "【新北新莊店】2020 三陽 野狼傳奇 125 #1902",
+    "cc": 125,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "up-to-125",
+      "white-manual"
+    ],
+    "mileage": "約 21XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113847994.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113847995.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113847997.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113847996.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113847998.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113847993.jpeg"
+    ]
+  },
+  {
     "store": "新北中和店",
     "brand": "YAMAHA",
     "year": 2016,
@@ -6905,32 +7077,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113331625.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113331624.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113331623.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
-    "brand": "YAMAHA",
-    "year": 2022,
-    "model": "山葉 勁戰六代 125 ABS",
-    "stock_number": "0553",
-    "price": 68000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113331459.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2022-山葉-勁戰六代-125-abs-0553",
-    "original_name": "【新北中和店】2022 山葉 勁戰六代 125 ABS#0553",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 5XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113331459.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331460.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331458.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331456.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331457.jpeg"
     ]
   },
   {
