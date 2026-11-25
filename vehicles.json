@@ -1,5 +1,109 @@
 [
   {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2016,
+    "model": "山葉 勁戰四代 125",
+    "stock_number": "1557",
+    "price": 43000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113839438.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2016-山葉-勁戰四代-125-1557",
+    "original_name": "【新北中和店】2016 山葉 勁戰四代 125#1557",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 62XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113839438.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839439.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839442.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839441.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839440.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "SYM",
+    "year": 2020,
+    "model": "三陽 FNX 125 ABS",
+    "stock_number": "1079",
+    "price": 52000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113839304.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2020-三陽-fnx-125-abs-1079",
+    "original_name": "【新北中和店】2020 三陽 FNX 125 ABS#1079",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 12XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113839304.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839307.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839305.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839306.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839303.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2023,
+    "model": "山葉 勁戰6.5代 TCS",
+    "stock_number": "5600",
+    "price": 78000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113839032.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2023-山葉-勁戰6-5代-tcs-5600",
+    "original_name": "【新北中和店】2023 山葉 勁戰6.5代 TCS#5600",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 20XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113839032.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839035.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839036.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839033.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113839034.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 JET SL 125 ABS",
+    "stock_number": "1992",
+    "price": 75000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113838113.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2023-三陽-jet-sl-125-abs-1992",
+    "original_name": "【新北中和店】2023 三陽 JET SL 125 ABS#1992",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 28XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113838113.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113838116.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113838117.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113838114.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113838115.jpeg"
+    ]
+  },
+  {
     "store": "高雄店",
     "brand": "SYM",
     "year": 2022,
@@ -907,12 +1011,12 @@
     "store": "新北樹林店",
     "brand": "YAMAHA",
     "year": 2021,
-    "model": "Copy -  山葉 Force 155 2.0",
+    "model": "山葉 Force 155 2.0",
     "stock_number": "3675",
     "price": 70000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/113825109.jpg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/copy-新北樹林店-2021-山葉-force-155-2-0-3675",
-    "original_name": "Copy - 【新北樹林店】2021 山葉 Force 155 2.0#3675",
+    "original_name": "【新北樹林店】2021 山葉 Force 155 2.0#3675",
     "cc": 155,
     "km": null,
     "warranty": true,
@@ -1292,12 +1396,12 @@
     "store": "新北樹林店",
     "brand": "YAMAHA",
     "year": 2024,
-    "model": "優惠 Copy -  山葉 JOG 125",
+    "model": "優惠  山葉 JOG 125",
     "stock_number": "1216",
     "price": 43000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/113824662.jpg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/copy-新北樹林店-2024-山葉-jog-125-1216",
-    "original_name": "優惠 Copy - 【新北樹林店】2024 山葉 JOG 125 #1216",
+    "original_name": "優惠 【新北樹林店】2024 山葉 JOG 125 #1216",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -1347,12 +1451,12 @@
     "store": "新北樹林店",
     "brand": "KYMCO",
     "year": 2020,
-    "model": "優惠 Copy -  光陽 NICE 100",
+    "model": "優惠  光陽 NICE 100",
     "stock_number": "3335",
     "price": 33000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/113824617.jpg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/copy-新北樹林店-2020-光陽-nice-100-3335",
-    "original_name": "優惠 Copy - 【新北樹林店】2020 光陽 NICE 100 #3335",
+    "original_name": "優惠 【新北樹林店】2020 光陽 NICE 100 #3335",
     "cc": 100,
     "km": null,
     "warranty": true,
@@ -4158,32 +4262,6 @@
   },
   {
     "store": "台中旗艦店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "三陽 JET SR 125 碟煞 CBS",
-    "stock_number": "8005",
-    "price": 67000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113592220.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2025-三陽-jet-sr-125-碟煞-cbs-8005-",
-    "original_name": "【台中旗艦店】2025 三陽 JET SR 125 碟煞 CBS #8005",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 2,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113592220.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113592221.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113592222.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113592225.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113592223.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
     "brand": "YAMAHA",
     "year": 2017,
     "model": "山葉 LIMI 115",
@@ -5364,32 +5442,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113456482.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113456484.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113456485.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "三陽 新迪爵 125 碟煞",
-    "stock_number": "3733",
-    "price": 52000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113455994.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2025-三陽-新迪爵-125-碟煞-3733",
-    "original_name": "【新北中和店】2025 三陽 新迪爵 125 碟煞 #3733",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 14XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113455994.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113455991.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113455995.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113455992.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113455993.jpeg"
     ]
   },
   {
@@ -7968,37 +8020,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113187087.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113187089.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113187084.jpeg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "三陽 DRG 2.0 鑰匙版",
-    "stock_number": "3823",
-    "price": 95000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113185038.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2025-三陽-drg-2-0-鑰匙版-3823",
-    "original_name": "【新北新莊店】2025 三陽 DRG 2.0 鑰匙版 #3823",
-    "cc": 158,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 12XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113185038.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185042.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185037.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185034.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185035.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185036.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185041.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185040.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185033.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113185032.jpeg"
     ]
   },
   {
