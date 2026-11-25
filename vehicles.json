@@ -10646,32 +10646,6 @@
     ]
   },
   {
-    "store": "新北中和店",
-    "brand": "KYMCO",
-    "year": 2013,
-    "model": "MANY110 碟煞",
-    "stock_number": "2087",
-    "price": 32000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112785023.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2013-many110-碟煞-2087",
-    "original_name": "【新北中和店】2013 MANY110 碟煞 #2087",
-    "cc": 110,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 26XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112785023.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112785024.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112785020.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112785022.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112785021.jpeg"
-    ]
-  },
-  {
     "store": "桃園中壢店",
     "brand": "KYMCO",
     "year": 2022,
@@ -12995,20 +12969,20 @@
     "store": "台中旗艦店",
     "brand": "SYM",
     "year": 2021,
-    "model": "三陽 DRG 158 ABS 六期",
+    "model": "優惠  三陽 DRG 158 ABS 六期",
     "stock_number": "9987",
-    "price": 62000,
+    "price": 45000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/112350096.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2021-三陽-drg-158-abs-六期-9987",
-    "original_name": "【台中旗艦店】2021 三陽 DRG 158 ABS 六期 #9987",
+    "original_name": "優惠 【台中旗艦店】2021 三陽 DRG 158 ABS 六期 #9987",
     "cc": 158,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "151-249"
     ],
-    "mileage": "約 42,XXX 公里",
+    "mileage": "約 42.XXX 公里",
     "image_urls": [
       "https://cdn.store-assets.com/s/1336053/i/112350096.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112350097.jpeg",
@@ -14267,32 +14241,6 @@
   },
   {
     "store": "台中旗艦店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "山葉 JOG FS 115",
-    "stock_number": "5952",
-    "price": 33000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111912358.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2016-山葉-jog-fs-115-5952",
-    "original_name": "【台中旗艦店】2016 山葉 JOG FS 115 #5952",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 25,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111912358.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111912361.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111912362.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111912365.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111912368.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
     "brand": "SYM",
     "year": 2021,
     "model": "三陽 FIDDLE DX 150 ABS",
@@ -14347,12 +14295,12 @@
     "store": "台中旗艦店",
     "brand": "KYMCO",
     "year": 2012,
-    "model": "光陽 CANDY 110",
+    "model": "優惠  光陽 CANDY 110",
     "stock_number": "920",
-    "price": 22000,
+    "price": 16000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/111910414.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2012-光陽-candy-110-920",
-    "original_name": "【台中旗艦店】2012 光陽 CANDY 110 #920",
+    "original_name": "優惠 【台中旗艦店】2012 光陽 CANDY 110 #920",
     "cc": 110,
     "km": null,
     "warranty": false,
@@ -15768,20 +15716,20 @@
     "store": "台中旗艦店",
     "brand": "KYMCO",
     "year": 2021,
-    "model": "光陽 雷霆S150 RACINGS ABS",
+    "model": "優惠  光陽 雷霆S150 RACINGS ABS",
     "stock_number": "6388",
-    "price": 48000,
+    "price": 35000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/111534393.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2021-光陽-雷霆s150-racings-abs-6388",
-    "original_name": "【台中旗艦店】2021 光陽 雷霆S150 RACINGS ABS #6388",
+    "original_name": "優惠 【台中旗艦店】2021 光陽 雷霆S150 RACINGS ABS #6388",
     "cc": 150,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "126-150"
     ],
-    "mileage": "約 49,XXX 公里",
+    "mileage": "約 49.XXX 公里",
     "image_urls": [
       "https://cdn.store-assets.com/s/1336053/i/111534393.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111534395.jpeg",
@@ -18193,18 +18141,18 @@
     "year": 2017,
     "model": "優惠  光陽 LIKE 125",
     "stock_number": "8803",
-    "price": 33000,
+    "price": 25000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/110804773.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2017-光陽-like-125-8803",
     "original_name": "優惠 【台中旗艦店】2017 光陽 LIKE 125 #8803",
     "cc": 125,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 17,XXX 公里",
+    "mileage": "約 17.XXX 公里",
     "image_urls": [
       "https://cdn.store-assets.com/s/1336053/i/110804773.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110804780.jpeg",
@@ -18674,32 +18622,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110668007.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110668005.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110668008.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "KYMCO",
-    "year": 2022,
-    "model": "優惠  光陽 KRV 180 MOTO ABS+TCS KEYLESS",
-    "stock_number": "8588",
-    "price": 58000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110576077.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2022-光陽-krv-180-moto-abs-tcs-keyless-8588-",
-    "original_name": "優惠 【新竹店】2022 光陽 KRV 180 MOTO ABS+TCS KEYLESS # 8588",
-    "cc": 180,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 20,645 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110576077.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110576078.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110576079.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110576081.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110576080.jpeg"
     ]
   },
   {
@@ -21286,14 +21208,14 @@
     "year": 2014,
     "model": "優惠  山葉 勁戰三代 125",
     "stock_number": "199",
-    "price": 26000,
+    "price": 20000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/108967292.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2014-山葉-勁戰三代-125-199",
     "original_name": "優惠 【台中旗艦店】2014 山葉 勁戰三代 125 #199",
     "cc": 125,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
@@ -22013,14 +21935,14 @@
     "year": 2017,
     "model": "優惠  光陽 LIKE 125",
     "stock_number": "3617",
-    "price": 33000,
+    "price": 23000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/106374678.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2017-光陽-like-125-3617-",
     "original_name": "優惠 【台中旗艦店】2017 光陽 LIKE 125 #3617",
     "cc": 125,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
