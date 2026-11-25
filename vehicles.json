@@ -1,5 +1,37 @@
 [
   {
+    "store": "高雄店",
+    "brand": "SUZUKI",
+    "year": 2019,
+    "model": "鈴木SUZUKI GSX-R150小阿魯(碟煞)(ABS)",
+    "stock_number": "7778",
+    "price": 45000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113818236.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2019-鈴木suzuki-gsx-r150小阿魯-碟煞-abs-7778",
+    "original_name": "【高雄店】2019 鈴木SUZUKI GSX-R150小阿魯(碟煞)(ABS)#7778",
+    "cc": 150,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "126-150",
+      "white-manual"
+    ],
+    "mileage": "約 21,2XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113818236.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818237.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818233.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818234.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818232.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818235.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818230.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818238.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818229.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113818231.jpeg"
+    ]
+  },
+  {
     "store": "桃園中壢店",
     "brand": "GOGORO",
     "year": 2019,
