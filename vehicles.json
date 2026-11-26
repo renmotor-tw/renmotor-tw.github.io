@@ -1,5 +1,40 @@
 [
   {
+    "store": "台南店",
+    "brand": "GOGORO",
+    "year": 2020,
+    "model": "GOGORO 2 Delight 鍊條",
+    "stock_number": "2637",
+    "price": 25000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113920707.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2020-gogoro-2-delight-鍊條-2637",
+    "original_name": "【台南店】2020 GOGORO 2 Delight 鍊條#2637",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "mileage": "約 180XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113920707.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920708.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920705.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920703.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920706.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920701.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920700.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920699.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920704.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920709.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920711.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920710.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920702.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113920698.jpeg"
+    ]
+  },
+  {
     "store": "台中旗艦店",
     "brand": "YAMAHA",
     "year": 2017,
@@ -141,35 +176,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113912181.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113912184.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113912186.jpeg"
-    ]
-  },
-  {
-    "store": "桃園中壢店",
-    "brand": "YAMAHA",
-    "year": 2023,
-    "model": "山葉 勁豪 125 前碟後鼓",
-    "stock_number": "0238",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113912104.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2023-山葉-勁豪-125-前碟後鼓-0238",
-    "original_name": "【桃園中壢店】2023 山葉 勁豪 125 前碟後鼓 #0238",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 18,166 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113912104.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113912105.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113912106.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113912107.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113912108.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113912111.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113912110.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113912109.jpeg"
     ]
   },
   {
@@ -5665,33 +5671,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113562306.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113562310.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113562314.jpeg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "優惠  山葉 BWSR 125",
-    "stock_number": "1863",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113557678.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2016-山葉-bwsr-125-1863--3",
-    "original_name": "優惠 【新北樹林店】2016 山葉 BWSR 125 #1863",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 493XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113557678.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113557679.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113557680.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113557681.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113557682.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113557683.jpg"
     ]
   },
   {
@@ -18309,32 +18288,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110906956.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110906954.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110906952.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
-    "brand": "YAMAHA",
-    "year": 2014,
-    "model": "山葉 勁戰三代 125",
-    "stock_number": "127",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113357864.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2014-山葉-勁戰三代-125-127",
-    "original_name": "【新北中和店】2014 山葉 勁戰三代 125#127",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 27XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113357864.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113357863.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113357865.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113357866.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113357862.jpeg"
     ]
   },
   {
