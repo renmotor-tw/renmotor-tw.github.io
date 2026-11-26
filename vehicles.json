@@ -1,5 +1,139 @@
 [
   {
+    "store": "桃園中壢店",
+    "brand": "GOGORO",
+    "year": 2020,
+    "model": "睿能 GOGORO 2 DELIGHT",
+    "stock_number": "0935",
+    "price": 33000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113888774.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2020-睿能-gogoro-2-delight-0935-",
+    "original_name": "【桃園中壢店】2020 睿能 GOGORO 2 DELIGHT #0935",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "mileage": "約 15,855 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113888774.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888777.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888776.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888779.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888782.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888781.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888775.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888778.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888780.jpeg"
+    ]
+  },
+  {
+    "store": "桃園中壢店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 全新迪爵 125 CBS 前碟後鼓",
+    "stock_number": "1280",
+    "price": 48000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113888653.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2023-三陽-全新迪爵-125-cbs-前碟後鼓-1280",
+    "original_name": "【桃園中壢店】2023 三陽 全新迪爵 125 CBS 前碟後鼓 #1280",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 29,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113888653.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888656.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888654.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888655.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888657.jpeg"
+    ]
+  },
+  {
+    "store": "桃園中壢店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 活力 VIVO 125 CBS 雙鼓",
+    "stock_number": "6228",
+    "price": 45000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113888558.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2023-三陽-活力-vivo-125-cbs-雙鼓-6228",
+    "original_name": "【桃園中壢店】2023 三陽 活力 VIVO 125 CBS 雙鼓 #6228",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 1,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113888558.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888556.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888555.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888557.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888554.jpeg"
+    ]
+  },
+  {
+    "store": "桃園中壢店",
+    "brand": "SYM",
+    "year": 2024,
+    "model": "三陽 MMBCU 158 ABS+TCS 雙碟",
+    "stock_number": "5200",
+    "price": 89000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113888467.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2024-三陽-mmbcu-158-abs-tcs-雙碟-5200-",
+    "original_name": "【桃園中壢店】2024 三陽 MMBCU 158 ABS+TCS 雙碟 #5200",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 13,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113888467.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888468.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888469.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888470.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888471.jpeg"
+    ]
+  },
+  {
+    "store": "桃園中壢店",
+    "brand": "KYMCO",
+    "year": 2025,
+    "model": "光陽 RTS R 165 ABS+TCS+KEYLESS 雙碟",
+    "stock_number": "1559",
+    "price": 97000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113888324.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2025-光陽-rts-r-165-abs-tcs-keyless-雙碟-1559",
+    "original_name": "【桃園中壢店】2025 光陽 RTS R 165 ABS+TCS+KEYLESS 雙碟 #1559",
+    "cc": 165,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 971 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113888324.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888325.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888326.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888327.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113888328.jpeg"
+    ]
+  },
+  {
     "store": "台中旗艦店",
     "brand": "SYM",
     "year": 2025,
@@ -2913,37 +3047,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113777022.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113777025.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113777016.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "GOGORO",
-    "year": 2019,
-    "model": "GOGORO 2 DELIGHT (鏈條)",
-    "stock_number": "3855",
-    "price": 25000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113776096.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2019-gogoro-2-delight-鏈條-3855",
-    "original_name": "【台南店】2019 GOGORO 2 DELIGHT (鏈條) #3855",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric"
-    ],
-    "mileage": "約 116XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113776096.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776093.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776098.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776099.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776100.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776094.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776097.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776091.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776092.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113776095.jpeg"
     ]
   },
   {
@@ -6721,32 +6824,6 @@
   },
   {
     "store": "桃園中壢店",
-    "brand": "KYMCO",
-    "year": 2025,
-    "model": "光陽 RTS R 165 ABS+TCS+KEYLESS 雙碟",
-    "stock_number": "1559",
-    "price": 97000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113397581.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2025-光陽-rts-r-165-abs-tcs-keyless-雙碟-1559",
-    "original_name": "【桃園中壢店】2025 光陽 RTS R 165 ABS+TCS+KEYLESS 雙碟 #1559",
-    "cc": 165,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 9XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113397581.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113397583.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113397582.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113397584.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113397580.jpeg"
-    ]
-  },
-  {
-    "store": "桃園中壢店",
     "brand": "YAMAHA",
     "year": 2019,
     "model": "山葉 勁戰五代 125 雙碟",
@@ -7991,44 +8068,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113240512.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113240509.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113240510.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "YAMAHA",
-    "year": 2015,
-    "model": "山葉 勁戰四代125 (雙碟)",
-    "stock_number": "852",
-    "price": 42000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113223029.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2015-山葉-勁戰四代125-雙碟-852",
-    "original_name": "【台南店】2015 山葉 勁戰四代125 (雙碟) #852",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 678XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113223029.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223024.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223027.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223020.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223022.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223013.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223026.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223028.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223023.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223021.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223017.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223025.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223016.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223019.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223015.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223018.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113223014.jpeg"
     ]
   },
   {
@@ -19893,8 +19932,8 @@
     "original_name": "優惠 【高雄店】 2023 宏佳騰Aeon My150 RETRO (碟煞)(ABS)#2759",
     "cc": 150,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"
@@ -20645,8 +20684,8 @@
     "original_name": "優惠 【高雄店】2020 光陽KYMCO NICE 100(鼓煞) #7303",
     "cc": 100,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
