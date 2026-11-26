@@ -81,33 +81,6 @@
   },
   {
     "store": "新北樹林店",
-    "brand": "GOGORO",
-    "year": 2022,
-    "model": "優惠  睿能 GOGORO SUPERSPORT TCS",
-    "stock_number": "1561",
-    "price": 46000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113856592.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2022-睿能-gogoro-supersport-tcs-1561",
-    "original_name": "優惠 【新北樹林店】2022 睿能 GOGORO SUPERSPORT TCS #1561",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric"
-    ],
-    "mileage": "約 86XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113856592.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856593.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856594.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856596.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856597.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856598.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
     "brand": "KYMCO",
     "year": 2018,
     "model": "優惠  光陽 雷霆S150 RACINGS ABS",
@@ -6292,8 +6265,8 @@
     "original_name": "優惠 【高雄店】2022 宏佳騰AEON MY150 RETRO(碟煞)(ABS)#2932",
     "cc": 150,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "126-150",
       "white-manual"
@@ -13255,8 +13228,8 @@
     "original_name": "優惠 【高雄店】2022 山葉YAMAHA 水冷BWS(碟煞)#7992",
     "cc": 125,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
@@ -13298,32 +13271,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112350189.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112350190.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112350191.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
-    "brand": "SYM",
-    "year": 2021,
-    "model": "優惠  三陽 DRG 158 ABS 六期",
-    "stock_number": "9987",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112350096.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2021-三陽-drg-158-abs-六期-9987",
-    "original_name": "優惠 【台中旗艦店】2021 三陽 DRG 158 ABS 六期 #9987",
-    "cc": 158,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 42.XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112350096.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112350097.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112350098.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112350100.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112350103.jpeg"
     ]
   },
   {
@@ -17293,8 +17240,8 @@
     "original_name": "優惠 【高雄店】2017 山葉YAMAHA JOG SWEET 115(鼓煞)#7265",
     "cc": 115,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
@@ -17527,8 +17474,8 @@
     "original_name": "優惠 【高雄店】2019 摩特動力PGO JBUBU 115(碟煞)#7376",
     "cc": 115,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
@@ -19706,8 +19653,8 @@
     "original_name": "優惠 【高雄店】2019 山葉YAMAHA RSNEO(碟煞) #9866",
     "cc": 115,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
@@ -21824,8 +21771,8 @@
     "original_name": "優惠 【高雄店】2020 山葉YAMAHA 勁豪 125(鼓煞) #7020",
     "cc": 125,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
@@ -22302,8 +22249,8 @@
     "original_name": "優惠 【高雄店】2019 光陽KYMCO CUE 100(鼓煞)#1687",
     "cc": 100,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
