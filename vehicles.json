@@ -1,5 +1,153 @@
 [
   {
+    "store": "台中太平店",
+    "brand": "SYM",
+    "year": 2026,
+    "model": "三陽 MMBCU",
+    "stock_number": "6606",
+    "price": 99000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113909455.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2026-mmbcu-6606",
+    "original_name": "【台中太平店】2026 三陽 MMBCU #6606",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 7,8XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113909455.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113909456.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113909457.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113909453.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113909454.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "KYMCO",
+    "year": 2017,
+    "model": "光陽 VJR 125",
+    "stock_number": "8905",
+    "price": 40000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113908806.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2017-光陽-vjr-125-8905",
+    "original_name": "【新北中和店】2017 光陽 VJR 125 #8905",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 59XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113908806.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908807.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908810.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908809.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908808.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "YAMAHA",
+    "year": 2022,
+    "model": "山葉 JOG 125",
+    "stock_number": "1650",
+    "price": 43000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113908647.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2022-山葉-jog-125-1650",
+    "original_name": "【新北中和店】2022 山葉 JOG 125 #1650",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 36XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113908647.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908649.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908645.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908648.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908650.jpeg"
+    ]
+  },
+  {
+    "store": "新北中和店",
+    "brand": "SYM",
+    "year": 2025,
+    "model": "三陽 MMBCU 小改款 (非電推)",
+    "stock_number": "5269",
+    "price": 94000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113908224.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2025-三陽-mmbcu-小改款-非電推-5269",
+    "original_name": "【新北中和店】2025 三陽 MMBCU 小改款 (非電推) #5269",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 18XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113908224.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908226.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908227.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908229.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113908228.jpeg"
+    ]
+  },
+  {
+    "store": "台南店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 JET SL 125 雙碟 TCS+ABS",
+    "stock_number": "9907",
+    "price": 75000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113905968.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2023-三陽-jet-sl-125-雙碟-tcs-abs-9907",
+    "original_name": "【台南店】2023 三陽 JET SL 125 雙碟 TCS+ABS #9907",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 193XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113905968.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905966.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905970.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905975.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905967.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905973.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905972.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905964.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905955.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905957.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905961.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905962.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905971.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905954.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905958.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905953.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905974.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905963.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905965.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905960.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905969.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905959.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113905956.jpeg"
+    ]
+  },
+  {
     "store": "新北中和店",
     "brand": "SYM",
     "year": 2022,
@@ -5618,32 +5766,6 @@
   },
   {
     "store": "新北中和店",
-    "brand": "KYMCO",
-    "year": 2013,
-    "model": "優惠  光陽 V2 125 鼓煞",
-    "stock_number": "093",
-    "price": 20000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113518637.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2013-光陽-v2-125-鼓煞-093",
-    "original_name": "優惠 【新北中和店】2013 光陽 V2 125 鼓煞 #093",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 73XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113518637.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113518635.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113518634.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113518633.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113518636.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
     "brand": "YAMAHA",
     "year": 2022,
     "model": "山葉 R15 V4",
@@ -6510,38 +6632,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113450930.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113450932.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113450933.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "三陽 Fiddle 125 (CBS/前後雙碟)",
-    "stock_number": "7991",
-    "price": 59999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113449579.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2025-三陽-fiddle-125-cbs-前後雙碟-7991",
-    "original_name": "【台南店】2025 三陽 Fiddle 125 (CBS/前後雙碟) #7991",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 35XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113449579.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449575.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449578.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449576.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449581.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449573.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449572.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449571.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449574.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449577.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113449580.jpeg"
     ]
   },
   {
@@ -14879,32 +14969,6 @@
     ]
   },
   {
-    "store": "台中旗艦店",
-    "brand": "SYM",
-    "year": 2020,
-    "model": "三陽 JET SR 125 ABS",
-    "stock_number": "7877",
-    "price": 55000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111909851.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2020-三陽-jet-sr-125-abs-7877",
-    "original_name": "【台中旗艦店】2020 三陽 JET SR 125 ABS #7877",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 23,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111909851.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111909852.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111909858.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111909860.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111909865.jpeg"
-    ]
-  },
-  {
     "store": "高雄店",
     "brand": "SYM",
     "year": 2021,
@@ -18864,32 +18928,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110723410.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110723396.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110723377.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "GOGORO",
-    "year": 2018,
-    "model": "優惠  睿能 GOGORO 2 PLUS SBS 雙碟",
-    "stock_number": "0725",
-    "price": 20000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110691176.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2018-睿能-gogoro-2-plus-sbs-雙碟-0725",
-    "original_name": "優惠 【新竹店】2018 睿能 GOGORO 2 PLUS SBS 雙碟 #0725",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric"
-    ],
-    "mileage": "約 10,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110691176.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110691177.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110691178.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110691179.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110691180.jpeg"
     ]
   },
   {
