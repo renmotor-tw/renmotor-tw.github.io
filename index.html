@@ -117,7 +117,7 @@
     <p>可以先看原商品頁的照片和車況說明，並在看車時請門市說明里程、已知事故或泡水紀錄，以及可提供的檢查或維修資料。</p>
   </details>
   <div class="faq-contact">
-    <a class="line-action" href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer">聯繫貳輪嶼官方 LINE</a>
+    <a class="line-action" data-line-contact href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer">聯繫貳輪嶼官方 LINE</a>
   </div>
 </div></section>
 </main>
@@ -132,13 +132,13 @@
     <div>
       <h2 id="line-contact-title">有喜歡的車輛嗎？</h2>
       <p>透過阿人車庫找到心儀的車款後，歡迎透過貳輪嶼官方 LINE 聯繫，進行車輛諮詢、車況確認及賞車安排。</p>
-      <a class="line-action" id="lineAddFriend" href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer">聯繫貳輪嶼官方 LINE</a>
+      <a class="line-action" id="lineAddFriend" data-line-contact href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer">聯繫貳輪嶼官方 LINE</a>
       <p class="line-contact-note">※ 阿人車庫為貳輪嶼在職業務獨立建立之展示平台，所有車輛實際銷售、簽約及交易依貳輪嶼公司流程辦理。</p>
     </div>
     <img class="line-qr" src="./line-qr.png?v=bb7c1af05fe2" width="120" height="120" loading="lazy" alt="掃描 QR Code 加入貳輪嶼車業官方 LINE @motor1688">
   </section>
 </div></footer>
-<a class="line-float" href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer" aria-label="貳輪嶼官方 LINE 洽詢 @motor1688">
+<a class="line-float" data-line-contact href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer" aria-label="貳輪嶼官方 LINE 洽詢 @motor1688">
   <span class="line-bubble" aria-hidden="true"></span> 貳輪嶼 LINE 洽詢
 </a>
 <dialog class="filter-drawer" id="filterDrawer" aria-labelledby="filterTitle">
@@ -227,14 +227,14 @@
     <button class="vehicle-line-close" id="closeVehicleLineDialog" type="button" aria-label="關閉 LINE 詢問" autofocus>×</button>
     <h2 id="vehicleLineTitle">用手機掃描，直接詢問這台車</h2>
     <p id="vehicleLineDescription">掃描後會開啟貳輪嶼官方 LINE，並自動帶入這台車的資訊。</p>
-    <canvas class="vehicle-line-qr" id="vehicleLineQr" role="img" aria-label="這台車的 LINE 詢問 QR Code" hidden></canvas>
+    <canvas class="vehicle-line-qr" id="vehicleLineQr" role="img" aria-label="LINE 詢問 QR Code" hidden></canvas>
     <a class="vehicle-line-open" id="vehicleLineChat" target="_blank" rel="noopener noreferrer">在手機開啟 LINE</a>
     <div class="vehicle-line-links">
       <a id="vehicleLineAddFriend" target="_blank" rel="noopener noreferrer">在電腦版 LINE 加入好友</a>
       <button type="button" id="copyVehicleLineDraft">複製詢問內容</button>
     </div>
     <span class="vehicle-line-status" id="vehicleLineStatus" role="status"></span>
-    <textarea class="vehicle-line-draft" id="vehicleLineDraft" aria-label="這台車的 LINE 詢問內容" rows="4" readonly hidden></textarea>
+    <textarea class="vehicle-line-draft" id="vehicleLineDraft" aria-label="LINE 詢問內容" rows="4" readonly hidden></textarea>
   </div>
 </dialog>
 <template id="warrantyPreview" data-heading="保固項目與期限">
@@ -283,6 +283,6 @@
 </template>
 <div class="toast" id="toast"></div>
 <script src="./qrcode.js?v=510f3b947ecf"></script>
-<script src="./app.js?v=600bda17834b"></script>
+<script src="./app.js?v=8543ac1add89"></script>
 </body>
 </html>

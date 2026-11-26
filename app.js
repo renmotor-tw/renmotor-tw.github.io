@@ -31,6 +31,18 @@ const $ = id => document.getElementById(id);
 const LINE_URL = $('lineAddFriend').href;
 const LINE_ID = new URL(LINE_URL).pathname.split('/').at(-1);
 const LINE_INQUIRY = '您好，我從阿人車庫-阿人業務介紹看到您們，想詢問這台車：';
+const LINE_CONTACT_MESSAGE = [
+  '您好，我是從外部網站-阿人車庫搜尋看見您們的線上車庫！',
+  '在麻煩您們介紹及建議我車輛的部分😊'
+].join('\n');
+
+function createLineChatUrl(message) {
+  const encodedMessage = encodeURIComponent(message).replace(/[!'()*]/g, char =>
+    '%' + char.charCodeAt(0).toString(16).toUpperCase()
+  );
+  return `https://line.me/R/oaMessage/${LINE_ID}/?${encodedMessage}`;
+}
+
 const money = n => Number.isFinite(Number(n)) && n !== null ? "NT$ " + Number(n).toLocaleString("zh-TW") : "價格請洽詢";
 const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function marketplaceUrl(value, origin) {
@@ -344,11 +356,19 @@ function drawVehicleLineQr(canvas, url) {
 const vehicleLineDialog = $('vehicleLineDialog');
 const vehicleLineDraft = $('vehicleLineDraft');
 const vehicleLineStatus = $('vehicleLineStatus');
+const lineDialogTitle = $('vehicleLineTitle');
+const lineDialogDescription = $('vehicleLineDescription');
+const vehicleInquiryTitle = lineDialogTitle.textContent;
+const vehicleInquiryDescription = lineDialogDescription.textContent;
+let lineDialogOpener;
 
-function showVehicleLineDialog(url, message) {
+function showLineDialog({ url, message, opener, title = vehicleInquiryTitle, description = vehicleInquiryDescription }) {
   if (vehicleLineDialog.open) return;
   closeVehiclePreview();
   const canvas = $('vehicleLineQr');
+  lineDialogOpener = opener;
+  lineDialogTitle.textContent = title;
+  lineDialogDescription.textContent = description;
   $('vehicleLineChat').href = url;
   vehicleLineDraft.value = message;
   vehicleLineDraft.hidden = true;
@@ -359,6 +379,28 @@ function showVehicleLineDialog(url, message) {
 }
 
 $('vehicleLineAddFriend').href = LINE_URL;
+
+const contactLineUrl = createLineChatUrl(LINE_CONTACT_MESSAGE);
+const supportsLineAppLink = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+for (const link of document.querySelectorAll('[data-line-contact]')) {
+  link.href = contactLineUrl;
+  if (supportsLineAppLink) continue;
+  link.setAttribute('aria-haspopup', 'dialog');
+  link.setAttribute('aria-controls', 'vehicleLineDialog');
+  link.addEventListener('click', event => {
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    event.preventDefault();
+    showLineDialog({
+      url: contactLineUrl,
+      message: LINE_CONTACT_MESSAGE,
+      opener: link,
+      title: '聯繫貳輪嶼官方 LINE',
+      description: '用手機掃描 QR Code，即可在聊天室帶入詢問訊息。'
+    });
+  });
+}
+
 $('closeVehicleLineDialog').addEventListener('click', () => vehicleLineDialog.close());
 vehicleLineDialog.addEventListener('click', event => {
   if (event.target !== vehicleLineDialog) return;
@@ -368,9 +410,7 @@ vehicleLineDialog.addEventListener('click', event => {
   }
 });
 vehicleLineDialog.addEventListener('close', () => {
-  if (!vehicleLineDialog.open && modal.classList.contains('open')) {
-    $('openVehicleLineDialog').focus({ preventScroll: true });
-  }
+  if (!vehicleLineDialog.open) lineDialogOpener?.focus({ preventScroll: true });
 });
 $('copyVehicleLineDraft').addEventListener('click', async () => {
   const message = vehicleLineDraft.value;
@@ -396,10 +436,7 @@ function openDetail(id) {
   modalOpener = document.activeElement;
   const vehicleName = b.original_name || b.model;
   const lineMessage = [LINE_INQUIRY, vehicleName, b.productUrl].filter(Boolean).join('\n');
-  const encodedMessage = encodeURIComponent(lineMessage).replace(/[!'()*]/g, char =>
-    '%' + char.charCodeAt(0).toString(16).toUpperCase()
-  );
-  const lineChatUrl = `https://line.me/R/oaMessage/${LINE_ID}/?${encodedMessage}`;
+  const lineChatUrl = createLineChatUrl(lineMessage);
   const photos = [...new Set(b.image_urls.map(imageUrl).filter(Boolean))];
   const cover = imageUrl(b.image_url);
   if (!photos.length && cover) photos.push(cover);
@@ -444,8 +481,8 @@ function openDetail(id) {
   modal.classList.add('open');
   setupGallery(photos, b.model);
   setupVehiclePreviewTriggers();
-  $('openVehicleLineDialog').addEventListener('click', () => {
-    showVehicleLineDialog(lineChatUrl, lineMessage);
+  $('openVehicleLineDialog').addEventListener('click', event => {
+    showLineDialog({ url: lineChatUrl, message: lineMessage, opener: event.currentTarget });
     trackVehicleEvent('line_inquiry_click', b);
   });
   document.body.classList.add('modal-lock');
