@@ -12012,32 +12012,6 @@
     ]
   },
   {
-    "store": "花蓮店",
-    "brand": "PGO",
-    "year": 2025,
-    "model": "PGO TIG 170",
-    "stock_number": "6133",
-    "price": 95000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112651335.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2025-pgo-tig-170-6133",
-    "original_name": "【花蓮店】2025 PGO TIG 170#6133",
-    "cc": 170,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 5xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112651335.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112651336.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112651337.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112651338.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112651339.jpeg"
-    ]
-  },
-  {
     "store": "高雄店",
     "brand": "KYMCO",
     "year": 2012,
@@ -12080,8 +12054,8 @@
     "original_name": "優惠 【高雄店】2022 SYM三陽 4MICA 150(碟煞)(ABS)#1665",
     "cc": 150,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "126-150"
     ],
@@ -12528,32 +12502,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112544720.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112544721.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112544718.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "SYM",
-    "year": 2017,
-    "model": "三陽 FIGHTER 150 雙碟",
-    "stock_number": "8782",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112544162.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2017-三陽-fighter-150-雙碟-8782",
-    "original_name": "【新竹店】2017 三陽 FIGHTER 150 雙碟 #8782",
-    "cc": 150,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "126-150"
-    ],
-    "mileage": "約 29,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112544162.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112544161.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112544160.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112544159.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112544158.jpeg"
     ]
   },
   {
@@ -15155,37 +15103,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111839793.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111839785.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111839784.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "KYMCO",
-    "year": 2025,
-    "model": "光陽KYMCO RTS R165(碟煞)(ABS/TCS/KEYLESS)",
-    "stock_number": "2389",
-    "price": 88000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111838691.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2025-光陽kymco-rts-r165-碟煞-abs-tcs-keyless-2389",
-    "original_name": "【高雄店】2025 光陽KYMCO RTS R165(碟煞)(ABS/TCS/KEYLESS)#2389",
-    "cc": 165,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 24,7XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111838691.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838697.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838696.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838695.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838692.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838690.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838689.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838688.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838694.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111838693.jpeg"
     ]
   },
   {
