@@ -1,5 +1,87 @@
 [
   {
+    "store": "新竹店",
+    "brand": "YAMAHA",
+    "year": 2017,
+    "model": "山葉 JOG SWEET 115 雙鼓",
+    "stock_number": "0023",
+    "price": 33000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113933201.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2017-山葉-jog-sweet-115-雙鼓-0023",
+    "original_name": "【新竹店】2017 山葉 JOG SWEET 115 雙鼓 #0023",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 19,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113933201.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933199.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933200.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933198.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933197.jpeg"
+    ]
+  },
+  {
+    "store": "桃園中壢店",
+    "brand": "YAMAHA",
+    "year": 2017,
+    "model": "山葉 LIMI 115 前碟後鼓",
+    "stock_number": "7928",
+    "price": 38000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113933122.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2017-山葉-limi-115-前碟後鼓-7928",
+    "original_name": "【桃園中壢店】2017 山葉 LIMI 115 前碟後鼓 #7928",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 17,602 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113933122.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933123.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933125.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933124.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933126.jpeg"
+    ]
+  },
+  {
+    "store": "桃園中壢店",
+    "brand": "SYM",
+    "year": 2020,
+    "model": "三陽 DRG 158 ABS 六期 雙碟",
+    "stock_number": "1287",
+    "price": 60000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113933080.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2020-三陽-drg-158-abs-六期-雙碟-1287",
+    "original_name": "【桃園中壢店】2020 三陽 DRG 158 ABS 六期 雙碟 #1287",
+    "cc": 158,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 26,184 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113933080.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933083.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933079.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933087.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933081.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933086.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933085.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933084.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113933082.jpeg"
+    ]
+  },
+  {
     "store": "台南店",
     "brand": "GOGORO",
     "year": 2020,
@@ -15754,42 +15836,6 @@
     ]
   },
   {
-    "store": "台南店",
-    "brand": "KYMCO",
-    "year": 2023,
-    "model": "光陽 NEW MANY 125 (雙碟)",
-    "stock_number": "3275",
-    "price": 55000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111683382.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2023-光陽-new-many-125-雙碟-3275",
-    "original_name": "【台南店】2023 光陽 NEW MANY 125 (雙碟) #3275",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 211XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111683382.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683377.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683383.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683387.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683378.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683375.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683385.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683376.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683379.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683384.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683380.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683386.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683381.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683388.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111683389.jpeg"
-    ]
-  },
-  {
     "store": "高雄店",
     "brand": "YAMAHA",
     "year": 2023,
@@ -21265,32 +21311,6 @@
   },
   {
     "store": "桃園中壢店",
-    "brand": "SYM",
-    "year": 2020,
-    "model": "優惠  三陽 DRG 158 ABS 六期 雙碟",
-    "stock_number": "1287",
-    "price": 60000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/109091411.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2020-三陽-drg-158-abs-六期-雙碟-1287",
-    "original_name": "優惠 【桃園中壢店】2020 三陽 DRG 158 ABS 六期 雙碟 #1287",
-    "cc": 158,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 26,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/109091411.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109091410.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109091413.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109091409.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109091412.jpeg"
-    ]
-  },
-  {
-    "store": "桃園中壢店",
     "brand": "SUZUKI",
     "year": 2018,
     "model": "台鈴 GSX-S 150 ABS 雙碟",
@@ -22051,32 +22071,6 @@
       "https://cdn.store-assets.com/s/1336053/i/106723306.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/106723307.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/106723303.jpeg"
-    ]
-  },
-  {
-    "store": "桃園中壢店",
-    "brand": "YAMAHA",
-    "year": 2017,
-    "model": "優惠  山葉 LIMI 115 前碟後鼓",
-    "stock_number": "7928",
-    "price": 35000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/106667703.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2017-山葉-limi-115-前碟後鼓-7928",
-    "original_name": "優惠 【桃園中壢店】2017 山葉 LIMI 115 前碟後鼓 #7928",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 17,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/106667703.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/106667704.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/106667705.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/106667707.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/106667706.jpeg"
     ]
   },
   {
