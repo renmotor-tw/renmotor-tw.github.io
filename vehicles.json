@@ -145,32 +145,6 @@
     ]
   },
   {
-    "store": "花蓮店",
-    "brand": "YAMAHA",
-    "year": 2022,
-    "model": "山葉 R15M V4",
-    "stock_number": "0893",
-    "price": 76000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110381763.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2022-r15m-v4-0893",
-    "original_name": "【花蓮店】2022 山葉 R15M V4 #0893",
-    "cc": 155,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 87XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110381763.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381761.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381764.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381765.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381762.jpeg"
-    ]
-  },
-  {
     "store": "新北新莊店",
     "brand": "KYMCO",
     "year": 2024,
@@ -8898,32 +8872,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113187087.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113187089.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113187084.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "優惠  山葉 BWSR 125",
-    "stock_number": "8802",
-    "price": 32000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/108994163.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2016-山葉-bwsr-125-8802",
-    "original_name": "優惠 【花蓮店】2016 山葉 BWSR 125#8802",
-    "cc": 125,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 27xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/108994163.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108994160.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108994161.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108994162.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/108994159.jpeg"
     ]
   },
   {
@@ -17658,33 +17606,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "HONDA",
-    "year": 2021,
-    "model": "優惠  本田 CB150R ABS 雙碟 國際檔",
-    "stock_number": "5181",
-    "price": 95000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111121659.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2021-本田-cb150r-abs-雙碟-國際檔-5181",
-    "original_name": "優惠 【新竹店】2021 本田 CB150R ABS 雙碟 國際檔 #5181",
-    "cc": 150,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "126-150",
-      "white-manual"
-    ],
-    "mileage": "約 12,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111121659.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111121660.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111121661.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111121664.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111121663.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "YAMAHA",
     "year": 2020,
     "model": "優惠  山葉 BWSR 125 雙碟",
@@ -20954,6 +20875,39 @@
       "https://cdn.store-assets.com/s/1336053/i/110176367.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110176368.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110176369.jpeg"
+    ]
+  },
+  {
+    "store": "台南店",
+    "brand": "YAMAHA",
+    "year": 2016,
+    "model": "山葉 NEW CUXI 115 (前碟後鼓)",
+    "stock_number": "8109",
+    "price": 34000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/109635183.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2016-山葉-new-cuxi-115-前碟後鼓-8109",
+    "original_name": "【台南店】2016 山葉 NEW CUXI 115 (前碟後鼓) #8109",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 214XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/109635183.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635188.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635185.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635187.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635186.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635197.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635216.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635199.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635218.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635198.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635217.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/109635220.jpeg"
     ]
   },
   {
