@@ -1,6 +1,37 @@
 [
   {
     "store": "高雄店",
+    "brand": "YAMAHA",
+    "year": 2016,
+    "model": "山葉YAMAHA RAY 125(碟煞)",
+    "stock_number": "5920",
+    "price": 32000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113936385.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2016-山葉yamaha-ray-125-碟煞-5920",
+    "original_name": "【高雄店】2016 山葉YAMAHA RAY 125(碟煞)#5920",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 31,3XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113936385.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936388.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936390.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936384.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936383.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936386.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936381.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936387.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936382.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113936389.jpeg"
+    ]
+  },
+  {
+    "store": "高雄店",
     "brand": "KYMCO",
     "year": 2025,
     "model": "光陽KYMCO 大樂DOLLAR 150(碟煞)(ABS)",
@@ -63,58 +94,6 @@
   },
   {
     "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2020,
-    "model": "光陽 MANY 110 碟煞",
-    "stock_number": "5867",
-    "price": 44000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113934502.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2020-光陽-many-110-碟煞-5867",
-    "original_name": "【花蓮店】2020 光陽 MANY 110 碟煞#5867",
-    "cc": 110,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 30xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113934502.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934497.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934500.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934501.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934499.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2019,
-    "model": "光陽 新名流 125 鼓煞",
-    "stock_number": "0687",
-    "price": 33000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113934302.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2019-光陽-新名流-125-鼓煞-0687",
-    "original_name": "【花蓮店】2019 光陽 新名流 125 鼓煞#0687",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 15xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113934302.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934297.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934299.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934300.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113934298.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
     "brand": "YAMAHA",
     "year": 2023,
     "model": "優惠  山葉 MT-15",
@@ -137,6 +116,58 @@
       "https://cdn.store-assets.com/s/1336053/i/111342534.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111342531.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111342535.jpeg"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "SUZUKI",
+    "year": 2021,
+    "model": "台鈴 GSX-R150 小阿魯",
+    "stock_number": "0108",
+    "price": 45000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/110513241.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-台鈴-gsx-r150-小阿魯-0108",
+    "original_name": "【花蓮店】2021 台鈴 GSX-R150 小阿魯 #0108",
+    "cc": 150,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 13XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/110513241.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110513244.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110513245.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110513242.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110513243.jpeg"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "YAMAHA",
+    "year": 2022,
+    "model": "山葉 R15M V4",
+    "stock_number": "0893",
+    "price": 76000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/110381763.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2022-r15m-v4-0893",
+    "original_name": "【花蓮店】2022 山葉 R15M V4 #0893",
+    "cc": 155,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 87XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/110381763.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110381761.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110381764.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110381765.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110381762.jpeg"
     ]
   },
   {
@@ -6186,28 +6217,28 @@
   },
   {
     "store": "花蓮店",
-    "brand": "SUZUKI",
-    "year": 2021,
-    "model": "台鈴 GSX-R150 小阿魯",
-    "stock_number": "0108",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110513241.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-台鈴-gsx-r150-小阿魯-0108",
-    "original_name": "【花蓮店】2021 台鈴 GSX-R150 小阿魯 #0108",
-    "cc": 150,
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 MMBCU",
+    "stock_number": "5706",
+    "price": 85000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113886071.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2023-三陽-mmbcu-5706",
+    "original_name": "【花蓮店】2023 三陽 MMBCU #5706",
+    "cc": 158,
     "km": null,
-    "warranty": false,
-    "as_is": true,
+    "warranty": true,
+    "as_is": false,
     "categories": [
       "151-249"
     ],
-    "mileage": "約 13XXX 公里",
+    "mileage": "約 26xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110513241.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513244.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513245.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513242.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110513243.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113886071.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113886072.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113886074.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113886076.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113886073.jpeg"
     ]
   },
   {
@@ -6260,32 +6291,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113515652.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113515655.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113515659.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
-    "brand": "YAMAHA",
-    "year": 2022,
-    "model": "山葉 R15M V4",
-    "stock_number": "0893",
-    "price": 76000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110381763.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2022-r15m-v4-0893",
-    "original_name": "【花蓮店】2022 山葉 R15M V4 #0893",
-    "cc": 155,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 87XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110381763.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381761.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381764.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381765.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110381762.jpeg"
     ]
   },
   {
@@ -6509,15 +6514,15 @@
   },
   {
     "store": "花蓮店",
-    "brand": "SYM",
+    "brand": "KYMCO",
     "year": 2023,
-    "model": "三陽 MMBCU",
-    "stock_number": "5706",
-    "price": 85000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113886071.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2023-三陽-mmbcu-5706",
-    "original_name": "【花蓮店】2023 三陽 MMBCU #5706",
-    "cc": 158,
+    "model": "光陽 KRV 180 MOTO",
+    "stock_number": "5137",
+    "price": 66000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113405604.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2023-光陽-krv-180-moto-5137",
+    "original_name": "【花蓮店】2023 光陽 KRV 180 MOTO#5137",
+    "cc": 180,
     "km": null,
     "warranty": true,
     "as_is": false,
@@ -6526,38 +6531,12 @@
     ],
     "mileage": "約 26xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113886071.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113886072.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113886074.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113886076.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113886073.jpeg"
-    ]
-  },
-  {
-    "store": "台中太平店",
-    "brand": "YAMAHA",
-    "year": 2019,
-    "model": "山葉 MT-15",
-    "stock_number": "0662",
-    "price": 50000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113466269.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2019-山葉-mt-15-0662-",
-    "original_name": "【台中太平店】2019 山葉 MT-15 #0662",
-    "cc": 155,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "151-249",
-      "white-manual"
-    ],
-    "mileage": "約 21,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113466269.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113466267.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113466268.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113466264.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113466265.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113405604.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405607.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405608.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405609.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405605.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405606.jpeg"
     ]
   },
   {
@@ -7104,33 +7083,6 @@
   },
   {
     "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2023,
-    "model": "光陽 KRV 180 MOTO",
-    "stock_number": "5137",
-    "price": 66000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113405604.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2023-光陽-krv-180-moto-5137",
-    "original_name": "【花蓮店】2023 光陽 KRV 180 MOTO#5137",
-    "cc": 180,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249"
-    ],
-    "mileage": "約 26xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113405604.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405607.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405608.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405609.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405605.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405606.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
     "brand": "YAMAHA",
     "year": 2019,
     "model": "山葉 FORCE 155",
@@ -7309,6 +7261,58 @@
       "https://cdn.store-assets.com/s/1336053/i/113500494.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113500491.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113500492.jpeg"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "YAMAHA",
+    "year": 2017,
+    "model": "山葉 勁戰四代 125",
+    "stock_number": "3765",
+    "price": 45000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113509755.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-山葉-勁戰四代-125-3765",
+    "original_name": "【花蓮店】2017 山葉 勁戰四代 125#3765",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 37xxx 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113509755.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113509759.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113509761.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113509762.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113509760.jpeg"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "YAMAHA",
+    "year": 2018,
+    "model": "優惠  山葉 BWSR 125",
+    "stock_number": "5705",
+    "price": 39999,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/112657474.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2018-山葉-bwsr-125-5705",
+    "original_name": "優惠 【花蓮店】2018 山葉 BWSR 125 #5705",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "126-150"
+    ],
+    "mileage": "約 42xxx 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/112657474.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112657475.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112657473.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112657472.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112657471.jpeg"
     ]
   },
   {
@@ -8171,43 +8175,6 @@
     ]
   },
   {
-    "store": "台南店",
-    "brand": "YAMAHA",
-    "year": 2018,
-    "model": "山葉 勁戰五代 125 (雙碟/LED頭燈)",
-    "stock_number": "5658",
-    "price": 52000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113328235.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2018-山葉-勁戰五代-125-雙碟-led頭燈-5658",
-    "original_name": "【台南店】2018 山葉 勁戰五代 125 (雙碟/LED頭燈) #5658",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 127XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113328235.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328239.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328238.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328234.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328236.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328231.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328233.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328227.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328242.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328229.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328241.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328230.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328228.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328232.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328237.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113328240.jpeg"
-    ]
-  },
-  {
     "store": "桃園中壢店",
     "brand": "GOGORO",
     "year": 2024,
@@ -8959,58 +8926,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113187087.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113187089.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113187084.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
-    "brand": "YAMAHA",
-    "year": 2017,
-    "model": "山葉 勁戰四代 125",
-    "stock_number": "3765",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113509755.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-山葉-勁戰四代-125-3765",
-    "original_name": "【花蓮店】2017 山葉 勁戰四代 125#3765",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 37xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113509755.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113509759.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113509761.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113509762.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113509760.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
-    "brand": "YAMAHA",
-    "year": 2018,
-    "model": "優惠  山葉 BWSR 125",
-    "stock_number": "5705",
-    "price": 39999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112657474.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2018-山葉-bwsr-125-5705",
-    "original_name": "優惠 【花蓮店】2018 山葉 BWSR 125 #5705",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "126-150"
-    ],
-    "mileage": "約 42xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112657474.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112657475.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112657473.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112657472.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112657471.jpeg"
     ]
   },
   {
@@ -9930,27 +9845,27 @@
   {
     "store": "花蓮店",
     "brand": "KYMCO",
-    "year": 2021,
-    "model": "光陽 LIKE 150",
-    "stock_number": "3587",
-    "price": 46000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110550199.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-光陽-like-150-3587",
-    "original_name": "【花蓮店】2021 光陽 LIKE 150#3587",
-    "cc": 150,
+    "year": 2024,
+    "model": "優惠  光陽 LIKE 125",
+    "stock_number": "6288",
+    "price": 55000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/110418964.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2024-光陽-like-125-6288",
+    "original_name": "優惠 【花蓮店】2024 光陽 LIKE 125#6288",
+    "cc": 125,
     "km": null,
     "warranty": true,
     "as_is": false,
     "categories": [
-      "151-249"
+      "up-to-125"
     ],
-    "mileage": "約 29xxx 公里",
+    "mileage": "約 21xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110550199.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550200.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550203.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550202.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550204.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/110418964.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110418969.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110418967.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110418966.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110418965.jpeg"
     ]
   },
   {
@@ -12429,14 +12344,14 @@
   },
   {
     "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2024,
-    "model": "優惠  光陽 LIKE 125",
-    "stock_number": "6288",
-    "price": 55000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110418964.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2024-光陽-like-125-6288",
-    "original_name": "優惠 【花蓮店】2024 光陽 LIKE 125#6288",
+    "brand": "SYM",
+    "year": 2022,
+    "model": "優惠  三陽 FIDDLE 125",
+    "stock_number": "2118",
+    "price": 48000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/111262007.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2022-三陽-fiddle-125-2118",
+    "original_name": "優惠 【花蓮店】2022 三陽 FIDDLE 125 #2118",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -12444,39 +12359,39 @@
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 21xxx 公里",
+    "mileage": "約 33xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110418964.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110418969.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110418967.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110418966.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110418965.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/111262007.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111262003.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111262005.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111262004.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111262002.jpeg"
     ]
   },
   {
     "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2020,
-    "model": "光陽 LIKE 125",
-    "stock_number": "1933",
-    "price": 48000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110668006.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2020-光陽-like-125-1933",
-    "original_name": "【花蓮店】2020 光陽 LIKE 125 #1933",
-    "cc": 125,
+    "brand": "PGO",
+    "year": 2017,
+    "model": "PGO JBUBU 115",
+    "stock_number": "9081",
+    "price": 35000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/112653192.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-pgo-jbubu-115-9081",
+    "original_name": "【花蓮店】2017 PGO JBUBU 115#9081",
+    "cc": 115,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 16xxx 公里",
+    "mileage": "約 63xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110668006.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110668004.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110668007.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110668005.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110668008.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/112653192.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112653189.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112653190.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112653191.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112653188.jpeg"
     ]
   },
   {
@@ -12508,37 +12423,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112615359.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112615361.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112615362.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "SYM",
-    "year": 2022,
-    "model": "優惠  SYM三陽 4MICA 150(碟煞)(ABS)",
-    "stock_number": "1665",
-    "price": 39999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112614793.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2022-sym三陽-4mica-150-1665",
-    "original_name": "優惠 【高雄店】2022 SYM三陽 4MICA 150(碟煞)(ABS)#1665",
-    "cc": 150,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "126-150"
-    ],
-    "mileage": "約 50,9XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112614793.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614792.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614789.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614788.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614791.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614794.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614790.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614787.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614795.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112614796.jpeg"
     ]
   },
   {
@@ -13980,14 +13864,14 @@
   },
   {
     "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2019,
-    "model": "光陽 LIKE 125 ABS",
-    "stock_number": "8875",
-    "price": 40000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516117.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2019-光陽-like-125-abs-8875",
-    "original_name": "【花蓮店】2019 光陽 LIKE 125 ABS#8875",
+    "brand": "SYM",
+    "year": 2021,
+    "model": "三陽 XSENSE 紳士 125",
+    "stock_number": "7966",
+    "price": 39999,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113402367.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-三陽-xsense-紳士-125-7966",
+    "original_name": "【花蓮店】2021 三陽 XSENSE 紳士 125#7966",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -13995,13 +13879,13 @@
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 29xxx 公里",
+    "mileage": "約 28xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113516117.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516116.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516118.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516119.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516115.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113402367.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113402369.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113402370.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113402368.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113402366.jpeg"
     ]
   },
   {
@@ -15354,14 +15238,14 @@
   },
   {
     "store": "花蓮店",
-    "brand": "SYM",
-    "year": 2022,
-    "model": "優惠  三陽 FIDDLE 125",
-    "stock_number": "2118",
-    "price": 48000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111262007.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2022-三陽-fiddle-125-2118",
-    "original_name": "優惠 【花蓮店】2022 三陽 FIDDLE 125 #2118",
+    "brand": "KYMCO",
+    "year": 2019,
+    "model": "光陽 新名流 125 鼓煞",
+    "stock_number": "0687",
+    "price": 33000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113934302.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2019-光陽-新名流-125-鼓煞-0687",
+    "original_name": "【花蓮店】2019 光陽 新名流 125 鼓煞#0687",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -15369,13 +15253,13 @@
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 33xxx 公里",
+    "mileage": "約 15xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111262007.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111262003.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111262005.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111262004.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111262002.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113934302.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934297.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934299.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934300.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934298.jpeg"
     ]
   },
   {
@@ -15800,26 +15684,6 @@
     ]
   },
   {
-    "store": "高雄店",
-    "brand": "YAMAHA",
-    "year": 2021,
-    "model": "山葉YAMAHA 水冷BWS(碟煞)",
-    "stock_number": "5915",
-    "price": 62000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111765866.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2021-山葉yamaha-水冷bws-碟煞-5915-",
-    "original_name": "【高雄店】2021 山葉YAMAHA 水冷BWS(碟煞)#5915",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 36,6XX 公里",
-    "image_urls": []
-  },
-  {
     "store": "台中太平店",
     "brand": "YAMAHA",
     "year": 2023,
@@ -16100,6 +15964,32 @@
       "https://cdn.store-assets.com/s/1336053/i/111605997.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111605999.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111605996.jpeg"
+    ]
+  },
+  {
+    "store": "台中旗艦店",
+    "brand": "YAMAHA",
+    "year": 2019,
+    "model": "山葉 勁戰五代 125 ABS",
+    "stock_number": "7681",
+    "price": 52000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/111605988.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2019-山葉-勁戰五代-125-abs-7681",
+    "original_name": "【台中旗艦店】2019 山葉 勁戰五代 125 ABS #7681",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 29,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/111605988.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111605990.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111605987.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111605989.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111605986.jpeg"
     ]
   },
   {
@@ -16994,28 +16884,29 @@
   },
   {
     "store": "花蓮店",
-    "brand": "PGO",
-    "year": 2017,
-    "model": "PGO JBUBU 115",
-    "stock_number": "9081",
-    "price": 35000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112653192.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-pgo-jbubu-115-9081",
-    "original_name": "【花蓮店】2017 PGO JBUBU 115#9081",
-    "cc": 115,
+    "brand": "YAMAHA",
+    "year": 2021,
+    "model": "山葉 JOG 125",
+    "stock_number": "1566",
+    "price": 39999,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113405486.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-山葉-jog-125-1566",
+    "original_name": "【花蓮店】2021 山葉 JOG 125#1566",
+    "cc": 125,
     "km": null,
-    "warranty": false,
-    "as_is": true,
+    "warranty": true,
+    "as_is": false,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 63xxx 公里",
+    "mileage": "約 17xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112653192.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112653189.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112653190.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112653191.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112653188.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113405486.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405487.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405485.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405488.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405490.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405489.jpeg"
     ]
   },
   {
@@ -17269,14 +17160,14 @@
   },
   {
     "store": "花蓮店",
-    "brand": "SYM",
-    "year": 2021,
-    "model": "三陽 XSENSE 紳士 125",
-    "stock_number": "7966",
-    "price": 39999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113402367.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-三陽-xsense-紳士-125-7966",
-    "original_name": "【花蓮店】2021 三陽 XSENSE 紳士 125#7966",
+    "brand": "KYMCO",
+    "year": 2019,
+    "model": "光陽 LIKE 125 ABS",
+    "stock_number": "8875",
+    "price": 40000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516117.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2019-光陽-like-125-abs-8875",
+    "original_name": "【花蓮店】2019 光陽 LIKE 125 ABS#8875",
     "cc": 125,
     "km": null,
     "warranty": true,
@@ -17284,40 +17175,13 @@
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 28xxx 公里",
+    "mileage": "約 29xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113402367.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113402369.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113402370.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113402368.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113402366.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
-    "brand": "YAMAHA",
-    "year": 2021,
-    "model": "山葉 JOG 125",
-    "stock_number": "1566",
-    "price": 39999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113405486.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-山葉-jog-125-1566",
-    "original_name": "【花蓮店】2021 山葉 JOG 125#1566",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 17xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113405486.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405487.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405485.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405488.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405490.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405489.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113516117.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113516116.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113516118.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113516119.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113516115.jpeg"
     ]
   },
   {
@@ -17344,6 +17208,32 @@
       "https://cdn.store-assets.com/s/1336053/i/113398306.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113398304.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113398307.jpeg"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "KYMCO",
+    "year": 2022,
+    "model": "光陽 NICE XL 115",
+    "stock_number": "5090",
+    "price": 36000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/112323888.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2022-光陽-nice-xl-115-5090",
+    "original_name": "【花蓮店】2022 光陽 NICE XL 115#5090",
+    "cc": 115,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 14xxx 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/112323888.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112323887.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112323889.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112323892.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112323890.jpeg"
     ]
   },
   {
@@ -17955,27 +17845,27 @@
   {
     "store": "花蓮店",
     "brand": "KYMCO",
-    "year": 2022,
-    "model": "光陽 NICE XL 115",
-    "stock_number": "5090",
+    "year": 2020,
+    "model": "光陽 新名流 125 碟煞",
+    "stock_number": "2535",
     "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112323888.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2022-光陽-nice-xl-115-5090",
-    "original_name": "【花蓮店】2022 光陽 NICE XL 115#5090",
-    "cc": 115,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113405049.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2020-新名流-125-碟煞-2535",
+    "original_name": "【花蓮店】2020 光陽 新名流 125 碟煞#2535",
+    "cc": 125,
     "km": null,
     "warranty": true,
     "as_is": false,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 14xxx 公里",
+    "mileage": "約 134 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112323888.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112323887.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112323889.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112323892.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112323890.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113405049.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405047.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405050.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405045.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113405048.jpeg"
     ]
   },
   {
@@ -19022,27 +18912,27 @@
   {
     "store": "花蓮店",
     "brand": "KYMCO",
-    "year": 2020,
-    "model": "光陽 新名流 125 碟煞",
-    "stock_number": "2535",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113405049.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2020-新名流-125-碟煞-2535",
-    "original_name": "【花蓮店】2020 光陽 新名流 125 碟煞#2535",
-    "cc": 125,
+    "year": 2017,
+    "model": "優惠  光陽 超級金牌",
+    "stock_number": "3157",
+    "price": 32000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/111101732.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-光陽-超級金牌-3157",
+    "original_name": "優惠 【花蓮店】2017 光陽 超級金牌 #3157",
+    "cc": null,
     "km": null,
     "warranty": true,
     "as_is": false,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 134 公里",
+    "mileage": "約 41xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113405049.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405047.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405050.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405045.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113405048.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/111101732.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111101736.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111101737.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111101733.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/111101735.jpeg"
     ]
   },
   {
@@ -19178,32 +19068,6 @@
   },
   {
     "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2017,
-    "model": "優惠  光陽 超級金牌",
-    "stock_number": "3157",
-    "price": 32000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111101732.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-光陽-超級金牌-3157",
-    "original_name": "優惠 【花蓮店】2017 光陽 超級金牌 #3157",
-    "cc": null,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 41xxx 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111101732.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111101736.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111101737.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111101733.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111101735.jpeg"
-    ]
-  },
-  {
-    "store": "花蓮店",
     "brand": "SYM",
     "year": 2016,
     "model": "三陽 GP125 鼓煞",
@@ -19252,6 +19116,32 @@
       "https://cdn.store-assets.com/s/1336053/i/113405305.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113405301.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113405302.jpeg"
+    ]
+  },
+  {
+    "store": "花蓮店",
+    "brand": "KYMCO",
+    "year": 2020,
+    "model": "光陽 MANY 110 碟煞",
+    "stock_number": "5867",
+    "price": 44000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113934502.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2020-光陽-many-110-碟煞-5867",
+    "original_name": "【花蓮店】2020 光陽 MANY 110 碟煞#5867",
+    "cc": 110,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 30xxx 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/113934502.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934497.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934500.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934501.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113934499.jpeg"
     ]
   },
   {
@@ -19347,28 +19237,28 @@
   },
   {
     "store": "花蓮店",
-    "brand": "YAMAHA",
-    "year": 2017,
-    "model": "優惠  山葉 LIMI 115",
-    "stock_number": "5010",
-    "price": 35000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110550044.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-山葉-limi-115-5010",
-    "original_name": "優惠 【花蓮店】2017 山葉 LIMI 115 #5010",
-    "cc": 115,
+    "brand": "KYMCO",
+    "year": 2021,
+    "model": "光陽 MANY 110 碟煞",
+    "stock_number": "1085",
+    "price": 42000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113400869.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-光陽-many-110-碟煞-1085",
+    "original_name": "【花蓮店】2021 光陽 MANY 110 碟煞#1085",
+    "cc": 110,
     "km": null,
     "warranty": true,
     "as_is": false,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 19xxx 公里",
+    "mileage": "約 26xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110550044.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550046.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550045.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550043.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110550042.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113400869.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113400868.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113400870.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113400871.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113400867.jpeg"
     ]
   },
   {
@@ -19780,13 +19670,13 @@
   {
     "store": "花蓮店",
     "brand": "YAMAHA",
-    "year": 2019,
-    "model": "山葉 NEW CUXI 115 碟煞",
-    "stock_number": "9818",
-    "price": 34000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113084406.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2019-山葉-new-cuxi-115-碟煞-9818",
-    "original_name": "【花蓮店】2019 山葉 NEW CUXI 115 碟煞#9818",
+    "year": 2017,
+    "model": "優惠  山葉 LIMI 115",
+    "stock_number": "5010",
+    "price": 35000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/110550044.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2017-山葉-limi-115-5010",
+    "original_name": "優惠 【花蓮店】2017 山葉 LIMI 115 #5010",
     "cc": 115,
     "km": null,
     "warranty": true,
@@ -19794,13 +19684,13 @@
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 31xxx 公里",
+    "mileage": "約 19xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113084406.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113084411.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113084408.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113084410.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113084407.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/110550044.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110550046.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110550045.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110550043.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/110550042.jpeg"
     ]
   },
   {
@@ -19951,28 +19841,28 @@
   },
   {
     "store": "花蓮店",
-    "brand": "KYMCO",
-    "year": 2015,
-    "model": "光陽 MANY 110 碟煞",
-    "stock_number": "2895",
-    "price": 32000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112652909.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2015-光陽-many-110-碟煞-2895",
-    "original_name": "【花蓮店】2015 光陽 MANY 110 碟煞#2895",
-    "cc": 110,
+    "brand": "YAMAHA",
+    "year": 2019,
+    "model": "山葉 NEW CUXI 115 碟煞",
+    "stock_number": "9818",
+    "price": 34000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/113084406.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2019-山葉-new-cuxi-115-碟煞-9818",
+    "original_name": "【花蓮店】2019 山葉 NEW CUXI 115 碟煞#9818",
+    "cc": 115,
     "km": null,
-    "warranty": false,
-    "as_is": true,
+    "warranty": true,
+    "as_is": false,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 60xxx 公里",
+    "mileage": "約 31xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112652909.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112652911.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112652912.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112652913.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112652910.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/113084406.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113084411.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113084408.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113084410.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/113084407.jpeg"
     ]
   },
   {
@@ -21541,27 +21431,27 @@
   {
     "store": "花蓮店",
     "brand": "KYMCO",
-    "year": 2021,
+    "year": 2015,
     "model": "光陽 MANY 110 碟煞",
-    "stock_number": "1085",
-    "price": 42000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113400869.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2021-光陽-many-110-碟煞-1085",
-    "original_name": "【花蓮店】2021 光陽 MANY 110 碟煞#1085",
+    "stock_number": "2895",
+    "price": 32000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/112652909.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-花蓮店-2015-光陽-many-110-碟煞-2895",
+    "original_name": "【花蓮店】2015 光陽 MANY 110 碟煞#2895",
     "cc": 110,
     "km": null,
-    "warranty": true,
-    "as_is": false,
+    "warranty": false,
+    "as_is": true,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 26xxx 公里",
+    "mileage": "約 60xxx 公里",
     "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113400869.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113400868.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113400870.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113400871.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113400867.jpeg"
+      "https://cdn.store-assets.com/s/1336053/i/112652909.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112652911.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112652912.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112652913.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/112652910.jpeg"
     ]
   },
   {
