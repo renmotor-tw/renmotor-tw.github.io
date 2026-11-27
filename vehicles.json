@@ -7640,36 +7640,6 @@
     ]
   },
   {
-    "store": "桃園中壢店",
-    "brand": "YAMAHA",
-    "year": 2015,
-    "model": "優惠  山葉 NEW CUXI 115 前碟後鼓",
-    "stock_number": "075",
-    "price": 29000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113383373.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2015-山葉-new-cuxi-115-前碟後鼓-075-",
-    "original_name": "優惠 【桃園中壢店】2015 山葉 NEW CUXI 115 前碟後鼓 #075",
-    "cc": 115,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 50,036 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113383373.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383369.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383370.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383371.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383372.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383374.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383375.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383368.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113383376.jpeg"
-    ]
-  },
-  {
     "store": "新北中和店",
     "brand": "PGO",
     "year": 2015,
@@ -9946,36 +9916,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112980931.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112980933.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112980935.jpeg"
-    ]
-  },
-  {
-    "store": "桃園中壢店",
-    "brand": "KYMCO",
-    "year": 2021,
-    "model": "光陽 雷霆 S 150 BREMBO 雙碟",
-    "stock_number": "3210",
-    "price": 52000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112981844.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2021-光陽-雷霆-s-150-brembo-雙碟-3210-",
-    "original_name": "【桃園中壢店】2021 光陽 雷霆 S 150 BREMBO 雙碟 #3210",
-    "cc": 150,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "126-150"
-    ],
-    "mileage": "約 15,744 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112981844.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981847.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981852.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981851.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981845.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981846.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981850.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981848.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112981849.jpeg"
     ]
   },
   {
@@ -18165,12 +18105,12 @@
     "store": "台南店",
     "brand": "PGO",
     "year": 2017,
-    "model": "PGO JBUBU 125 雙碟",
+    "model": "PGO JBUBU 125 (雙碟)",
     "stock_number": "0100",
     "price": 38000,
     "image_url": "https://cdn.store-assets.com/s/1336053/i/110837836.jpeg",
     "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2017-pgo-jbubu-125-雙碟-0100",
-    "original_name": "【台南店】2017 PGO JBUBU 125 雙碟#0100",
+    "original_name": "【台南店】2017 PGO JBUBU 125 (雙碟) #0100",
     "cc": 125,
     "km": null,
     "warranty": true,
