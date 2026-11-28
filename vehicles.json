@@ -1,5 +1,31 @@
 [
   {
+    "store": "台南店",
+    "brand": "YAMAHA",
+    "year": 2015,
+    "model": "山葉 R3 321 雙碟 (無ABS/公司車)",
+    "stock_number": "152",
+    "price": 55000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114009421.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2015-山葉-r3-321-雙碟-無abs-公司車-152",
+    "original_name": "【台南店】2015 山葉 R3 321 雙碟 (無ABS/公司車) #152",
+    "cc": 321,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "heavy"
+    ],
+    "mileage": "約 97XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114009421.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114009424.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114009422.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114009423.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114009420.jpeg"
+    ]
+  },
+  {
     "store": "桃園中壢店",
     "brand": "KYMCO",
     "year": 2017,
@@ -8969,38 +8995,6 @@
     ]
   },
   {
-    "store": "高雄店",
-    "brand": "SYM",
-    "year": 2008,
-    "model": "三陽SYM 野狼傳奇 125(碟煞)",
-    "stock_number": "876",
-    "price": 28000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113163950.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2008-三陽sym-野狼傳奇-125-碟煞-876",
-    "original_name": "【高雄店】2008 三陽SYM 野狼傳奇 125(碟煞)#876",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125",
-      "white-manual"
-    ],
-    "mileage": "約 41,9XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113163950.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163941.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163947.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163948.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163951.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163944.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163949.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163942.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163945.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113163943.jpeg"
-    ]
-  },
-  {
     "store": "桃園中壢店",
     "brand": "YAMAHA",
     "year": 2016,
@@ -9712,37 +9706,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113004824.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113004818.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113004816.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "GOGORO",
-    "year": 2024,
-    "model": "睿能GOGORO JEGO (單電池版)",
-    "stock_number": "7592",
-    "price": 30000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113003620.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2024-睿能gogoro-jego-單電池版-7592",
-    "original_name": "【高雄店】2024 睿能GOGORO JEGO (單電池版)#7592",
-    "cc": null,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "electric"
-    ],
-    "mileage": "約 5,0XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113003620.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003624.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003621.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003626.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003625.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003622.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003618.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003619.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003623.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113003617.jpeg"
     ]
   },
   {
@@ -10817,37 +10780,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112835077.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112835080.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112835082.jpeg"
-    ]
-  },
-  {
-    "store": "高雄店",
-    "brand": "YAMAHA",
-    "year": 2021,
-    "model": "山葉YAMAHA VINOORA 125(碟煞)",
-    "stock_number": "7097",
-    "price": 55000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112834431.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2021-山葉yamaha-vinoora-125-碟煞-7097",
-    "original_name": "【高雄店】2021 山葉YAMAHA VINOORA 125(碟煞)#7097",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 18,2XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112834431.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834428.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834433.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834430.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834434.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834426.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834429.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834435.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834427.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112834432.jpeg"
     ]
   },
   {
@@ -16371,37 +16303,6 @@
     ]
   },
   {
-    "store": "高雄店",
-    "brand": "KYMCO",
-    "year": 2016,
-    "model": "光陽KYMCO ROMEO 125(碟煞)",
-    "stock_number": "8582",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111322901.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-高雄店-2016-光陽kymco-romeo-125-碟煞-8582",
-    "original_name": "【高雄店】2016 光陽KYMCO ROMEO 125(碟煞)#8582",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 10,2XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111322901.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322904.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322902.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322898.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322903.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322897.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322895.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322900.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322896.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111322899.jpeg"
-    ]
-  },
-  {
     "store": "桃園中壢店",
     "brand": "SYM",
     "year": 2024,
@@ -17957,32 +17858,6 @@
       "https://cdn.store-assets.com/s/1336053/i/110804717.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110804718.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/110804719.jpeg"
-    ]
-  },
-  {
-    "store": "台中太平店",
-    "brand": "KYMCO",
-    "year": 2021,
-    "model": "光陽 LIKE 125",
-    "stock_number": "9857",
-    "price": 46000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/110803518.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中太平店-2021-光陽-like-125-9857",
-    "original_name": "【台中太平店】2021 光陽 LIKE 125 #9857",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 22,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/110803518.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110803516.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110803517.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110803514.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/110803515.jpeg"
     ]
   },
   {
