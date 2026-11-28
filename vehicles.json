@@ -1,5 +1,167 @@
 [
   {
+    "store": "新北樹林店",
+    "brand": "GOGORO",
+    "year": 2023,
+    "model": "睿能 GOGORO VIVA MIX SUPERFAST 皮帶",
+    "stock_number": "7557",
+    "price": 40000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114013775.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-睿能-gogoro-viva-mix-superfast-皮帶-7557",
+    "original_name": "【新北樹林店】2023 睿能 GOGORO VIVA MIX SUPERFAST 皮帶 #7557",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "mileage": "約 86XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114013775.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013772.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013770.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013774.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013771.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013773.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "GOGORO",
+    "year": 2021,
+    "model": "睿能 GOGORO GOGORO VIVA XL 皮帶",
+    "stock_number": "2751",
+    "price": 36000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114013693.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2021-睿能-gogoro-gogoro-viva-xl-皮帶-2751",
+    "original_name": "【新北樹林店】2021 睿能 GOGORO GOGORO VIVA XL 皮帶 #2751",
+    "cc": null,
+    "km": null,
+    "warranty": false,
+    "as_is": true,
+    "categories": [
+      "electric"
+    ],
+    "mileage": "約 165XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114013693.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013692.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013691.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013695.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013696.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013694.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "KYMCO",
+    "year": 2022,
+    "model": "光陽 GP125 鼓煞",
+    "stock_number": "5165",
+    "price": 36000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114013657.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2022-光陽-gp125-鼓煞-5165",
+    "original_name": "【新北樹林店】2022 光陽 GP125 鼓煞 #5165",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 88XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114013657.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013655.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013656.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013658.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013659.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013654.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "SYM",
+    "year": 2018,
+    "model": "三陽 新迪爵 125 鼓煞",
+    "stock_number": "3903",
+    "price": 35000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114013271.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2018-三陽-新迪爵-125-鼓煞-3903",
+    "original_name": "【新北樹林店】2018 三陽 新迪爵 125 鼓煞 #3903",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 155XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114013271.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013270.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013272.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013274.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013275.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013273.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "SYM",
+    "year": 2023,
+    "model": "三陽 CLBCU KEYLESS",
+    "stock_number": "9523",
+    "price": 63000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114013240.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2023-三陽-clbcu-keyless-9523",
+    "original_name": "【新北樹林店】2023 三陽 CLBCU KEYLESS #9523",
+    "cc": 125,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "up-to-125"
+    ],
+    "mileage": "約 138XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114013240.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013239.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013242.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013244.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013243.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013241.jpeg"
+    ]
+  },
+  {
+    "store": "新北樹林店",
+    "brand": "YAMAHA",
+    "year": 2019,
+    "model": "山葉 FORCE 155 雙碟",
+    "stock_number": "9039",
+    "price": 50000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114013167.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2019-山葉-force-155-雙碟-9039",
+    "original_name": "【新北樹林店】2019 山葉 FORCE 155 雙碟 #9039",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 348XX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114013167.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013168.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013170.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013166.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013169.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114013165.jpeg"
+    ]
+  },
+  {
     "store": "台南店",
     "brand": "YAMAHA",
     "year": 2015,
@@ -3499,32 +3661,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "SYM",
-    "year": 2021,
-    "model": "三陽 JET SL 125 ABS 雙碟",
-    "stock_number": "0823",
-    "price": 72000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113796459.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2021-三陽-jet-sl-125-abs-雙碟-0823-1",
-    "original_name": "【新竹店】2021 三陽 JET SL 125 ABS 雙碟 #0823",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 13,740 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113796459.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113796461.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113796460.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113796462.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113796465.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "YAMAHA",
     "year": 2018,
     "model": "山葉 NEW CUXI 115 前碟後鼓",
@@ -6503,33 +6639,6 @@
   },
   {
     "store": "新北新莊店",
-    "brand": "KYMCO",
-    "year": 2024,
-    "model": "光陽 MANY 110 鼓煞",
-    "stock_number": "7876",
-    "price": 46000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113507391.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2024-光陽-many-110-鼓煞-7876",
-    "original_name": "【新北新莊店】2024 光陽 MANY 110 鼓煞 #7876",
-    "cc": 110,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 10XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113507391.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113507392.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113507393.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113507394.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113507395.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113507396.jpg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
     "brand": "YAMAHA",
     "year": 2018,
     "model": "山葉 FORCE 155",
@@ -8057,32 +8166,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113331200.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113331199.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113331198.jpeg"
-    ]
-  },
-  {
-    "store": "新北中和店",
-    "brand": "SYM",
-    "year": 2024,
-    "model": "三陽 JET SL 125 TCS",
-    "stock_number": "8782",
-    "price": 78000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113331109.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北中和店-2024-三陽-jet-sl-125-tcs-8782",
-    "original_name": "【新北中和店】2024 三陽 JET SL 125 TCS#8782",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 10XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113331109.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331108.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331107.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331106.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113331105.jpeg"
     ]
   },
   {
