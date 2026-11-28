@@ -1,5 +1,31 @@
 [
   {
+    "store": "桃園中壢店",
+    "brand": "YAMAHA",
+    "year": 2015,
+    "model": "山葉 SMAX 155 雙碟",
+    "stock_number": "552",
+    "price": 35000,
+    "image_url": "https://cdn.store-assets.com/s/1336053/i/114004329.jpeg",
+    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-桃園中壢店-2015-山葉-smax-155-雙碟-552",
+    "original_name": "【桃園中壢店】2015 山葉 SMAX 155 雙碟 #552",
+    "cc": 155,
+    "km": null,
+    "warranty": true,
+    "as_is": false,
+    "categories": [
+      "151-249"
+    ],
+    "mileage": "約 41,XXX 公里",
+    "image_urls": [
+      "https://cdn.store-assets.com/s/1336053/i/114004329.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114004330.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114004327.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114004326.jpeg",
+      "https://cdn.store-assets.com/s/1336053/i/114004331.jpeg"
+    ]
+  },
+  {
     "store": "台南店",
     "brand": "KYMCO",
     "year": 2021,
@@ -1444,33 +1470,6 @@
   },
   {
     "store": "新北樹林店",
-    "brand": "YAMAHA",
-    "year": 2024,
-    "model": "優惠  山葉 JOG 125",
-    "stock_number": "1216",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113856401.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2024-山葉-jog-125-1216",
-    "original_name": "優惠 【新北樹林店】2024 山葉 JOG 125 #1216",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 82XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113856401.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856403.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856404.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856405.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856406.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113856407.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
     "brand": "SUZUKI",
     "year": 2018,
     "model": "優惠  台鈴 GSX-150 BANDIT 小海盜 (印尼版)",
@@ -1576,32 +1575,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113855678.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113855679.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113855682.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
-    "brand": "YAMAHA",
-    "year": 2015,
-    "model": "山葉 勁戰四代 125 雙碟",
-    "stock_number": "6278",
-    "price": 45000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113855584.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2015-山葉-勁戰四代-125-雙碟-6278-1",
-    "original_name": "【新竹店】2015 山葉 勁戰四代 125 雙碟 #6278",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 47,613 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113855584.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113855585.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113855586.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113855588.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113855589.jpeg"
     ]
   },
   {
@@ -2892,33 +2865,6 @@
   {
     "store": "新北樹林店",
     "brand": "YAMAHA",
-    "year": 2024,
-    "model": "山葉 勁戰6.5代 TCS",
-    "stock_number": "0876",
-    "price": 78000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113825116.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北樹林店-2024-山葉-勁戰6-5代-tcs-0876-2",
-    "original_name": "【新北樹林店】2024 山葉 勁戰6.5代 TCS #0876",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 114XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113825116.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113825117.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113825118.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113825119.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113825120.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/113825121.jpg"
-    ]
-  },
-  {
-    "store": "新北樹林店",
-    "brand": "YAMAHA",
     "year": 2021,
     "model": "山葉 Force 155 2.0",
     "stock_number": "3675",
@@ -4022,41 +3968,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113779894.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113779901.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113779900.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "YAMAHA",
-    "year": 2016,
-    "model": "山葉 勁豪125 (前碟後鼓)",
-    "stock_number": "9395",
-    "price": 28000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113778961.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2016-山葉-勁豪125-前碟後鼓-9395",
-    "original_name": "【台南店】2016 山葉 勁豪125 (前碟後鼓) #9395",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 353XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113778961.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778956.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778959.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778963.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778965.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778962.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778960.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778968.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778964.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778969.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778967.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778957.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778955.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113778958.jpeg"
     ]
   },
   {
@@ -8874,32 +8785,6 @@
   },
   {
     "store": "新竹店",
-    "brand": "SYM",
-    "year": 2018,
-    "model": "優惠  三陽 WOO 100 雙鼓",
-    "stock_number": "2117",
-    "price": 22000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113199598.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新竹店-2018-三陽-woo-100-雙鼓-2117",
-    "original_name": "優惠 【新竹店】2018 三陽 WOO 100 雙鼓 #2117",
-    "cc": 100,
-    "km": null,
-    "warranty": false,
-    "as_is": true,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 16,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113199598.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113199601.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113199599.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113199603.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113199600.jpeg"
-    ]
-  },
-  {
-    "store": "新竹店",
     "brand": "PGO",
     "year": 2020,
     "model": "優惠  PGO ALPHA MAX 125 雙碟 CBS",
@@ -10304,33 +10189,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112947668.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112947669.jpg",
       "https://cdn.store-assets.com/s/1336053/i/112947670.jpg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2025,
-    "model": "優惠  三陽 全新迪爵 125 碟煞 CBS",
-    "stock_number": "0177",
-    "price": 53000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112947551.jpg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2025-三陽-全新迪爵-125-碟煞-cbs-0177-1",
-    "original_name": "優惠 【新北新莊店】2025 三陽 全新迪爵 125 碟煞 CBS #0177",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 16XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112947551.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947552.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947553.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947555.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947557.jpg",
-      "https://cdn.store-assets.com/s/1336053/i/112947558.jpg"
     ]
   },
   {
@@ -15747,12 +15605,12 @@
     "original_name": "優惠 【台中旗艦店】2018 山葉 BWSR 125 #6087",
     "cc": 125,
     "km": null,
-    "warranty": true,
+    "warranty": null,
     "as_is": false,
     "categories": [
       "up-to-125"
     ],
-    "mileage": "約 35,XXX 公里",
+    "mileage": null,
     "image_urls": [
       "https://cdn.store-assets.com/s/1336053/i/111605998.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111606000.jpeg",
@@ -20324,53 +20182,6 @@
       "https://cdn.store-assets.com/s/1336053/i/109857152.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/109857144.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/109857143.jpeg"
-    ]
-  },
-  {
-    "store": "台南店",
-    "brand": "KYMCO",
-    "year": 2016,
-    "model": "光陽 VJR 110 前碟後鼓",
-    "stock_number": "8587",
-    "price": 29999,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/109856184.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台南店-2016-光陽-vjr-110-前碟後鼓-1156",
-    "original_name": "【台南店】2016 光陽 VJR 110 前碟後鼓 #8587",
-    "cc": 110,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 361XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/109856184.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856079.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856084.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856077.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856076.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856060.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856063.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856068.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856061.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856067.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856071.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856070.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856069.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856062.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856065.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856073.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856081.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856075.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856083.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856074.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856080.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856078.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856064.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856066.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856072.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/109856082.jpeg"
     ]
   },
   {
