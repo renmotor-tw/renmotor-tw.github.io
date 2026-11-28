@@ -6372,32 +6372,6 @@
     ]
   },
   {
-    "store": "台中旗艦店",
-    "brand": "SUZUKI",
-    "year": 2025,
-    "model": "台鈴 SUI 125",
-    "stock_number": "3388",
-    "price": 62000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113516214.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2025-台鈴-sui-125-3388",
-    "original_name": "【台中旗艦店】2025 台鈴 SUI 125 #3388",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 5,0XX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113516214.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516215.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516216.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516217.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113516218.jpeg"
-    ]
-  },
-  {
     "store": "花蓮店",
     "brand": "SYM",
     "year": 2023,
@@ -8863,33 +8837,6 @@
       "https://cdn.store-assets.com/s/1336053/i/113189304.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113189307.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/113189308.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
-    "brand": "YAMAHA",
-    "year": 2022,
-    "model": "山葉 MT-15 倒叉",
-    "stock_number": "1611",
-    "price": 68000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/113187383.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2022-山葉-mt-15-倒叉-1611-",
-    "original_name": "【台中旗艦店】2022 山葉 MT-15 倒叉 #1611",
-    "cc": 155,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "151-249",
-      "white-manual"
-    ],
-    "mileage": "約 10,XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/113187383.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113187384.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113187387.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113187385.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/113187386.jpeg"
     ]
   },
   {
@@ -11514,33 +11461,6 @@
       "https://cdn.store-assets.com/s/1336053/i/112740718.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112740720.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/112740716.jpeg"
-    ]
-  },
-  {
-    "store": "新北新莊店",
-    "brand": "SYM",
-    "year": 2022,
-    "model": "三陽 活力VIVO 125",
-    "stock_number": "5561",
-    "price": 38000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/112739481.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-新北新莊店-2022-三陽-活力vivo-125-5561",
-    "original_name": "【新北新莊店】2022 三陽 活力VIVO 125 #5561",
-    "cc": 125,
-    "km": null,
-    "warranty": true,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": "約 37XXX 公里",
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/112739481.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112739482.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112739477.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112739480.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112739478.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/112739479.jpeg"
     ]
   },
   {
@@ -15591,32 +15511,6 @@
       "https://cdn.store-assets.com/s/1336053/i/111606027.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111606025.jpeg",
       "https://cdn.store-assets.com/s/1336053/i/111606026.jpeg"
-    ]
-  },
-  {
-    "store": "台中旗艦店",
-    "brand": "YAMAHA",
-    "year": 2018,
-    "model": "優惠  山葉 BWSR 125",
-    "stock_number": "6087",
-    "price": 36000,
-    "image_url": "https://cdn.store-assets.com/s/1336053/i/111605998.jpeg",
-    "source_url": "https://shop.2motor.tw/collections/allmotor/products/-台中旗艦店-2018-山葉-bwsr-125-6087",
-    "original_name": "優惠 【台中旗艦店】2018 山葉 BWSR 125 #6087",
-    "cc": 125,
-    "km": null,
-    "warranty": null,
-    "as_is": false,
-    "categories": [
-      "up-to-125"
-    ],
-    "mileage": null,
-    "image_urls": [
-      "https://cdn.store-assets.com/s/1336053/i/111605998.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111606000.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111605997.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111605999.jpeg",
-      "https://cdn.store-assets.com/s/1336053/i/111605996.jpeg"
     ]
   },
   {
@@ -20009,7 +19903,7 @@
     "original_name": "【高雄店】2025 鈴木SUZUKI NEW NEX 125(碟煞) #3666",
     "cc": 125,
     "km": null,
-    "warranty": false,
+    "warranty": true,
     "as_is": false,
     "categories": [
       "up-to-125"
